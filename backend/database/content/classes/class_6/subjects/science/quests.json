@@ -1,0 +1,226 @@
+{
+  "quests": [
+    {
+      "id": "scientist_detective_academy",
+      "title": "The Scientist Detective Academy",
+      "description": "Join the elite Scientist Detective Academy and solve mysteries using the scientific method!",
+      "type": "investigation_quest",
+      "difficulty": "easy",
+      "estimatedTime": "40 min",
+      "xpReward": 140,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Scientist Detective Academy! Strange phenomena are occurring around the world, and only trained scientist detectives can solve these mysteries using observation, hypothesis, and experimentation.",
+        "setting": "The Scientist Detective Academy",
+        "character": "Professor Sherlock Science"
+      },
+      "steps": [
+        {
+          "id": "observation_training",
+          "type": "scientific_inquiry",
+          "title": "Observation Training Mission",
+          "narrative": "Professor Science presents you with two identical plants. One is healthy and green, the other is yellow and drooping. Your first mission: observe and deduce!",
+          "problem": {
+            "question": "Plant A is green and upright near a sunny window. Plant B is yellow and drooping in a dark corner. What's the most likely reason for the difference?",
+            "type": "multiple_choice",
+            "options": ["Plant A is older", "Plant A gets more sunlight", "Plant A is a different species", "Plant A has bigger roots"],
+            "correct_answer": "Plant A gets more sunlight",
+            "explanation": "Great observation! Plants need sunlight for photosynthesis to make food and stay healthy. The plant near the window gets more light!"
+          }
+        },
+        {
+          "id": "hypothesis_laboratory",
+          "type": "hypothesis_formation",
+          "title": "The Hypothesis Laboratory Challenge",
+          "narrative": "Now you must form a hypothesis! The academy's ice cubes are melting at different rates. What could be causing this?",
+          "problem": {
+            "question": "Ice cube A melts faster than ice cube B. Ice cube A is on a metal plate, ice cube B is on a wooden plate. What's your hypothesis?",
+            "type": "multiple_choice",
+            "options": ["Metal conducts heat better than wood", "Ice cube A is smaller", "Ice cube B is magical", "Wood is colder than metal"],
+            "correct_answer": "Metal conducts heat better than wood",
+            "explanation": "Excellent hypothesis! Metal conducts heat better than wood, so it transfers more heat to the ice, making it melt faster."
+          }
+        },
+        {
+          "id": "states_of_matter_mission",
+          "type": "classification",
+          "title": "The States of Matter Mission",
+          "narrative": "The academy's matter samples have been mixed up! Help classify them into solids, liquids, and gases to restore order.",
+          "problem": {
+            "question": "Which of these has a definite shape and definite volume?",
+            "type": "multiple_choice",
+            "options": ["Water in a cup", "Air in a balloon", "Ice cube", "Steam from tea"],
+            "correct_answer": "Ice cube",
+            "explanation": "Solids like ice have both definite shape and definite volume. Liquids have definite volume but take the shape of their container!"
+          }
+        },
+        {
+          "id": "mystery_of_disappearing_water",
+          "type": "boss_battle",
+          "title": "The Mystery of the Disappearing Water",
+          "narrative": "The academy's final test! Water has been disappearing from open containers. Use all your detective skills to solve this mystery!",
+          "problem": {
+            "question": "Water left in an open container slowly disappears over time, even without boiling. What scientific process explains this?",
+            "type": "multiple_choice",
+            "options": ["Melting", "Evaporation", "Condensation", "Freezing"],
+            "correct_answer": "Evaporation",
+            "explanation": "Evaporation! Water molecules gain energy and escape into the air as water vapor, even at room temperature. Mystery solved, detective!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 140,
+        "badges": ["Scientist Detective", "Observation Master"],
+        "unlocks": ["living_world_safari", "matter_energy_lab"]
+      }
+    },
+    {
+      "id": "living_world_safari",
+      "title": "The Living World Safari Adventure",
+      "description": "Embark on an exciting safari to discover the amazing world of living things!",
+      "type": "exploration_quest",
+      "difficulty": "easy",
+      "estimatedTime": "45 min",
+      "xpReward": 160,
+      "prerequisites": ["scientist_detective_academy"],
+      "story": {
+        "introduction": "Pack your virtual safari gear! Dr. Wildlife is taking you on an incredible journey to explore living and non-living things in their natural habitats.",
+        "setting": "The Global Wildlife Safari Park",
+        "character": "Dr. Wildlife Explorer"
+      },
+      "steps": [
+        {
+          "id": "living_vs_nonliving_camp",
+          "type": "classification",
+          "title": "Base Camp: Living vs Non-Living",
+          "narrative": "At base camp, Dr. Wildlife challenges you to sort the items you've collected. Which ones are alive?",
+          "problem": {
+            "question": "Which of these shows that something is living?",
+            "type": "multiple_choice",
+            "options": ["It moves when pushed", "It grows and reproduces", "It's made of metal", "It's very old"],
+            "correct_answer": "It grows and reproduces",
+            "explanation": "Living things grow, reproduce, respond to their environment, and need food for energy. These are the signs of life!"
+          }
+        },
+        {
+          "id": "plant_parts_jungle",
+          "type": "identification",
+          "title": "The Plant Parts Jungle Trek",
+          "narrative": "Venture into the jungle to study amazing plants! Each plant part has a special job - can you identify them?",
+          "problem": {
+            "question": "Which part of the plant absorbs water and nutrients from the soil?",
+            "type": "multiple_choice",
+            "options": ["Leaves", "Stem", "Roots", "Flowers"],
+            "correct_answer": "Roots",
+            "explanation": "Roots are like the plant's drinking straws! They absorb water and nutrients from the soil and anchor the plant firmly."
+          }
+        },
+        {
+          "id": "animal_habitat_expedition",
+          "type": "matching",
+          "title": "Animal Habitat Expedition",
+          "narrative": "Different animals live in different homes! Help match each animal with its perfect habitat.",
+          "problem": {
+            "question": "Where would you most likely find a polar bear?",
+            "type": "multiple_choice",
+            "options": ["Desert", "Arctic ice", "Tropical forest", "Ocean depths"],
+            "correct_answer": "Arctic ice",
+            "explanation": "Polar bears are perfectly adapted for cold, icy environments! Their thick fur and fat keep them warm in the Arctic."
+          }
+        },
+        {
+          "id": "ecosystem_guardian_challenge",
+          "type": "boss_battle",
+          "title": "Become an Ecosystem Guardian",
+          "narrative": "The ultimate safari challenge! Prove you understand how all living things depend on each other in nature's web of life!",
+          "problem": {
+            "question": "In a forest ecosystem, what would happen if all the plants disappeared?",
+            "type": "multiple_choice",
+            "options": ["Animals would be happier", "Animals would find other food", "Animals would have no food or oxygen", "Nothing would change"],
+            "correct_answer": "Animals would have no food or oxygen",
+            "explanation": "Plants are super important! They make food for animals and produce the oxygen we breathe. Without plants, the whole ecosystem would collapse!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 160,
+        "badges": ["Wildlife Explorer", "Ecosystem Guardian"],
+        "unlocks": ["space_explorer_mission", "weather_wizard_academy"]
+      }
+    },
+    {
+      "id": "space_explorer_mission",
+      "title": "The Space Explorer Mission",
+      "description": "Blast off into space and explore the wonders of our solar system!",
+      "type": "exploration_quest",
+      "difficulty": "medium",
+      "estimatedTime": "50 min",
+      "xpReward": 190,
+      "prerequisites": ["living_world_safari"],
+      "story": {
+        "introduction": "Mission Control has selected you for the ultimate space adventure! Captain Cosmos needs your help to explore planets, stars, and the mysteries of space.",
+        "setting": "The Galactic Space Station",
+        "character": "Captain Cosmos"
+      },
+      "steps": [
+        {
+          "id": "solar_system_launch",
+          "type": "exploration",
+          "title": "Solar System Launch Sequence",
+          "narrative": "Prepare for launch! Captain Cosmos tests your knowledge of our solar system before the big mission.",
+          "problem": {
+            "question": "Which is the largest planet in our solar system?",
+            "type": "multiple_choice",
+            "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+            "correct_answer": "Jupiter",
+            "explanation": "Jupiter is the giant of our solar system! It's so big that all the other planets could fit inside it. It's like the big brother of planets!"
+          }
+        },
+        {
+          "id": "moon_phases_station",
+          "type": "pattern_recognition",
+          "title": "Moon Phases Space Station",
+          "narrative": "Your first stop is the Moon Phases Station. The moon changes shape in the sky - but why?",
+          "problem": {
+            "question": "Why does the moon appear to change shape in the sky?",
+            "type": "multiple_choice",
+            "options": ["The moon is actually changing shape", "Clouds cover different parts", "We see different amounts of the sunlit side", "The moon moves closer and farther"],
+            "correct_answer": "We see different amounts of the sunlit side",
+            "explanation": "The moon doesn't change shape! As it orbits Earth, we see different amounts of the side that's lit up by the sun. That's why we get crescents, half moons, and full moons!"
+          }
+        },
+        {
+          "id": "planet_characteristics_voyage",
+          "type": "comparison",
+          "title": "Planet Characteristics Voyage",
+          "narrative": "Visit different planets and discover what makes each one unique! Each planet has its own special features.",
+          "problem": {
+            "question": "What makes Earth special compared to other planets in our solar system?",
+            "type": "multiple_choice",
+            "options": ["It's the biggest planet", "It has liquid water and life", "It's closest to the sun", "It has the most moons"],
+            "correct_answer": "It has liquid water and life",
+            "explanation": "Earth is the only planet we know that has liquid water and life! It's in the 'Goldilocks zone' - not too hot, not too cold, but just right!"
+          }
+        },
+        {
+          "id": "asteroid_belt_navigator",
+          "type": "boss_battle",
+          "title": "Navigate the Asteroid Belt",
+          "narrative": "Your final mission: safely navigate through the dangerous asteroid belt using your space knowledge! One wrong move and your mission fails!",
+          "problem": {
+            "question": "You're flying between Mars and Jupiter when you encounter the asteroid belt. What are asteroids?",
+            "type": "multiple_choice",
+            "options": ["Broken pieces of planets", "Rocky objects left over from solar system formation", "Frozen comets", "Alien spaceships"],
+            "correct_answer": "Rocky objects left over from solar system formation",
+            "explanation": "Asteroids are like cosmic leftovers! They're rocky objects that didn't form into planets when our solar system was born 4.6 billion years ago!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 190,
+        "badges": ["Space Explorer", "Cosmic Navigator"],
+        "unlocks": ["weather_wizard_academy", "energy_power_plant"]
+      }
+    }
+  ]
+}

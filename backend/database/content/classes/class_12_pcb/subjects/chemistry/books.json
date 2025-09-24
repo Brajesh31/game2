@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "chemistry_12_pcb",
+      "title": "Chemistry - Grade 12 (PCB Stream)",
+      "description": "Chemistry for biology students with emphasis on biochemistry",
+      "chapters": [
+        {
+          "id": "biomolecules",
+          "title": "Biomolecules",
+          "topics": ["Carbohydrates", "Proteins", "Nucleic Acids", "Lipids", "Enzymes"]
+        },
+        {
+          "id": "polymers",
+          "title": "Polymers",
+          "topics": ["Natural Polymers", "Synthetic Polymers", "Biodegradable Polymers", "Polymer Applications"]
+        },
+        {
+          "id": "chemistry_everyday_life",
+          "title": "Chemistry in Everyday Life",
+          "topics": ["Drugs and Medicines", "Food Chemistry", "Cleansing Agents", "Cosmetics"]
+        },
+        {
+          "id": "environmental_chemistry",
+          "title": "Environmental Chemistry",
+          "topics": ["Air Pollution", "Water Pollution", "Soil Pollution", "Green Chemistry"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 130
+    }
+  ]
+}

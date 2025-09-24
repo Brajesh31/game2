@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "english_7_intermediate",
+      "title": "English Language & Literature - Grade 7",
+      "description": "Intermediate English skills with focus on critical thinking and analysis",
+      "chapters": [
+        {
+          "id": "advanced_reading",
+          "title": "Advanced Reading Skills",
+          "topics": ["Critical Analysis", "Theme Identification", "Author's Purpose", "Text Comparison"]
+        },
+        {
+          "id": "grammar_intermediate",
+          "title": "Intermediate Grammar",
+          "topics": ["Complex Sentences", "Active/Passive Voice", "Direct/Indirect Speech", "Tenses"]
+        },
+        {
+          "id": "composition_writing",
+          "title": "Composition Writing",
+          "topics": ["Essay Writing", "Report Writing", "Letter Writing", "Story Writing"]
+        },
+        {
+          "id": "literature_analysis",
+          "title": "Literature Analysis",
+          "topics": ["Poetry Analysis", "Drama Elements", "Character Development", "Plot Structure"]
+        }
+      ],
+      "difficulty": "intermediate",
+      "estimatedHours": 50
+    }
+  ]
+}

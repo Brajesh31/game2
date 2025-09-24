@@ -1,0 +1,367 @@
+/* Responsive Button System Styles */
+
+/* Base button styles with mobile-first approach */
+.responsive-btn-base {
+  /* Minimum touch targets for accessibility */
+  min-height: 44px;
+  min-width: 44px;
+  
+  /* Smooth transitions */
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Focus styles for accessibility */
+  outline: none;
+  position: relative;
+}
+
+.responsive-btn-base:focus {
+  outline: 2px solid var(--student-primary);
+  outline-offset: 2px;
+}
+
+/* Loading state */
+.responsive-btn-loading {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+/* Disabled state */
+.responsive-btn-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Mobile-first responsive design (320px - 767px) */
+@media (max-width: 767px) {
+  .responsive-btn-base {
+    /* Larger touch targets on mobile */
+    min-height: 48px;
+    min-width: 48px;
+    
+    /* Comfortable padding for thumbs */
+    padding: 12px 16px;
+    
+    /* Readable text size */
+    font-size: 16px;
+    line-height: 1.2;
+    
+    /* Prevent zoom on iOS */
+    font-size: max(16px, 1rem);
+  }
+  
+  .responsive-btn-sm {
+    min-height: 40px;
+    min-width: 40px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  
+  .responsive-btn-lg {
+    min-height: 56px;
+    min-width: 56px;
+    padding: 16px 24px;
+    font-size: 18px;
+  }
+  
+  .responsive-btn-xl {
+    min-height: 64px;
+    min-width: 64px;
+    padding: 20px 32px;
+    font-size: 20px;
+  }
+  
+  /* Full width buttons on mobile for better UX */
+  .responsive-btn-mobile-full {
+    width: 100%;
+  }
+  
+  /* Reduce margins on mobile */
+  .responsive-btn-group {
+    gap: 8px;
+  }
+  
+  /* Stack buttons vertically on small screens */
+  .responsive-btn-stack {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .responsive-btn-stack .responsive-btn-base {
+    width: 100%;
+  }
+}
+
+/* Tablet styles (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .responsive-btn-base {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 10px 16px;
+    font-size: 15px;
+  }
+  
+  .responsive-btn-sm {
+    min-height: 36px;
+    min-width: 36px;
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+  
+  .responsive-btn-lg {
+    min-height: 52px;
+    min-width: 52px;
+    padding: 14px 20px;
+    font-size: 17px;
+  }
+  
+  .responsive-btn-xl {
+    min-height: 60px;
+    min-width: 60px;
+    padding: 18px 28px;
+    font-size: 19px;
+  }
+  
+  /* Horizontal button groups on tablet */
+  .responsive-btn-group {
+    gap: 12px;
+  }
+}
+
+/* Desktop styles (1025px+) */
+@media (min-width: 1025px) {
+  .responsive-btn-base {
+    min-height: 40px;
+    min-width: 40px;
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .responsive-btn-sm {
+    min-height: 32px;
+    min-width: 32px;
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  
+  .responsive-btn-lg {
+    min-height: 48px;
+    min-width: 48px;
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+  
+  .responsive-btn-xl {
+    min-height: 56px;
+    min-width: 56px;
+    padding: 16px 32px;
+    font-size: 18px;
+  }
+  
+  /* Hover effects only on desktop */
+  .responsive-btn-base:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .responsive-btn-base:active:not(:disabled) {
+    transform: translateY(0);
+  }
+  
+  /* Desktop button groups */
+  .responsive-btn-group {
+    gap: 16px;
+  }
+}
+
+/* Large desktop styles (1440px+) */
+@media (min-width: 1440px) {
+  .responsive-btn-xl {
+    min-height: 64px;
+    min-width: 64px;
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .responsive-btn-base {
+    /* Slightly larger for high DPI screens */
+    min-height: 46px;
+    min-width: 46px;
+  }
+}
+
+/* Accessibility - Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .responsive-btn-base {
+    transition: none;
+  }
+  
+  .responsive-btn-base:hover {
+    transform: none;
+  }
+  
+  .student-click-bounce:active {
+    transform: none;
+  }
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .responsive-btn-base {
+    /* Ensure sufficient contrast in dark mode */
+    border-width: 1px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .responsive-btn-base {
+    /* Hide interactive elements in print */
+    display: none;
+  }
+}
+
+/* Specific button variant styles */
+.btn-student-primary {
+  background-color: var(--student-btn-primary-bg);
+  color: var(--student-btn-primary-text);
+  border: none;
+}
+
+.btn-student-primary:hover:not(:disabled) {
+  background-color: var(--student-btn-primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--student-card-hover-shadow);
+}
+
+.btn-student-secondary {
+  background-color: var(--student-btn-secondary-bg);
+  color: var(--student-btn-primary-text);
+  border: none;
+}
+
+.btn-student-secondary:hover:not(:disabled) {
+  background-color: var(--student-btn-secondary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--student-card-hover-shadow);
+}
+
+.btn-student-accent {
+  background-color: var(--student-btn-accent-bg);
+  color: var(--student-btn-primary-text);
+  border: none;
+}
+
+.btn-student-accent:hover:not(:disabled) {
+  background-color: var(--student-btn-accent-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--student-card-hover-shadow);
+}
+
+/* Button group layouts */
+.responsive-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.responsive-btn-group-vertical {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.responsive-btn-group-horizontal {
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Icon button specific styles */
+.responsive-btn-icon-only {
+  padding: 8px;
+  aspect-ratio: 1;
+}
+
+.responsive-btn-icon-only.responsive-btn-sm {
+  padding: 6px;
+}
+
+.responsive-btn-icon-only.responsive-btn-lg {
+  padding: 12px;
+}
+
+.responsive-btn-icon-only.responsive-btn-xl {
+  padding: 16px;
+}
+
+/* Loading spinner styles */
+.responsive-btn-spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Student theme specific enhancements */
+.student-theme-active .responsive-btn-base {
+  font-family: var(--student-font-ui, 'Inter', sans-serif);
+}
+
+.student-theme-active .responsive-btn-base:focus {
+  outline-color: var(--student-primary);
+  box-shadow: 0 0 0 3px var(--student-focus-ring);
+}
+
+/* Animation classes */
+.student-click-bounce:active {
+  transform: scale(0.98);
+  transition: transform 0.1s ease;
+}
+
+.student-hover-lift:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+/* Responsive text truncation */
+.responsive-btn-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .responsive-btn-text {
+    max-width: 120px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .responsive-btn-text {
+    max-width: 160px;
+  }
+}
+
+/* Ensure buttons don't break layout */
+.responsive-btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .responsive-btn-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .responsive-btn-container .responsive-btn-base {
+    width: 100%;
+  }
+}

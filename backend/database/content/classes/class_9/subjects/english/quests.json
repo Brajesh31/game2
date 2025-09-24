@@ -1,0 +1,231 @@
+{
+  "quests": [
+    {
+      "id": "literary_scholar_academy",
+      "title": "The Literary Scholar Academy",
+      "description": "Master advanced literary analysis and become a true scholar of English literature!",
+      "type": "analytical_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "75 min",
+      "xpReward": 400,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the prestigious Literary Scholar Academy! Dean Literature has assembled the greatest works of English literature. Master complex analysis and join the ranks of literary scholars!",
+        "setting": "The Literary Scholar Academy",
+        "character": "Dean Literature"
+      },
+      "steps": [
+        {
+          "id": "theme_analysis_mastery",
+          "type": "deep_analysis",
+          "title": "Theme Analysis Mastery Workshop",
+          "narrative": "Dean Literature challenges you to uncover multiple layers of meaning in complex literary works. True scholars see beyond the surface!",
+          "reading_passage": "In a small village, Maya worked tirelessly in the fields while dreaming of education. Despite her family's poverty and society's expectations that girls shouldn't study, she secretly learned to read by candlelight. When a new teacher arrived and offered to teach her, Maya had to choose between family duty and personal dreams. She chose education, eventually becoming the village's first female doctor and returning to help her community.",
+          "problem": {
+            "question": "What are the multiple themes present in this story?",
+            "type": "multiple_choice",
+            "options": ["Only education is important", "Gender equality, education as empowerment, and social change", "Only poverty is the problem", "Only family duty matters"],
+            "correct_answer": "Gender equality, education as empowerment, and social change",
+            "explanation": "Scholarly analysis excellence! You identified multiple interconnected themes: gender equality (challenging expectations), education as empowerment (personal growth), and social change (helping community)!"
+          }
+        },
+        {
+          "id": "character_development_laboratory",
+          "type": "character_analysis",
+          "title": "Character Development Laboratory",
+          "narrative": "Analyze how characters grow and change throughout stories. Understanding character arcs is the mark of a true literary scholar!",
+          "reading_passage": "At the beginning, John was selfish and only cared about money. When he witnessed a family losing their home, he felt uncomfortable but did nothing. Later, when he saw children going hungry, something stirred in his heart. By the story's end, John had donated most of his wealth to help others and found true happiness in giving.",
+          "problem": {
+            "question": "What type of character development does John show?",
+            "type": "multiple_choice",
+            "options": ["Static character (no change)", "Dynamic character (significant positive change)", "Flat character (simple)", "Antagonist character (evil)"],
+            "correct_answer": "Dynamic character (significant positive change)",
+            "explanation": "Character analysis mastery! John transforms from selfish to generous - this is dynamic character development where the character grows and changes significantly!"
+          }
+        },
+        {
+          "id": "symbolism_interpretation_chamber",
+          "type": "symbolic_analysis",
+          "title": "Symbolism Interpretation Chamber",
+          "narrative": "Enter the chamber where objects represent deeper meanings! Master the art of interpreting symbols that authors use to convey complex ideas.",
+          "reading_passage": "The old oak tree stood in the center of the village, its roots deep and branches wide. Generations had gathered under its shade for celebrations and comfort during sorrows. When developers wanted to cut it down for a shopping mall, the villagers protested, saying it represented their heritage and community bonds.",
+          "problem": {
+            "question": "What does the oak tree symbolize in this passage?",
+            "type": "multiple_choice",
+            "options": ["Just a tree", "Community heritage and continuity", "Shade from the sun", "Old age"],
+            "correct_answer": "Community heritage and continuity",
+            "explanation": "Symbolism mastery! The oak tree symbolizes community heritage, tradition, and the continuity that connects generations. It represents what the community values!"
+          }
+        },
+        {
+          "id": "literary_criticism_grandmaster",
+          "type": "boss_battle",
+          "title": "Literary Criticism Grandmaster Challenge",
+          "narrative": "The ultimate literary challenge! Face the Literary Criticism Grandmaster in an analysis battle that tests every aspect of your scholarly knowledge!",
+          "complex_text": "A story about a caged bird that sings beautifully despite its imprisonment, while a free bird soars silently through the sky.",
+          "problem": {
+            "question": "This story can be interpreted as an allegory for:",
+            "type": "multiple_choice",
+            "options": ["The difference between pets and wild animals", "The struggle for freedom and the power of hope", "Why birds sing", "The importance of cages"],
+            "correct_answer": "The struggle for freedom and the power of hope",
+            "explanation": "Literary Grandmaster defeated! You recognized the allegory: the caged bird represents oppressed people who still maintain hope and voice (song), while the free bird represents those with privilege. Masterful analysis!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 400,
+        "badges": ["Literary Scholar Master", "Critical Analysis Champion"],
+        "unlocks": ["advanced_writing_academy", "drama_performance_theater"]
+      }
+    },
+    {
+      "id": "advanced_writing_academy",
+      "title": "The Advanced Writing Academy",
+      "description": "Master sophisticated writing techniques and create powerful pieces that influence and inspire!",
+      "type": "writing_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "70 min",
+      "xpReward": 380,
+      "prerequisites": ["literary_scholar_academy"],
+      "story": {
+        "introduction": "The Advanced Writing Academy trains the world's most influential writers! Master Wordsmith needs your help to create writing that can change the world through the power of words!",
+        "setting": "The Advanced Writing Academy",
+        "character": "Master Wordsmith"
+      },
+      "steps": [
+        {
+          "id": "argumentative_essay_fortress",
+          "type": "persuasive_writing",
+          "title": "Argumentative Essay Fortress",
+          "narrative": "Build an unbreakable fortress of logic! Master Wordsmith teaches you to construct argumentative essays that can withstand any challenge.",
+          "problem": {
+            "question": "What is the most important element of a strong argumentative essay?",
+            "type": "multiple_choice",
+            "options": ["Personal opinions only", "Emotional appeals only", "Clear thesis supported by evidence and reasoning", "Long paragraphs"],
+            "correct_answer": "Clear thesis supported by evidence and reasoning",
+            "explanation": "Argumentative fortress built! A strong thesis (main argument) supported by solid evidence and logical reasoning creates an unbeatable argumentative essay!"
+          }
+        },
+        {
+          "id": "narrative_storytelling_studio",
+          "type": "creative_writing",
+          "title": "Narrative Storytelling Studio",
+          "narrative": "Master the ancient art of storytelling! Learn to craft narratives that transport readers to different worlds and touch their hearts.",
+          "problem": {
+            "question": "What makes a narrative engaging for readers?",
+            "type": "multiple_choice",
+            "options": ["Lots of big words", "Conflict, character development, and vivid descriptions", "Very long sentences", "No dialogue"],
+            "correct_answer": "Conflict, character development, and vivid descriptions",
+            "explanation": "Storytelling mastery! Engaging narratives have conflict (tension), characters who grow, and vivid descriptions that help readers visualize and feel the story!"
+          }
+        },
+        {
+          "id": "research_journalism_newsroom",
+          "type": "investigative_writing",
+          "title": "Research Journalism Newsroom",
+          "narrative": "Enter the newsroom where truth matters! Learn to research thoroughly, verify facts, and write reports that inform the public accurately.",
+          "problem": {
+            "question": "What is the most important principle in journalism?",
+            "type": "multiple_choice",
+            "options": ["Writing exciting stories", "Accuracy and truthfulness", "Using fancy language", "Making people happy"],
+            "correct_answer": "Accuracy and truthfulness",
+            "explanation": "Journalism excellence! Truth and accuracy are sacred in journalism. People depend on journalists to provide reliable information for making important decisions!"
+          }
+        },
+        {
+          "id": "wordsmith_grandmaster_duel",
+          "type": "boss_battle",
+          "title": "Wordsmith Grandmaster Duel",
+          "narrative": "The ultimate writing challenge! Face the Wordsmith Grandmaster in a battle of words, ideas, and literary skill!",
+          "problem": {
+            "question": "You must write about 'The Power of Education.' Which approach would be most effective?",
+            "type": "multiple_choice",
+            "options": ["List facts about education", "Tell a personal story that illustrates education's impact", "Use only statistics", "Copy what others have written"],
+            "correct_answer": "Tell a personal story that illustrates education's impact",
+            "explanation": "Wordsmith Grandmaster defeated! Personal stories connect with readers emotionally while illustrating your point. This combination of narrative and message is the most powerful writing technique!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 380,
+        "badges": ["Wordsmith Grandmaster", "Advanced Writer"],
+        "unlocks": ["drama_performance_theater", "public_speaking_championship"]
+      }
+    },
+    {
+      "id": "drama_performance_theater",
+      "title": "The Drama Performance Theater",
+      "description": "Step onto the stage and master the dramatic arts through performance and analysis!",
+      "type": "performance_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "55 min",
+      "xpReward": 310,
+      "prerequisites": ["advanced_writing_academy"],
+      "story": {
+        "introduction": "Welcome to the Grand Drama Theater! Director Shakespeare needs talented performers who can bring characters to life and understand the deeper meanings in dramatic works!",
+        "setting": "The Grand Drama Theater",
+        "character": "Director Shakespeare"
+      },
+      "steps": [
+        {
+          "id": "character_portrayal_workshop",
+          "type": "character_development",
+          "title": "Character Portrayal Workshop",
+          "narrative": "Director Shakespeare teaches you to become any character! Learn to understand motivations, emotions, and how to bring characters to life on stage.",
+          "problem": {
+            "question": "To portray a character convincingly, what must an actor understand first?",
+            "type": "multiple_choice",
+            "options": ["The character's costume", "The character's motivations and emotions", "How to speak loudly", "The theater's size"],
+            "correct_answer": "The character's motivations and emotions",
+            "explanation": "Character mastery! Understanding why a character acts and feels helps actors portray them authentically. Great acting comes from understanding, not just memorizing lines!"
+          }
+        },
+        {
+          "id": "dialogue_delivery_studio",
+          "type": "communication_skills",
+          "title": "Dialogue Delivery Studio",
+          "narrative": "Master the art of delivering dialogue! Learn how tone, pace, and emotion can change the meaning of the same words.",
+          "problem": {
+            "question": "The line 'I'm fine' can mean different things. What determines its true meaning?",
+            "type": "multiple_choice",
+            "options": ["The words themselves", "The actor's tone and body language", "The costume", "The stage lighting"],
+            "correct_answer": "The actor's tone and body language",
+            "explanation": "Dialogue mastery! 'I'm fine' can mean truly fine, angry, sad, or sarcastic depending on HOW it's said. Tone and body language reveal true meaning!"
+          }
+        },
+        {
+          "id": "dramatic_analysis_laboratory",
+          "type": "literary_analysis",
+          "title": "Dramatic Analysis Laboratory",
+          "narrative": "Analyze the deeper meanings in dramatic works! Understand themes, conflicts, and how playwrights use drama to explore human nature.",
+          "drama_excerpt": "Romeo: 'But soft! What light through yonder window breaks? It is the east, and Juliet is the sun!'",
+          "problem": {
+            "question": "What literary device does Shakespeare use when Romeo calls Juliet 'the sun'?",
+            "type": "multiple_choice",
+            "options": ["Simile", "Metaphor", "Personification", "Alliteration"],
+            "correct_answer": "Metaphor",
+            "explanation": "Dramatic analysis excellence! Romeo directly compares Juliet to the sun without using 'like' or 'as' - this metaphor shows how she brightens his world!"
+          }
+        },
+        {
+          "id": "theater_master_performance",
+          "type": "boss_battle",
+          "title": "Theater Master Performance",
+          "narrative": "The ultimate dramatic challenge! Perform for the Theater Master and demonstrate your complete understanding of drama, character, and performance!",
+          "problem": {
+            "question": "What is the most important element that makes a dramatic performance powerful?",
+            "type": "multiple_choice",
+            "options": ["Expensive costumes", "Loud speaking", "Emotional truth and character understanding", "Perfect memorization"],
+            "correct_answer": "Emotional truth and character understanding",
+            "explanation": "Theater Master impressed! The most powerful performances come from actors who truly understand and feel their characters' emotions. You are now a Theater Master!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 310,
+        "badges": ["Theater Master", "Drama Scholar"],
+        "unlocks": ["public_speaking_championship", "creative_writing_mastery"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "scholarships": [
+    {
+      "id": "kishore-vaigyanik",
+      "title": "Kishore Vaigyanik Protsahan Yojana (KVPY)",
+      "provider": "Indian Institute of Science",
+      "amount": "₹5,000 - ₹7,000 per month",
+      "deadline": "2024-10-15",
+      "category": "Science",
+      "eligibility": "Class 11, 12 and undergraduate students",
+      "description": "Fellowship program to encourage students to pursue research careers in science",
+      "benefits": [
+        "Monthly fellowship during undergraduate and postgraduate studies",
+        "Annual contingency grant for academic expenses",
+        "Assured admission to IISc/IISERs",
+        "Research opportunities with leading scientists"
+      ],
+      "requirements": [
+        "Strong academic record in science subjects",
+        "Clear aptitude test and interview",
+        "Commitment to pursue research career in science"
+      ],
+      "applicationLink": "https://kvpy.iisc.ac.in",
+      "difficulty": "High",
+      "tags": ["research", "science", "fellowship", "IISc"]
+    },
+    {
+      "id": "inspire-scholarship",
+      "title": "INSPIRE Scholarship",
+      "provider": "Department of Science & Technology, Govt. of India",
+      "amount": "₹80,000 per year",
+      "deadline": "2024-09-30",
+      "category": "Science",
+      "eligibility": "Top 1% students in Class 12 board exams",
+      "description": "Scholarship for pursuing undergraduate studies in natural sciences",
+      "benefits": [
+        "Annual scholarship of ₹80,000 for 5 years",
+        "Summer research fellowship opportunities",
+        "Mentorship program with scientists",
+        "Research exposure in national laboratories"
+      ],
+      "requirements": [
+        "Secure position in top 1% in Class 12 board examinations",
+        "Pursue BSc/BTech/Integrated MS in natural sciences",
+        "Maintain good academic performance throughout"
+      ],
+      "applicationLink": "https://inspire-dst.gov.in",
+      "difficulty": "Medium",
+      "tags": ["undergraduate", "science", "research", "DST"]
+    },
+    {
+      "id": "ntse-scholarship",
+      "title": "National Talent Search Examination (NTSE)",
+      "provider": "NCERT",
+      "amount": "₹1,250 - ₹2,000 per month",
+      "deadline": "2024-11-20",
+      "category": "General",
+      "eligibility": "Class 10 students",
+      "description": "National level scholarship examination for talented students",
+      "benefits": [
+        "Monthly scholarship throughout academic career",
+        "Recognition certificate from NCERT",
+        "Priority consideration in various educational programs",
+        "Career guidance and counseling"
+      ],
+      "requirements": [
+        "Clear state level and national level examinations",
+        "Strong academic performance in Class 10",
+        "Indian citizenship required"
+      ],
+      "applicationLink": "https://ncert.nic.in/ntse",
+      "difficulty": "High",
+      "tags": ["national", "talent", "scholarship", "NCERT"]
+    },
+    {
+      "id": "jn-tata-endowment",
+      "title": "J.N. Tata Endowment for Higher Education",
+      "provider": "Tata Trusts",
+      "amount": "Up to ₹10 lakhs",
+      "deadline": "2024-12-31",
+      "category": "Higher Education",
+      "eligibility": "Indian students for overseas studies",
+      "description": "Loan scholarship for higher studies abroad in various fields",
+      "benefits": [
+        "Interest-free loan for overseas education",
+        "Flexible repayment terms",
+        "Global education opportunity",
+        "Access to Tata network and mentorship"
+      ],
+      "requirements": [
+        "Admission to recognized foreign university",
+        "Strong academic record and achievements",
+        "Clear interview and selection process"
+      ],
+      "applicationLink": "https://jntataendowment.org",
+      "difficulty": "Medium",
+      "tags": ["overseas", "loan", "higher-education", "Tata"]
+    },
+    {
+      "id": "sitaram-jindal-scholarship",
+      "title": "Sitaram Jindal Foundation Scholarship",
+      "provider": "Sitaram Jindal Foundation",
+      "amount": "₹20,000 - ₹48,000 per year",
+      "deadline": "2024-08-31",
+      "category": "Merit",
+      "eligibility": "Students from Classes 11, 12, and undergraduate",
+      "description": "Merit-based scholarship for academically excellent students",
+      "benefits": [
+        "Annual scholarship amount",
+        "Recognition certificate",
+        "Mentorship opportunities",
+        "Career guidance sessions"
+      ],
+      "requirements": [
+        "Minimum 85% marks in previous examination",
+        "Family income below ₹2.5 lakhs per annum",
+        "Good conduct certificate"
+      ],
+      "applicationLink": "https://www.sitaramjindalfoundation.org",
+      "difficulty": "Medium",
+      "tags": ["merit", "need-based", "undergraduate", "foundation"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "board_social_studies_quiz",
+      "title": "Board Social Studies Comprehensive Test",
+      "description": "Complete preparation for board examination in social studies",
+      "difficulty": "board_level",
+      "timeLimit": 5400,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "When was the Non-Cooperation Movement launched by Mahatma Gandhi?",
+          "options": ["1919", "1920", "1921", "1922"],
+          "correct_answer": "1920",
+          "points": 3,
+          "explanation": "The Non-Cooperation Movement was launched by Mahatma Gandhi in 1920 after the Jallianwala Bagh massacre."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 380,
+        "badges": ["Social Studies Expert"],
+        "unlocks": ["advanced_political_science"]
+      }
+    }
+  ]
+}

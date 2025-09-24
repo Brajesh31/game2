@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "business_studies_12",
+      "title": "Business Studies - Grade 12",
+      "description": "Advanced business management and entrepreneurship",
+      "chapters": [
+        {
+          "id": "nature_significance_management",
+          "title": "Nature and Significance of Management",
+          "topics": ["Management Concept", "Management Functions", "Levels of Management", "Management Skills"]
+        },
+        {
+          "id": "principles_management",
+          "title": "Principles of Management",
+          "topics": ["Fayol's Principles", "Taylor's Scientific Management", "Management Theories", "Modern Approaches"]
+        },
+        {
+          "id": "business_environment",
+          "title": "Business Environment",
+          "topics": ["Economic Environment", "Social Environment", "Technological Environment", "Political Environment"]
+        },
+        {
+          "id": "planning_organizing",
+          "title": "Planning and Organizing",
+          "topics": ["Planning Process", "Types of Plans", "Organizing Process", "Organizational Structure"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 110
+    }
+  ]
+}

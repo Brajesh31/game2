@@ -1,0 +1,226 @@
+{
+  "quests": [
+    {
+      "id": "crop_production_farm_simulator",
+      "title": "The Crop Production Farm Simulator",
+      "description": "Become a master farmer and learn sustainable agriculture to feed the world!",
+      "type": "simulation_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "60 min",
+      "xpReward": 290,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Future Farm Academy! Farmer Greenthumb needs your help to revolutionize agriculture using scientific methods. Learn to grow crops sustainably while protecting the environment!",
+        "setting": "The Future Farm Academy",
+        "character": "Farmer Greenthumb"
+      },
+      "steps": [
+        {
+          "id": "crop_variety_selection",
+          "type": "decision_making",
+          "title": "Crop Variety Selection Challenge",
+          "narrative": "Your first farming decision: choose the right crop varieties for different conditions. Each choice affects your farm's success!",
+          "problem": {
+            "question": "Which crop variety would be best for an area with less rainfall?",
+            "type": "multiple_choice",
+            "options": ["Rice (needs lots of water)", "Drought-resistant wheat", "Water-loving sugarcane", "Flood-tolerant crops"],
+            "correct_answer": "Drought-resistant wheat",
+            "explanation": "Smart farming choice! Drought-resistant varieties can survive with less water, making them perfect for dry areas. Sustainable farming matches crops to conditions!"
+          }
+        },
+        {
+          "id": "fertilizer_nutrient_lab",
+          "type": "scientific_application",
+          "title": "Fertilizer and Nutrient Laboratory",
+          "narrative": "Enter the Nutrient Lab where you learn to feed plants properly! Balance nutrients to grow healthy, strong crops.",
+          "problem": {
+            "question": "What are the three main nutrients that plants need from fertilizers?",
+            "type": "multiple_choice",
+            "options": ["Water, air, sunlight", "Nitrogen, phosphorus, potassium", "Carbon, hydrogen, oxygen", "Iron, zinc, copper"],
+            "correct_answer": "Nitrogen, phosphorus, potassium",
+            "explanation": "Nutrient mastery! NPK (Nitrogen, Phosphorus, Potassium) are the big three! Nitrogen for green growth, phosphorus for roots, potassium for overall health!"
+          }
+        },
+        {
+          "id": "irrigation_water_management",
+          "type": "resource_management",
+          "title": "Irrigation Water Management Mission",
+          "narrative": "Water is precious! Learn different irrigation methods to give crops the right amount of water without waste.",
+          "problem": {
+            "question": "Which irrigation method saves the most water?",
+            "type": "multiple_choice",
+            "options": ["Flood irrigation", "Sprinkler irrigation", "Drip irrigation", "Canal irrigation"],
+            "correct_answer": "Drip irrigation",
+            "explanation": "Water conservation champion! Drip irrigation delivers water directly to plant roots drop by drop, saving up to 50% more water than other methods!"
+          }
+        },
+        {
+          "id": "sustainable_farming_master",
+          "type": "boss_battle",
+          "title": "Become the Sustainable Farming Master",
+          "narrative": "The ultimate farming challenge! Create a complete sustainable farming plan that feeds people while protecting the environment!",
+          "problem": {
+            "question": "What is the most important principle of sustainable farming?",
+            "type": "multiple_choice",
+            "options": ["Use maximum chemicals", "Grow only one type of crop", "Balance productivity with environmental protection", "Focus only on profit"],
+            "correct_answer": "Balance productivity with environmental protection",
+            "explanation": "Sustainable Farming Master achieved! True farming success means growing enough food while keeping soil healthy, water clean, and biodiversity thriving!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 290,
+        "badges": ["Sustainable Farming Master", "Agricultural Scientist"],
+        "unlocks": ["microorganism_detective_lab", "synthetic_materials_factory"]
+      }
+    },
+    {
+      "id": "microorganism_detective_lab",
+      "title": "The Microorganism Detective Laboratory",
+      "description": "Explore the invisible world of microorganisms and discover their amazing powers!",
+      "type": "investigation_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "55 min",
+      "xpReward": 270,
+      "prerequisites": ["crop_production_farm_simulator"],
+      "story": {
+        "introduction": "Welcome to the Microorganism Detective Lab! Dr. Micro needs your help to investigate the invisible world of bacteria, viruses, and fungi that affect our daily lives!",
+        "setting": "The Advanced Microbiology Laboratory",
+        "character": "Dr. Micro"
+      },
+      "steps": [
+        {
+          "id": "beneficial_microbe_mission",
+          "type": "classification",
+          "title": "Beneficial Microbe Mission",
+          "narrative": "Not all microorganisms are harmful! Discover the helpful microbes that make our lives better in amazing ways.",
+          "problem": {
+            "question": "Which beneficial microorganism helps make yogurt?",
+            "type": "multiple_choice",
+            "options": ["E. coli", "Lactobacillus", "Salmonella", "Virus"],
+            "correct_answer": "Lactobacillus",
+            "explanation": "Excellent microbial knowledge! Lactobacillus bacteria ferment milk to make delicious, healthy yogurt. These friendly microbes also help our digestion!"
+          }
+        },
+        {
+          "id": "harmful_microbe_defense",
+          "type": "protection_strategies",
+          "title": "Harmful Microbe Defense System",
+          "narrative": "Learn to protect yourself and others from harmful microorganisms! Develop defense strategies against disease-causing microbes.",
+          "problem": {
+            "question": "What is the best way to prevent the spread of harmful bacteria?",
+            "type": "multiple_choice",
+            "options": ["Never go outside", "Wash hands regularly with soap", "Eat only cold food", "Avoid all microorganisms"],
+            "correct_answer": "Wash hands regularly with soap",
+            "explanation": "Perfect defense strategy! Hand washing with soap is the most effective way to remove harmful microbes and prevent disease spread!"
+          }
+        },
+        {
+          "id": "food_preservation_laboratory",
+          "type": "application_learning",
+          "title": "Food Preservation Laboratory",
+          "narrative": "Discover how to keep food safe from harmful microorganisms! Learn preservation methods that have fed humanity for centuries.",
+          "problem": {
+            "question": "Why does adding salt help preserve food?",
+            "type": "multiple_choice",
+            "options": ["Salt tastes good", "Salt removes water that microbes need", "Salt is cold", "Salt is expensive"],
+            "correct_answer": "Salt removes water that microbes need",
+            "explanation": "Food preservation genius! Salt draws out water from food and microbes. Without water, harmful bacteria can't survive and multiply!"
+          }
+        },
+        {
+          "id": "microbe_master_researcher",
+          "type": "boss_battle",
+          "title": "Challenge the Microbe Master",
+          "narrative": "The ultimate microbiology test! The Microbe Master challenges you to solve a complex case involving both helpful and harmful microorganisms!",
+          "problem": {
+            "question": "A bread-making factory wants to use microorganisms. Which would be most helpful?",
+            "type": "multiple_choice",
+            "options": ["Disease-causing bacteria", "Yeast for fermentation", "Viruses", "Harmful fungi"],
+            "correct_answer": "Yeast for fermentation",
+            "explanation": "Microbe Master defeated! Yeast ferments sugars in dough, producing carbon dioxide that makes bread rise and taste delicious!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 270,
+        "badges": ["Microorganism Detective", "Microbiology Expert"],
+        "unlocks": ["synthetic_materials_factory", "force_pressure_physics_lab"]
+      }
+    },
+    {
+      "id": "synthetic_materials_factory",
+      "title": "The Synthetic Materials Factory",
+      "description": "Explore the amazing world of synthetic fibers and plastics in the futuristic materials factory!",
+      "type": "technology_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "45 min",
+      "xpReward": 240,
+      "prerequisites": ["microorganism_detective_lab"],
+      "story": {
+        "introduction": "Welcome to the Synthetic Materials Factory of the future! Engineer Polymer needs your help to understand how synthetic materials are made and their impact on our world!",
+        "setting": "The Futuristic Synthetic Materials Factory",
+        "character": "Engineer Polymer"
+      },
+      "steps": [
+        {
+          "id": "fiber_classification_center",
+          "type": "classification",
+          "title": "Fiber Classification Center",
+          "narrative": "Learn to distinguish between natural and synthetic fibers! Each type has special properties for different uses.",
+          "problem": {
+            "question": "Which of these is a synthetic fiber?",
+            "type": "multiple_choice",
+            "options": ["Cotton", "Wool", "Silk", "Nylon"],
+            "correct_answer": "Nylon",
+            "explanation": "Perfect classification! Nylon is synthetic (human-made), while cotton, wool, and silk come from plants or animals (natural fibers)!"
+          }
+        },
+        {
+          "id": "plastic_properties_workshop",
+          "type": "property_analysis",
+          "title": "Plastic Properties Workshop",
+          "narrative": "Discover why plastics are so useful! Learn about their amazing properties that make modern life possible.",
+          "problem": {
+            "question": "What makes plastic useful for making water bottles?",
+            "type": "multiple_choice",
+            "options": ["It's heavy", "It's waterproof and lightweight", "It breaks easily", "It's expensive"],
+            "correct_answer": "It's waterproof and lightweight",
+            "explanation": "Material science mastery! Plastic is waterproof (doesn't absorb water) and lightweight, making it perfect for portable water bottles!"
+          }
+        },
+        {
+          "id": "environmental_impact_assessment",
+          "type": "environmental_awareness",
+          "title": "Environmental Impact Assessment",
+          "narrative": "Engineer Polymer shows you the environmental challenges of synthetic materials. Learn about responsible use and recycling!",
+          "problem": {
+            "question": "What is the main environmental problem with plastic waste?",
+            "type": "multiple_choice",
+            "options": ["It's too colorful", "It doesn't decompose easily", "It's too light", "It's too useful"],
+            "correct_answer": "It doesn't decompose easily",
+            "explanation": "Environmental awareness achieved! Plastic takes hundreds of years to decompose, so we must reduce, reuse, and recycle to protect our planet!"
+          }
+        },
+        {
+          "id": "sustainable_materials_innovator",
+          "type": "boss_battle",
+          "title": "Become a Sustainable Materials Innovator",
+          "narrative": "The ultimate materials challenge! Design eco-friendly alternatives to harmful synthetic materials and save the environment!",
+          "problem": {
+            "question": "What would be the best eco-friendly alternative to plastic bags?",
+            "type": "multiple_choice",
+            "options": ["More plastic bags", "Cloth bags that can be reused", "Paper bags only", "No bags at all"],
+            "correct_answer": "Cloth bags that can be reused",
+            "explanation": "Innovation champion! Reusable cloth bags reduce waste, last longer, and protect the environment. You're a true sustainable materials innovator!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 240,
+        "badges": ["Materials Innovator", "Environmental Champion"],
+        "unlocks": ["force_pressure_physics_lab", "sound_wave_academy"]
+      }
+    }
+  ]
+}

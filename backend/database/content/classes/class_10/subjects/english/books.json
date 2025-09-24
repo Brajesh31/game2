@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "english_10_board",
+      "title": "English Literature and Language - Grade 10",
+      "description": "Board examination preparation with comprehensive literature study",
+      "chapters": [
+        {
+          "id": "first_flight",
+          "title": "First Flight (Prose)",
+          "topics": ["A Letter to God", "Nelson Mandela", "Two Stories about Flying", "From the Diary of Anne Frank"]
+        },
+        {
+          "id": "first_flight_poetry",
+          "title": "First Flight (Poetry)",
+          "topics": ["Dust of Snow", "Fire and Ice", "A Tiger in the Zoo", "How to Tell Wild Animals"]
+        },
+        {
+          "id": "footprints_without_feet",
+          "title": "Footprints Without Feet",
+          "topics": ["A Triumph of Surgery", "The Thief's Story", "Footprints Without Feet", "The Making of a Scientist"]
+        },
+        {
+          "id": "writing_skills_advanced",
+          "title": "Advanced Writing Skills",
+          "topics": ["Letter Writing", "Article Writing", "Report Writing", "Story Writing"]
+        }
+      ],
+      "difficulty": "board_level",
+      "estimatedHours": 90
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "math_7_intermediate",
+      "title": "Mathematics - Grade 7",
+      "description": "Intermediate mathematical concepts and problem-solving",
+      "chapters": [
+        {
+          "id": "integers",
+          "title": "Integers",
+          "topics": ["Positive and Negative Numbers", "Number Line", "Operations with Integers", "Properties"]
+        },
+        {
+          "id": "fractions_decimals",
+          "title": "Fractions and Decimals",
+          "topics": ["Equivalent Fractions", "Operations with Fractions", "Decimal Operations", "Conversion"]
+        },
+        {
+          "id": "algebra_introduction",
+          "title": "Introduction to Algebra",
+          "topics": ["Variables", "Expressions", "Simple Equations", "Substitution"]
+        },
+        {
+          "id": "geometry_advanced",
+          "title": "Advanced Geometry",
+          "topics": ["Angles", "Triangles", "Quadrilaterals", "Circles"]
+        }
+      ],
+      "difficulty": "intermediate",
+      "estimatedHours": 55
+    }
+  ]
+}

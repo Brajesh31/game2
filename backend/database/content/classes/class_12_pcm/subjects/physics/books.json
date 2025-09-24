@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "physics_12_advanced",
+      "title": "Physics - Grade 12",
+      "description": "Advanced physics covering electromagnetism, optics, and modern physics",
+      "chapters": [
+        {
+          "id": "electric_charges_fields",
+          "title": "Electric Charges and Fields",
+          "topics": ["Coulomb's Law", "Electric Field", "Electric Flux", "Gauss's Law"]
+        },
+        {
+          "id": "electromagnetic_induction",
+          "title": "Electromagnetic Induction",
+          "topics": ["Faraday's Law", "Lenz's Law", "Self and Mutual Inductance", "AC Generator"]
+        },
+        {
+          "id": "wave_optics",
+          "title": "Wave Optics",
+          "topics": ["Interference", "Diffraction", "Polarization", "Young's Double Slit"]
+        },
+        {
+          "id": "modern_physics",
+          "title": "Dual Nature of Radiation and Matter",
+          "topics": ["Photoelectric Effect", "de Broglie Wavelength", "Davisson-Germer Experiment"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 140
+    }
+  ]
+}

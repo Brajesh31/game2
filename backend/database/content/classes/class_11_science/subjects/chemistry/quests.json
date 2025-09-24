@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "molecular_architect",
+      "title": "Molecular Architect Challenge",
+      "description": "Design and build molecular structures using advanced bonding theories!",
+      "type": "chemistry_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "85 min",
+      "xpReward": 480,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Molecular Design Institute needs your expertise! Use your knowledge of chemical bonding to design stable molecular structures.",
+        "setting": "Molecular Design Institute",
+        "character": "Professor Molecule"
+      },
+      "steps": [
+        {
+          "id": "vsepr_design",
+          "type": "molecular_modeling",
+          "title": "VSEPR Theory Application",
+          "narrative": "Professor Molecule challenges you to predict molecular shapes using VSEPR theory.",
+          "problem": {
+            "question": "What is the molecular geometry of NH₃ (ammonia)?",
+            "type": "multiple_choice",
+            "options": ["Linear", "Trigonal planar", "Tetrahedral", "Trigonal pyramidal"],
+            "correct_answer": "Trigonal pyramidal",
+            "explanation": "NH₃ has 3 bonding pairs and 1 lone pair around nitrogen, giving it a trigonal pyramidal shape according to VSEPR theory."
+          }
+        }
+      ]
+    }
+  ]
+}

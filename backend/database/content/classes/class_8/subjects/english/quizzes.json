@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "literary_devices_quiz",
+      "title": "Literary Devices Mastery",
+      "description": "Identify and analyze various literary devices",
+      "difficulty": "advanced",
+      "timeLimit": 1200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Identify the literary device: 'The wind whispered through the trees.'",
+          "options": ["Metaphor", "Simile", "Personification", "Hyperbole"],
+          "correct_answer": "Personification",
+          "points": 15,
+          "explanation": "Personification gives human qualities (whispering) to non-human things (wind)."
+        }
+      ],
+      "passing_score": 80,
+      "rewards": {
+        "xp": 140,
+        "badges": ["Literary Analyst"],
+        "unlocks": ["advanced_poetry_quiz"]
+      }
+    }
+  ]
+}

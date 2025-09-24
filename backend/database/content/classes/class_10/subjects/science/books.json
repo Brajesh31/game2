@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "science_10_board",
+      "title": "Science - Grade 10",
+      "description": "Board examination science covering physics, chemistry, and biology",
+      "chapters": [
+        {
+          "id": "light_reflection_refraction",
+          "title": "Light - Reflection and Refraction",
+          "topics": ["Laws of Reflection", "Spherical Mirrors", "Refraction", "Lenses"]
+        },
+        {
+          "id": "acids_bases_salts_advanced",
+          "title": "Acids, Bases and Salts",
+          "topics": ["Chemical Properties", "pH Scale", "Preparation of Salts", "Crystals"]
+        },
+        {
+          "id": "carbon_compounds",
+          "title": "Carbon and its Compounds",
+          "topics": ["Covalent Bonding", "Versatile Nature of Carbon", "Homologous Series", "Functional Groups"]
+        },
+        {
+          "id": "life_processes",
+          "title": "Life Processes",
+          "topics": ["Nutrition", "Respiration", "Transportation", "Excretion"]
+        }
+      ],
+      "difficulty": "board_level",
+      "estimatedHours": 95
+    }
+  ]
+}

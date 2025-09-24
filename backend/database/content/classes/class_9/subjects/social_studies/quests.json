@@ -1,0 +1,226 @@
+{
+  "quests": [
+    {
+      "id": "french_revolution_time_machine",
+      "title": "The French Revolution Time Machine",
+      "description": "Travel back to revolutionary France and witness how ordinary people changed the course of history!",
+      "type": "historical_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "70 min",
+      "xpReward": 390,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Professor Revolution has activated the time machine! Experience the French Revolution firsthand and understand how ideas of liberty, equality, and fraternity spread across the world!",
+        "setting": "Revolutionary France (1789-1799)",
+        "character": "Professor Revolution"
+      },
+      "steps": [
+        {
+          "id": "causes_revolution_investigation",
+          "type": "cause_analysis",
+          "title": "Causes of Revolution Investigation",
+          "narrative": "Investigate pre-revolutionary France! Discover the social, economic, and political problems that led to the revolution.",
+          "problem": {
+            "question": "What was the main cause of the French Revolution?",
+            "type": "multiple_choice",
+            "options": ["Bad weather", "Social inequality and financial crisis", "Foreign invasion", "Religious conflicts"],
+            "correct_answer": "Social inequality and financial crisis",
+            "explanation": "Revolutionary analysis! The Third Estate (common people) paid all taxes while nobles and clergy paid none. This inequality plus financial crisis sparked revolution!"
+          }
+        },
+        {
+          "id": "estates_general_assembly",
+          "type": "political_understanding",
+          "title": "Estates General Assembly",
+          "narrative": "Attend the historic Estates General meeting! Understand how the three estates represented different social classes in French society.",
+          "problem": {
+            "question": "Which estate represented the common people in France?",
+            "type": "multiple_choice",
+            "options": ["First Estate (Clergy)", "Second Estate (Nobles)", "Third Estate (Common people)", "Fourth Estate (Merchants)"],
+            "correct_answer": "Third Estate (Common people)",
+            "explanation": "Political mastery! The Third Estate included everyone who wasn't clergy or nobility - farmers, merchants, lawyers, and workers. They were 98% of the population!"
+          }
+        },
+        {
+          "id": "declaration_rights_workshop",
+          "type": "rights_understanding",
+          "title": "Declaration of Rights Workshop",
+          "narrative": "Help draft the Declaration of the Rights of Man and Citizen! These revolutionary ideas about human rights spread worldwide.",
+          "problem": {
+            "question": "What revolutionary idea did the Declaration of Rights introduce?",
+            "type": "multiple_choice",
+            "options": ["Kings should rule forever", "All men are born free and equal", "Only nobles have rights", "Revolution is always wrong"],
+            "correct_answer": "All men are born free and equal",
+            "explanation": "Revolutionary rights mastery! This declaration stated that all people are born with natural rights to liberty, equality, and fraternity - ideas that changed the world!"
+          }
+        },
+        {
+          "id": "napoleon_legacy_challenge",
+          "type": "boss_battle",
+          "title": "Napoleon Legacy Challenge",
+          "narrative": "The ultimate revolutionary test! Understand how Napoleon both continued and changed the revolutionary ideals across Europe!",
+          "problem": {
+            "question": "How did Napoleon spread revolutionary ideas across Europe?",
+            "type": "multiple_choice",
+            "options": ["Through peaceful negotiations", "By conquering territories and implementing reforms", "By writing books", "By staying in France"],
+            "correct_answer": "By conquering territories and implementing reforms",
+            "explanation": "Revolutionary legacy mastered! Napoleon's conquests spread the Civil Code, abolished feudalism, and introduced revolutionary ideas across Europe, changing the continent forever!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 390,
+        "badges": ["Revolutionary Historian", "Rights Champion"],
+        "unlocks": ["democracy_builder_academy", "nationalism_explorer_quest"]
+      }
+    },
+    {
+      "id": "democracy_builder_academy",
+      "title": "The Democracy Builder Academy",
+      "description": "Learn to build strong democratic institutions and become a champion of democratic values!",
+      "type": "civic_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "65 min",
+      "xpReward": 350,
+      "prerequisites": ["french_revolution_time_machine"],
+      "story": {
+        "introduction": "Welcome to the Democracy Builder Academy! Principal Democracy needs your help to design the perfect democratic system that ensures justice, equality, and freedom for all citizens!",
+        "setting": "The Democracy Builder Academy",
+        "character": "Principal Democracy"
+      },
+      "steps": [
+        {
+          "id": "constitution_design_workshop",
+          "type": "institutional_design",
+          "title": "Constitution Design Workshop",
+          "narrative": "Design a constitution that protects everyone's rights! Learn why constitutions are the foundation of democratic societies.",
+          "problem": {
+            "question": "What is the most important feature of a democratic constitution?",
+            "type": "multiple_choice",
+            "options": ["It should be very long", "It should protect fundamental rights of all citizens", "It should favor the majority only", "It should be written in difficult language"],
+            "correct_answer": "It should protect fundamental rights of all citizens",
+            "explanation": "Constitutional mastery! A democratic constitution must protect everyone's fundamental rights, ensuring that even minorities are safe from majority tyranny!"
+          }
+        },
+        {
+          "id": "electoral_system_laboratory",
+          "type": "system_understanding",
+          "title": "Electoral System Laboratory",
+          "narrative": "Design fair electoral systems! Learn how different voting methods can affect representation and democratic outcomes.",
+          "problem": {
+            "question": "What makes an election truly democratic?",
+            "type": "multiple_choice",
+            "options": ["Only rich people can vote", "Free, fair, and regular elections with universal suffrage", "Only one candidate runs", "Elections happen once in 20 years"],
+            "correct_answer": "Free, fair, and regular elections with universal suffrage",
+            "explanation": "Electoral excellence! Democratic elections must be free (no coercion), fair (equal opportunity), regular (periodic), and include all adult citizens (universal suffrage)!"
+          }
+        },
+        {
+          "id": "separation_powers_fortress",
+          "type": "power_balance_understanding",
+          "title": "Separation of Powers Fortress",
+          "narrative": "Build a fortress of democracy using separation of powers! Learn why dividing government power prevents tyranny.",
+          "problem": {
+            "question": "Why is separation of powers important in democracy?",
+            "type": "multiple_choice",
+            "options": ["To make government slower", "To prevent any one branch from becoming too powerful", "To create confusion", "To reduce efficiency"],
+            "correct_answer": "To prevent any one branch from becoming too powerful",
+            "explanation": "Democratic fortress secured! Separation of powers (legislative, executive, judicial) ensures checks and balances, preventing dictatorship and protecting democracy!"
+          }
+        },
+        {
+          "id": "democratic_values_guardian",
+          "type": "boss_battle",
+          "title": "Become a Democratic Values Guardian",
+          "narrative": "The ultimate democracy test! The Democratic Values Guardian challenges you to defend democratic principles against all threats!",
+          "problem": {
+            "question": "A majority wants to pass a law that discriminates against a minority group. In a true democracy, what should happen?",
+            "type": "multiple_choice",
+            "options": ["The majority should always win", "The constitution should protect minority rights", "The minority should leave", "There should be no laws"],
+            "correct_answer": "The constitution should protect minority rights",
+            "explanation": "Democratic Values Guardian achieved! True democracy protects minority rights even against majority wishes. This is constitutional democracy - rule of law, not just majority rule!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 350,
+        "badges": ["Democracy Builder", "Constitutional Guardian"],
+        "unlocks": ["nationalism_explorer_quest", "economic_systems_academy"]
+      }
+    },
+    {
+      "id": "economic_systems_academy",
+      "title": "The Economic Systems Academy",
+      "description": "Explore different economic systems and understand how societies organize production and distribution!",
+      "type": "economic_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "60 min",
+      "xpReward": 330,
+      "prerequisites": ["democracy_builder_academy"],
+      "story": {
+        "introduction": "Welcome to the Economic Systems Academy! Professor Economy will teach you how different societies solve the fundamental economic problems of what to produce, how to produce, and for whom to produce!",
+        "setting": "The Economic Systems Academy",
+        "character": "Professor Economy"
+      },
+      "steps": [
+        {
+          "id": "economic_problems_laboratory",
+          "type": "problem_identification",
+          "title": "Economic Problems Laboratory",
+          "narrative": "Every society faces basic economic problems! Professor Economy shows you how different systems try to solve these challenges.",
+          "problem": {
+            "question": "What is the fundamental economic problem that all societies face?",
+            "type": "multiple_choice",
+            "options": ["Too much money", "Unlimited wants but limited resources", "Too many workers", "No technology"],
+            "correct_answer": "Unlimited wants but limited resources",
+            "explanation": "Economic wisdom! Scarcity is the basic problem - people have unlimited wants but resources are limited. This forces societies to make choices!"
+          }
+        },
+        {
+          "id": "market_system_simulation",
+          "type": "system_simulation",
+          "title": "Market System Simulation",
+          "narrative": "Run a market economy simulation! See how supply, demand, and prices work together to allocate resources.",
+          "problem": {
+            "question": "In a market economy, what determines the price of goods?",
+            "type": "multiple_choice",
+            "options": ["Government decides", "Supply and demand", "Only the seller decides", "Random chance"],
+            "correct_answer": "Supply and demand",
+            "explanation": "Market mastery! When demand is high and supply is low, prices rise. When supply is high and demand is low, prices fall. The market finds balance!"
+          }
+        },
+        {
+          "id": "poverty_development_mission",
+          "type": "social_understanding",
+          "title": "Poverty and Development Mission",
+          "narrative": "Tackle the challenge of poverty and development! Understand how economic growth can improve people's lives.",
+          "problem": {
+            "question": "What is the best indicator of a country's development?",
+            "type": "multiple_choice",
+            "options": ["Only total wealth", "Only population size", "Human Development Index (health, education, income)", "Only natural resources"],
+            "correct_answer": "Human Development Index (health, education, income)",
+            "explanation": "Development understanding! True development means people live longer (health), learn more (education), and have better living standards (income). It's about human welfare!"
+          }
+        },
+        {
+          "id": "economic_policy_advisor",
+          "type": "boss_battle",
+          "title": "Economic Policy Advisor Challenge",
+          "narrative": "The ultimate economic test! Advise the government on economic policies that will improve people's lives while maintaining economic stability!",
+          "problem": {
+            "question": "A country has high unemployment. What economic policy would be most effective?",
+            "type": "multiple_choice",
+            "options": ["Reduce education spending", "Invest in job training and infrastructure", "Ignore the problem", "Reduce wages"],
+            "correct_answer": "Invest in job training and infrastructure",
+            "explanation": "Economic Policy Advisor mastery! Investing in skills training and infrastructure creates jobs, improves productivity, and leads to sustainable economic growth!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 330,
+        "badges": ["Economic Systems Expert", "Policy Advisor"],
+        "unlocks": ["geography_india_explorer", "contemporary_world_analyst"]
+      }
+    }
+  ]
+}

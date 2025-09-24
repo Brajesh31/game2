@@ -1,0 +1,39 @@
+{
+  "quests": [
+    {
+      "id": "cell_biologist_expedition",
+      "title": "Cell Biologist Expedition",
+      "description": "Explore the intricate world of cells and understand life at the molecular level!",
+      "type": "biological_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "80 min",
+      "xpReward": 460,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Dr. Cell has discovered unusual cellular activities! Join the expedition to investigate and understand complex cellular processes.",
+        "setting": "Cellular Research Station",
+        "character": "Dr. Cell"
+      },
+      "steps": [
+        {
+          "id": "organelle_investigation",
+          "type": "cellular_analysis",
+          "title": "Organelle Function Investigation",
+          "narrative": "Dr. Cell shows you different organelles under the electron microscope. Identify their functions!",
+          "problem": {
+            "question": "Which organelle is called the 'powerhouse of the cell' and why?",
+            "type": "multiple_choice",
+            "options": [
+              "Nucleus - controls cell activities",
+              "Mitochondria - produces ATP energy",
+              "Ribosome - makes proteins",
+              "Golgi apparatus - packages materials"
+            ],
+            "correct_answer": "Mitochondria - produces ATP energy",
+            "explanation": "Mitochondria are called the powerhouse because they produce ATP, the energy currency of the cell, through cellular respiration."
+          }
+        }
+      ]
+    }
+  ]
+}

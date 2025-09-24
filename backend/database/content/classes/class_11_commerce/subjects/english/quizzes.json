@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "business_english_quiz",
+      "title": "Business English Proficiency Test",
+      "description": "Test your business communication and English language skills",
+      "difficulty": "higher_secondary",
+      "timeLimit": 5400,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which is the correct format for a business letter salutation?",
+          "options": [
+            "Hi there,",
+            "Dear Sir/Madam,",
+            "Hello friend,",
+            "Hey buddy,"
+          ],
+          "correct_answer": "Dear Sir/Madam,",
+          "points": 5,
+          "explanation": "Business letters require formal salutations like 'Dear Sir/Madam,' or 'Dear Mr./Ms. [Name],'."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 220,
+        "badges": ["Business Communicator"],
+        "unlocks": ["advanced_business_writing"]
+      }
+    }
+  ]
+}

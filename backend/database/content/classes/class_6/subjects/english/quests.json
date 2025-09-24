@@ -1,0 +1,234 @@
+{
+  "quests": [
+    {
+      "id": "story_detective_mystery",
+      "title": "The Story Detective Mystery",
+      "description": "Become a master story detective and solve the mysteries hidden in amazing tales!",
+      "type": "reading_quest",
+      "difficulty": "easy",
+      "estimatedTime": "40 min",
+      "xpReward": 130,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Mystery Library! Stories here hold secrets that only skilled detectives can uncover. Detective Bookworm needs your help to solve literary mysteries!",
+        "setting": "The Enchanted Mystery Library",
+        "character": "Detective Bookworm"
+      },
+      "steps": [
+        {
+          "id": "main_idea_investigation",
+          "type": "comprehension",
+          "title": "The Main Idea Investigation",
+          "narrative": "Detective Bookworm hands you a mysterious story scroll. Your first case: find the main idea hidden within!",
+          "reading_passage": "Emma loved to paint. Every day after school, she would rush to her room and create beautiful pictures of flowers, animals, and landscapes. Her paintings made everyone smile. When the school announced an art contest, Emma was nervous but decided to enter her favorite painting of a sunset. She won first place and felt proud of her hard work.",
+          "problem": {
+            "question": "What is the main idea of this story?",
+            "type": "multiple_choice",
+            "options": [
+              "Emma likes flowers and animals",
+              "Schools have art contests",
+              "Emma loves painting and wins a contest through hard work",
+              "Sunsets are beautiful to paint"
+            ],
+            "correct_answer": "Emma loves painting and wins a contest through hard work",
+            "explanation": "The main idea captures the whole story! Emma's love for painting and her success through hard work is what the entire story is about."
+          }
+        },
+        {
+          "id": "character_clue_hunt",
+          "type": "analysis",
+          "title": "The Character Clue Hunt",
+          "narrative": "Excellent detective work! Now investigate the characters in this next mystery. What clues reveal their true nature?",
+          "reading_passage": "Jake always helped his classmates with their homework, even when he had lots of his own work to do. When Sarah dropped her books in the hallway, Jake immediately stopped to help her pick them up. During lunch, he shared his sandwich with Tom, who had forgotten his lunch money. Jake's teacher often praised him for being thoughtful and kind.",
+          "problem": {
+            "question": "Based on the clues in the story, what kind of person is Jake?",
+            "type": "multiple_choice",
+            "options": ["Selfish and mean", "Helpful and caring", "Lazy and forgetful", "Angry and impatient"],
+            "correct_answer": "Helpful and caring",
+            "explanation": "Great detective work! The clues show Jake helping with homework, picking up books, and sharing food. These actions prove he's helpful and caring!"
+          }
+        },
+        {
+          "id": "setting_secret_chamber",
+          "type": "identification",
+          "title": "The Setting Secret Chamber",
+          "narrative": "Enter the Secret Chamber where stories come alive! Identify where and when each story takes place.",
+          "reading_passage": "The old lighthouse stood tall on the rocky cliff, its light cutting through the thick fog that rolled in from the ocean. Captain Morgan climbed the spiral stairs every evening at sunset to light the beacon that would guide ships safely to shore.",
+          "problem": {
+            "question": "Where does this story take place?",
+            "type": "multiple_choice",
+            "options": ["In a city", "At a lighthouse by the ocean", "In a forest", "At a school"],
+            "correct_answer": "At a lighthouse by the ocean",
+            "explanation": "Perfect! The clues are 'lighthouse,' 'rocky cliff,' 'ocean,' and 'ships.' The setting is clearly at a lighthouse by the ocean!"
+          }
+        },
+        {
+          "id": "plot_puzzle_master",
+          "type": "boss_battle",
+          "title": "Defeat the Plot Puzzle Master",
+          "narrative": "The final challenge! The Plot Puzzle Master has scrambled a story's events. Put them in the right order to defeat him and become a Story Detective Master!",
+          "problem": {
+            "question": "Put these story events in the correct order: A) The princess lived happily ever after B) A dragon captured the princess C) The brave knight defeated the dragon D) The knight set out on a quest",
+            "type": "multiple_choice",
+            "options": ["A, B, C, D", "B, D, C, A", "D, B, C, A", "C, D, B, A"],
+            "correct_answer": "B, D, C, A",
+            "explanation": "Perfect sequence! First the dragon captures the princess (problem), then the knight begins his quest (action), defeats the dragon (climax), and everyone lives happily (resolution)!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 130,
+        "badges": ["Story Detective Master", "Reading Champion"],
+        "unlocks": ["grammar_guardian_quest", "poetry_palace_adventure"]
+      }
+    },
+    {
+      "id": "grammar_guardian_quest",
+      "title": "The Grammar Guardian Quest",
+      "description": "Protect the Kingdom of Words by mastering the magical rules of grammar!",
+      "type": "skill_quest",
+      "difficulty": "medium",
+      "estimatedTime": "45 min",
+      "xpReward": 170,
+      "prerequisites": ["story_detective_mystery"],
+      "story": {
+        "introduction": "The Kingdom of Words is under attack! Evil Grammar Goblins are mixing up sentences and confusing everyone. Only a true Grammar Guardian can restore order!",
+        "setting": "The Kingdom of Words",
+        "character": "Sir Grammar the Wise"
+      },
+      "steps": [
+        {
+          "id": "noun_castle_defense",
+          "type": "identification",
+          "title": "Defend the Noun Castle",
+          "narrative": "The Noun Castle is under siege! Identify all the nouns to strengthen the castle's defenses.",
+          "problem": {
+            "question": "Find all the nouns in this sentence: 'The brave knight rode his horse to the castle.'",
+            "type": "multiple_choice",
+            "options": ["knight, horse, castle", "brave, rode, his", "the, to, his", "knight, brave, rode"],
+            "correct_answer": "knight, horse, castle",
+            "explanation": "Excellent! Nouns are people, places, or things. Knight (person), horse (animal/thing), and castle (place) are all nouns!"
+          }
+        },
+        {
+          "id": "verb_village_rescue",
+          "type": "action_identification",
+          "title": "Rescue Verb Village",
+          "narrative": "Verb Village is in trouble! The villagers have forgotten how to show action. Help them remember what verbs do!",
+          "problem": {
+            "question": "Which word shows action in this sentence: 'The children play happily in the park.'",
+            "type": "multiple_choice",
+            "options": ["children", "play", "happily", "park"],
+            "correct_answer": "play",
+            "explanation": "Great job! 'Play' is the action word (verb) that tells us what the children are doing. Verbs show action or being!"
+          }
+        },
+        {
+          "id": "adjective_academy_training",
+          "type": "description",
+          "title": "Adjective Academy Training",
+          "narrative": "At the Adjective Academy, you learn to make sentences more colorful and descriptive. Find the describing words!",
+          "problem": {
+            "question": "Which word describes the noun in this sentence: 'The fluffy cat slept peacefully.'",
+            "type": "multiple_choice",
+            "options": ["cat", "fluffy", "slept", "peacefully"],
+            "correct_answer": "fluffy",
+            "explanation": "Perfect! 'Fluffy' describes what the cat looks like. Adjectives are describing words that tell us more about nouns!"
+          }
+        },
+        {
+          "id": "sentence_structure_sorcerer",
+          "type": "boss_battle",
+          "title": "Battle the Sentence Structure Sorcerer",
+          "narrative": "The evil Sentence Structure Sorcerer has jumbled all the words! Arrange them correctly to cast the spell that will defeat him!",
+          "problem": {
+            "question": "Arrange these words to make a proper sentence: 'dog / the / big / barked / loudly'",
+            "type": "multiple_choice",
+            "options": ["Dog the big barked loudly", "The big dog barked loudly", "Barked loudly the big dog", "Big dog the loudly barked"],
+            "correct_answer": "The big dog barked loudly",
+            "explanation": "Fantastic! A proper sentence follows the pattern: Article + Adjective + Noun + Verb + Adverb. 'The big dog barked loudly' makes perfect sense!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 170,
+        "badges": ["Grammar Guardian", "Word Warrior"],
+        "unlocks": ["poetry_palace_adventure", "creative_writing_workshop"]
+      }
+    },
+    {
+      "id": "poetry_palace_adventure",
+      "title": "The Poetry Palace Adventure",
+      "description": "Enter the magical Poetry Palace and discover the rhythm, rhyme, and beauty of poems!",
+      "type": "creative_quest",
+      "difficulty": "medium",
+      "estimatedTime": "35 min",
+      "xpReward": 150,
+      "prerequisites": ["grammar_guardian_quest"],
+      "story": {
+        "introduction": "The Poetry Palace is a magical place where words dance and rhyme! Poet Princess Rhyme needs your help to restore the palace's lost poems and bring music back to words.",
+        "setting": "The Enchanted Poetry Palace",
+        "character": "Poet Princess Rhyme"
+      },
+      "steps": [
+        {
+          "id": "rhyme_time_chamber",
+          "type": "pattern_recognition",
+          "title": "The Rhyme Time Chamber",
+          "narrative": "In the Rhyme Chamber, words that sound alike create magical music! Find the rhyming pairs to unlock the next room.",
+          "problem": {
+            "question": "Which word rhymes with 'cat'?",
+            "type": "multiple_choice",
+            "options": ["dog", "hat", "bird", "fish"],
+            "correct_answer": "hat",
+            "explanation": "Perfect! 'Cat' and 'hat' rhyme because they end with the same sound '-at'. Rhyming words make poetry musical and fun!"
+          }
+        },
+        {
+          "id": "rhythm_garden_dance",
+          "type": "rhythm_recognition",
+          "title": "Dance in the Rhythm Garden",
+          "narrative": "The Rhythm Garden is where poems get their beat! Clap along to find the rhythm in these magical verses.",
+          "problem": {
+            "question": "Which line has the same rhythm as 'Twinkle, twinkle, little star'?",
+            "type": "multiple_choice",
+            "options": ["How I wonder what you are", "The big elephant walks slowly", "Run and jump and play today", "Beautiful flowers in the garden"],
+            "correct_answer": "How I wonder what you are",
+            "explanation": "Excellent ear for rhythm! Both lines have the same beat pattern: da-da-DUM-da-da-DUM. That's what makes the song flow so nicely!"
+          }
+        },
+        {
+          "id": "metaphor_magic_tower",
+          "type": "creative_understanding",
+          "title": "The Metaphor Magic Tower",
+          "narrative": "Climb the Metaphor Tower where words become magical! Learn how poets compare things in surprising ways.",
+          "problem": {
+            "question": "What does the poet mean by 'Her voice was music to my ears'?",
+            "type": "multiple_choice",
+            "options": ["She was singing a song", "Her voice sounded beautiful and pleasant", "She was playing an instrument", "She was very loud"],
+            "correct_answer": "Her voice sounded beautiful and pleasant",
+            "explanation": "Beautiful understanding! The poet compares her voice to music, meaning it sounded lovely and pleasant. This is called a metaphor!"
+          }
+        },
+        {
+          "id": "poetry_creation_crown",
+          "type": "boss_battle",
+          "title": "Create the Crown of Poetry",
+          "narrative": "The ultimate challenge! Create your own magical poem to forge the Crown of Poetry and become the palace's newest Poet Guardian!",
+          "problem": {
+            "question": "Complete this poem with a rhyming line: 'The sun shines bright up in the sky, The birds sing songs as they fly by, The flowers bloom in colors true, _______________'",
+            "type": "multiple_choice",
+            "options": ["And grass is green and morning dew", "The trees are tall and very high", "And I love nature, me and you", "The wind blows strong and free"],
+            "correct_answer": "And I love nature, me and you",
+            "explanation": "Wonderful poetry! 'True' and 'you' rhyme perfectly, and the line completes the poem's theme about loving nature. You're a true poet!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 150,
+        "badges": ["Poetry Palace Guardian", "Rhyme Master"],
+        "unlocks": ["creative_writing_workshop", "storytelling_theater"]
+      }
+    }
+  ]
+}

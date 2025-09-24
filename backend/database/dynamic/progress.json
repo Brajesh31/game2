@@ -1,0 +1,57 @@
+{
+  "studentProgress": {
+    "student-001": {
+      "studentId": "student-001",
+      "classLevel": "class_6",
+      "currentLevel": 12,
+      "totalXP": 2847,
+      "streakCount": 15,
+      "lastActivityDate": "2024-01-30T10:30:00Z",
+      "completedQuests": ["number_explorer", "story_detective"],
+      "questProgress": {
+        "fraction_quest": {
+          "questId": "fraction_quest",
+          "currentStep": "frac_step_1",
+          "completedSteps": [],
+          "startedAt": "2024-01-30T09:00:00Z",
+          "lastActivity": "2024-01-30T10:30:00Z",
+          "attempts": 3,
+          "score": 85
+        }
+      },
+      "subjectProgress": {
+        "math": {
+          "currentChapter": "fractions_decimals",
+          "completedChapters": ["numbers_operations"],
+          "overallProgress": 78,
+          "lastUpdated": "2024-01-30T10:00:00Z"
+        },
+        "science": {
+          "currentChapter": "matter_energy",
+          "completedChapters": ["scientific_method"],
+          "overallProgress": 65,
+          "lastUpdated": "2024-01-29T15:00:00Z"
+        },
+        "english": {
+          "currentChapter": "grammar_basics",
+          "completedChapters": ["reading_comprehension"],
+          "overallProgress": 71,
+          "lastUpdated": "2024-01-28T14:00:00Z"
+        }
+      },
+      "achievements": [
+        {
+          "id": "first-quest",
+          "title": "Quest Conqueror",
+          "description": "Complete your first daily quest",
+          "icon": "trophy",
+          "earnedAt": "2024-01-15T10:30:00Z",
+          "mockBlockchainHash": "0x1a2b3c4d5e6f7890abcdef1234567890"
+        }
+      ],
+      "arLabsCompleted": ["solar_system_3d"],
+      "portfolioItems": [],
+      "tutorSessions": []
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "rational_numbers_quiz",
+      "title": "Rational Numbers Mastery",
+      "description": "Test your understanding of rational numbers and their properties",
+      "difficulty": "advanced",
+      "timeLimit": 1200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which of these is a rational number?",
+          "options": ["√2", "π", "3/7", "√5"],
+          "correct_answer": "3/7",
+          "points": 15,
+          "explanation": "A rational number can be expressed as p/q where p and q are integers and q ≠ 0. 3/7 fits this definition."
+        }
+      ],
+      "passing_score": 80,
+      "rewards": {
+        "xp": 150,
+        "badges": ["Number Theory Expert"],
+        "unlocks": ["irrational_numbers_quiz"]
+      }
+    }
+  ]
+}

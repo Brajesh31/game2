@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "science_7_intermediate",
+      "title": "Science - Grade 7",
+      "description": "Intermediate scientific concepts and practical applications",
+      "chapters": [
+        {
+          "id": "nutrition_plants_animals",
+          "title": "Nutrition in Plants and Animals",
+          "topics": ["Photosynthesis", "Digestive System", "Nutrients", "Food Chains"]
+        },
+        {
+          "id": "heat_temperature",
+          "title": "Heat and Temperature",
+          "topics": ["Heat Transfer", "Thermal Expansion", "Temperature Measurement", "Effects of Heat"]
+        },
+        {
+          "id": "acids_bases_salts",
+          "title": "Acids, Bases and Salts",
+          "topics": ["Properties of Acids", "Properties of Bases", "Neutralization", "Indicators"]
+        },
+        {
+          "id": "weather_climate",
+          "title": "Weather, Climate and Adaptations",
+          "topics": ["Weather Elements", "Climate Zones", "Animal Adaptations", "Plant Adaptations"]
+        }
+      ],
+      "difficulty": "intermediate",
+      "estimatedHours": 50
+    }
+  ]
+}

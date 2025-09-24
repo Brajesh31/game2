@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "economics_11_micro",
+      "title": "Economics - Grade 11 (Microeconomics)",
+      "description": "Introduction to microeconomic theory and principles",
+      "chapters": [
+        {
+          "id": "introduction_economics",
+          "title": "Introduction to Economics",
+          "topics": ["Economic Problem", "Scarcity and Choice", "Production Possibility Curve", "Economic Systems"]
+        },
+        {
+          "id": "theory_consumer_behavior",
+          "title": "Theory of Consumer Behavior",
+          "topics": ["Utility Analysis", "Demand", "Elasticity of Demand", "Consumer Equilibrium"]
+        },
+        {
+          "id": "theory_production",
+          "title": "Theory of Production and Cost",
+          "topics": ["Production Function", "Law of Variable Proportions", "Returns to Scale", "Cost Concepts"]
+        },
+        {
+          "id": "market_forms",
+          "title": "Forms of Market and Price Determination",
+          "topics": ["Perfect Competition", "Monopoly", "Monopolistic Competition", "Oligopoly"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 95
+    }
+  ]
+}

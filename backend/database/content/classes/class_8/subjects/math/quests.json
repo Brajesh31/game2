@@ -1,0 +1,226 @@
+{
+  "quests": [
+    {
+      "id": "rational_number_realm",
+      "title": "The Rational Number Realm Adventure",
+      "description": "Enter the sophisticated Rational Number Realm and master the art of rational numbers!",
+      "type": "mathematical_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "60 min",
+      "xpReward": 300,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Rational Number Realm is a place where numbers can be expressed as fractions! King Rational needs your help to organize his kingdom and defeat the Irrational Invaders!",
+        "setting": "The Rational Number Realm",
+        "character": "King Rational"
+      },
+      "steps": [
+        {
+          "id": "rational_identification_academy",
+          "type": "classification",
+          "title": "Rational Identification Academy",
+          "narrative": "King Rational trains you to identify true rational numbers. Not all numbers can enter this exclusive realm!",
+          "problem": {
+            "question": "Which of these numbers is rational?",
+            "type": "multiple_choice",
+            "options": ["√2", "π (pi)", "3/7", "√5"],
+            "correct_answer": "3/7",
+            "explanation": "Excellent identification! 3/7 is rational because it can be written as p/q where p and q are integers and q ≠ 0. The others are irrational!"
+          }
+        },
+        {
+          "id": "decimal_expansion_laboratory",
+          "type": "pattern_recognition",
+          "title": "Decimal Expansion Laboratory",
+          "narrative": "Explore the Decimal Laboratory where rational numbers reveal their decimal secrets! Some terminate, others repeat forever!",
+          "problem": {
+            "question": "What type of decimal expansion does 1/4 have?",
+            "type": "multiple_choice",
+            "options": ["Non-terminating repeating", "Terminating", "Non-terminating non-repeating", "Undefined"],
+            "correct_answer": "Terminating",
+            "explanation": "Perfect analysis! 1/4 = 0.25, which terminates (ends). Rational numbers either terminate or repeat in their decimal form!"
+          }
+        },
+        {
+          "id": "operations_battlefield",
+          "type": "calculation_mastery",
+          "title": "Operations Battlefield",
+          "narrative": "Master the battlefield where rational numbers fight using addition, subtraction, multiplication, and division!",
+          "problem": {
+            "question": "Calculate: 2/3 + 1/6 = ?",
+            "type": "multiple_choice",
+            "options": ["3/9", "5/6", "1/2", "2/9"],
+            "correct_answer": "5/6",
+            "explanation": "Battle victory! Find common denominator: 2/3 = 4/6, so 4/6 + 1/6 = 5/6. You've mastered rational number operations!"
+          }
+        },
+        {
+          "id": "irrational_invader_boss_fight",
+          "type": "boss_battle",
+          "title": "Defeat the Irrational Invader",
+          "narrative": "The ultimate challenge! The Irrational Invader threatens the Rational Realm. Use all your rational number knowledge to defend the kingdom!",
+          "problem": {
+            "question": "The Irrational Invader claims that 0.333... (repeating) is irrational. Prove him wrong!",
+            "type": "multiple_choice",
+            "options": ["It equals 1/3, so it's rational", "It's irrational because it repeats", "It's neither rational nor irrational", "The invader is correct"],
+            "correct_answer": "It equals 1/3, so it's rational",
+            "explanation": "Kingdom saved! 0.333... = 1/3, which is a fraction (p/q form), making it rational! Repeating decimals are actually rational numbers in disguise!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 300,
+        "badges": ["Rational Number Master", "Kingdom Defender"],
+        "unlocks": ["linear_equation_detective", "quadrilateral_architect_guild"]
+      }
+    },
+    {
+      "id": "linear_equation_detective",
+      "title": "The Linear Equation Detective Agency",
+      "description": "Join the elite detective agency that solves mysteries using linear equations!",
+      "type": "problem_solving_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "55 min",
+      "xpReward": 280,
+      "prerequisites": ["rational_number_realm"],
+      "story": {
+        "introduction": "The Linear Equation Detective Agency handles the toughest mathematical mysteries! Detective Algebra needs your help to solve cases where unknown values hide behind mathematical clues!",
+        "setting": "The Linear Equation Detective Agency",
+        "character": "Detective Algebra"
+      },
+      "steps": [
+        {
+          "id": "missing_number_case",
+          "type": "equation_solving",
+          "title": "The Case of the Missing Number",
+          "narrative": "Your first case: A number has gone missing from an equation! Use your detective skills to find it.",
+          "problem": {
+            "question": "Solve for x: 3x + 7 = 22",
+            "type": "multiple_choice",
+            "options": ["x = 3", "x = 5", "x = 7", "x = 9"],
+            "correct_answer": "x = 5",
+            "explanation": "Case solved! Subtract 7 from both sides: 3x = 15, then divide by 3: x = 5. The missing number has been found!"
+          }
+        },
+        {
+          "id": "word_problem_investigation",
+          "type": "real_world_application",
+          "title": "Word Problem Investigation",
+          "narrative": "Real-world mysteries need mathematical solutions! Translate word problems into equations to crack the case.",
+          "problem": {
+            "question": "Mystery: A shopkeeper sold 3 times as many apples as oranges. If he sold 15 apples, how many oranges did he sell?",
+            "type": "multiple_choice",
+            "options": ["3 oranges", "5 oranges", "12 oranges", "45 oranges"],
+            "correct_answer": "5 oranges",
+            "explanation": "Mystery solved! If apples = 3 × oranges, and apples = 15, then 15 = 3 × oranges, so oranges = 15 ÷ 3 = 5!"
+          }
+        },
+        {
+          "id": "age_puzzle_challenge",
+          "type": "logical_reasoning",
+          "title": "The Age Puzzle Challenge",
+          "narrative": "Solve the famous age puzzles that have stumped detectives for years! Use algebra to unlock the secrets of time.",
+          "problem": {
+            "question": "Sarah is 3 years older than Tom. If Sarah is 15 years old, how old is Tom?",
+            "type": "multiple_choice",
+            "options": ["12 years", "18 years", "10 years", "15 years"],
+            "correct_answer": "12 years",
+            "explanation": "Age mystery solved! If Sarah = Tom + 3, and Sarah = 15, then 15 = Tom + 3, so Tom = 15 - 3 = 12 years old!"
+          }
+        },
+        {
+          "id": "equation_master_showdown",
+          "type": "boss_battle",
+          "title": "Showdown with the Equation Master",
+          "narrative": "The ultimate detective challenge! The Equation Master has created the most complex linear equation mystery. Solve it to become the agency's top detective!",
+          "problem": {
+            "question": "Final case: 2(x + 3) = 3x - 1. Find the value of x!",
+            "type": "multiple_choice",
+            "options": ["x = 5", "x = 7", "x = 9", "x = 11"],
+            "correct_answer": "x = 7",
+            "explanation": "Master Detective achievement unlocked! Expand: 2x + 6 = 3x - 1, rearrange: 6 + 1 = 3x - 2x, so 7 = x. Case closed!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 280,
+        "badges": ["Linear Equation Detective", "Mathematical Investigator"],
+        "unlocks": ["quadrilateral_architect_guild", "data_handling_analytics"]
+      }
+    },
+    {
+      "id": "quadrilateral_architect_guild",
+      "title": "The Quadrilateral Architect Guild",
+      "description": "Join the elite guild of architects who design amazing structures using four-sided shapes!",
+      "type": "geometric_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "50 min",
+      "xpReward": 260,
+      "prerequisites": ["linear_equation_detective"],
+      "story": {
+        "introduction": "The Quadrilateral Architect Guild builds the most beautiful and stable structures in the world! Master Architect Euclid will teach you the secrets of four-sided shapes!",
+        "setting": "The Quadrilateral Architect Guild Hall",
+        "character": "Master Architect Euclid"
+      },
+      "steps": [
+        {
+          "id": "parallelogram_construction_site",
+          "type": "property_understanding",
+          "title": "Parallelogram Construction Site",
+          "narrative": "Learn to build with parallelograms! These special quadrilaterals have amazing properties that make structures strong and beautiful.",
+          "problem": {
+            "question": "What special property do parallelograms have?",
+            "type": "multiple_choice",
+            "options": ["All sides are equal", "Opposite sides are parallel and equal", "All angles are 90 degrees", "Only two sides are equal"],
+            "correct_answer": "Opposite sides are parallel and equal",
+            "explanation": "Architectural mastery! Parallelograms have opposite sides that are both parallel and equal in length. This makes them perfect for stable structures!"
+          }
+        },
+        {
+          "id": "rectangle_blueprint_design",
+          "type": "design_application",
+          "title": "Rectangle Blueprint Design",
+          "narrative": "Design perfect rectangular structures! Rectangles are everywhere in architecture because of their special properties.",
+          "problem": {
+            "question": "A rectangular garden has length 12m and width 8m. What is its area?",
+            "type": "multiple_choice",
+            "options": ["20 sq m", "40 sq m", "96 sq m", "160 sq m"],
+            "correct_answer": "96 sq m",
+            "explanation": "Perfect blueprint! Area of rectangle = length × width = 12 × 8 = 96 square meters. Your garden design is mathematically perfect!"
+          }
+        },
+        {
+          "id": "rhombus_diamond_workshop",
+          "type": "special_properties",
+          "title": "Rhombus Diamond Workshop",
+          "narrative": "Create beautiful diamond-shaped structures using rhombuses! These special parallelograms have all sides equal.",
+          "problem": {
+            "question": "What makes a rhombus special among parallelograms?",
+            "type": "multiple_choice",
+            "options": ["All angles are equal", "All sides are equal", "Only opposite sides are equal", "It has no parallel sides"],
+            "correct_answer": "All sides are equal",
+            "explanation": "Diamond-level understanding! A rhombus is a parallelogram where all four sides are equal in length, like a diamond shape!"
+          }
+        },
+        {
+          "id": "quadrilateral_master_architect",
+          "type": "boss_battle",
+          "title": "Become the Quadrilateral Master Architect",
+          "narrative": "The ultimate architectural challenge! Design a complex structure using all types of quadrilaterals to prove your mastery!",
+          "problem": {
+            "question": "Which quadrilateral has all sides equal AND all angles equal to 90 degrees?",
+            "type": "multiple_choice",
+            "options": ["Rectangle", "Rhombus", "Square", "Parallelogram"],
+            "correct_answer": "Square",
+            "explanation": "Master Architect status achieved! A square is the perfect quadrilateral - it's both a rectangle (90° angles) AND a rhombus (equal sides)!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 260,
+        "badges": ["Quadrilateral Master Architect", "Geometric Designer"],
+        "unlocks": ["data_handling_analytics", "mensuration_engineering_corps"]
+      }
+    }
+  ]
+}

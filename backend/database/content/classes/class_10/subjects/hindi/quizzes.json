@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "board_hindi_quiz",
+      "title": "बोर्ड हिंदी तैयारी परीक्षा",
+      "description": "बोर्ड परीक्षा के लिए संपूर्ण हिंदी की तैयारी",
+      "difficulty": "board_level",
+      "timeLimit": 3600,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "'नेताजी का चश्मा' कहानी के लेखक कौन हैं?",
+          "options": ["प्रेमचंद", "स्वयं प्रकाश", "यशपाल", "फणीश्वरनाथ रेणु"],
+          "correct_answer": "स्वयं प्रकाश",
+          "points": 5,
+          "explanation": "'नेताजी का चश्मा' कहानी के लेखक स्वयं प्रकाश जी हैं।"
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 300,
+        "badges": ["बोर्ड तैयार"],
+        "unlocks": ["advanced_hindi_literature"]
+      }
+    }
+  ]
+}

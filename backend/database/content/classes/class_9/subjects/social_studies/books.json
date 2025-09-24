@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "social_studies_9",
+      "title": "Social Studies - Grade 9",
+      "description": "Democratic politics, economics, and contemporary India",
+      "chapters": [
+        {
+          "id": "democratic_politics",
+          "title": "Democratic Politics",
+          "topics": ["Democracy", "Constitutional Design", "Electoral Politics", "Working of Institutions"]
+        },
+        {
+          "id": "economics_introduction",
+          "title": "Introduction to Economics",
+          "topics": ["Economic Systems", "Poverty", "Food Security", "Development"]
+        },
+        {
+          "id": "contemporary_india",
+          "title": "Contemporary India",
+          "topics": ["Physical Features", "Drainage", "Climate", "Natural Vegetation"]
+        },
+        {
+          "id": "french_revolution",
+          "title": "The French Revolution",
+          "topics": ["Causes", "Course of Revolution", "Impact", "Legacy"]
+        }
+      ],
+      "difficulty": "advanced",
+      "estimatedHours": 70
+    }
+  ]
+}

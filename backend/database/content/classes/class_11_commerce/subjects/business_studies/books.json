@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "business_studies_11",
+      "title": "Business Studies - Grade 11",
+      "description": "Introduction to business concepts, entrepreneurship, and management",
+      "chapters": [
+        {
+          "id": "business_nature_purpose",
+          "title": "Nature and Purpose of Business",
+          "topics": ["Business Concept", "Business Objectives", "Classification of Business", "Business Environment"]
+        },
+        {
+          "id": "forms_business_organization",
+          "title": "Forms of Business Organization",
+          "topics": ["Sole Proprietorship", "Partnership", "Joint Stock Company", "Cooperative Society"]
+        },
+        {
+          "id": "private_public_government",
+          "title": "Private, Public and Global Enterprises",
+          "topics": ["Private Sector", "Public Sector", "Global Enterprises", "Joint Ventures"]
+        },
+        {
+          "id": "business_services",
+          "title": "Business Services",
+          "topics": ["Banking", "Insurance", "Transportation", "Warehousing", "Communication"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 90
+    }
+  ]
+}

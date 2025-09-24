@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "integers_quiz",
+      "title": "Integer Operations Challenge",
+      "description": "Master operations with positive and negative numbers",
+      "difficulty": "medium",
+      "timeLimit": 900,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What is (-8) + (+12)?",
+          "options": ["-20", "-4", "+4", "+20"],
+          "correct_answer": "+4",
+          "points": 10,
+          "explanation": "When adding integers with different signs, subtract the smaller absolute value from the larger and keep the sign of the larger absolute value."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 110,
+        "badges": ["Integer Master"],
+        "unlocks": ["algebra_basics_quiz"]
+      }
+    }
+  ]
+}

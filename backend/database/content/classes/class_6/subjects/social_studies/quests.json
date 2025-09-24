@@ -1,0 +1,213 @@
+{
+  "quests": [
+    {
+      "id": "time_traveler_historian",
+      "title": "The Time Traveler Historian Adventure",
+      "description": "Travel through time to explore ancient civilizations and uncover the secrets of history!",
+      "type": "historical_quest",
+      "difficulty": "easy",
+      "estimatedTime": "50 min",
+      "xpReward": 170,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Professor Chronos has invented an amazing time machine! Join him on incredible journeys to ancient civilizations and discover how people lived thousands of years ago.",
+        "setting": "The Time Travel Laboratory",
+        "character": "Professor Chronos"
+      },
+      "steps": [
+        {
+          "id": "indus_valley_expedition",
+          "type": "exploration",
+          "title": "Expedition to the Indus Valley",
+          "narrative": "Your first time travel destination: the amazing Indus Valley Civilization! Explore the well-planned cities of Harappa and Mohenjo-daro.",
+          "problem": {
+            "question": "What made the Indus Valley cities like Harappa special?",
+            "type": "multiple_choice",
+            "options": ["They had no planning", "They had excellent drainage and street planning", "They were built in mountains", "They had no houses"],
+            "correct_answer": "They had excellent drainage and street planning",
+            "explanation": "Amazing discovery! The Indus Valley people were master city planners. They built straight streets, proper drainage systems, and even public baths!"
+          }
+        },
+        {
+          "id": "ancient_egypt_pyramid_quest",
+          "type": "investigation",
+          "title": "Ancient Egypt Pyramid Quest",
+          "narrative": "Travel to ancient Egypt and help the pharaohs build their magnificent pyramids! Learn about this incredible civilization.",
+          "problem": {
+            "question": "Why did ancient Egyptians build pyramids?",
+            "type": "multiple_choice",
+            "options": ["As houses for people", "As tombs for pharaohs", "As temples for animals", "As schools for children"],
+            "correct_answer": "As tombs for pharaohs",
+            "explanation": "Correct! Pyramids were magnificent tombs for pharaohs (Egyptian kings). They believed pharaohs would need their treasures in the afterlife!"
+          }
+        },
+        {
+          "id": "mesopotamia_invention_lab",
+          "type": "discovery",
+          "title": "Mesopotamia Invention Laboratory",
+          "narrative": "Visit ancient Mesopotamia, the 'cradle of civilization'! Discover the amazing inventions that changed the world forever.",
+          "problem": {
+            "question": "What important invention did the people of Mesopotamia give to the world?",
+            "type": "multiple_choice",
+            "options": ["The wheel", "The computer", "The airplane", "The telephone"],
+            "correct_answer": "The wheel",
+            "explanation": "Fantastic! The wheel was one of humanity's greatest inventions! It revolutionized transportation and is still essential today."
+          }
+        },
+        {
+          "id": "civilization_time_master",
+          "type": "boss_battle",
+          "title": "Become the Civilization Time Master",
+          "narrative": "The ultimate time travel challenge! The Time Guardian tests your knowledge of all ancient civilizations. Prove you're worthy of the Time Master title!",
+          "problem": {
+            "question": "Which ancient civilization is known for creating the first writing system?",
+            "type": "multiple_choice",
+            "options": ["Indus Valley", "Mesopotamian (Sumerian)", "Egyptian", "Chinese"],
+            "correct_answer": "Mesopotamian (Sumerian)",
+            "explanation": "Brilliant! The Sumerians in Mesopotamia created cuneiform, the world's first writing system. This allowed humans to record history and knowledge!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 170,
+        "badges": ["Time Travel Master", "Ancient Civilization Explorer"],
+        "unlocks": ["geography_explorer_quest", "indian_heritage_journey"]
+      }
+    },
+    {
+      "id": "geography_explorer_quest",
+      "title": "The Geography Explorer Quest",
+      "description": "Become a world explorer and discover the amazing features of our planet Earth!",
+      "type": "exploration_quest",
+      "difficulty": "easy",
+      "estimatedTime": "45 min",
+      "xpReward": 150,
+      "prerequisites": ["time_traveler_historian"],
+      "story": {
+        "introduction": "Captain Globe needs brave explorers to map the world! Join the Geography Explorer Team and discover continents, oceans, mountains, and rivers!",
+        "setting": "The Global Exploration Headquarters",
+        "character": "Captain Globe"
+      },
+      "steps": [
+        {
+          "id": "continent_discovery_mission",
+          "type": "identification",
+          "title": "The Great Continent Discovery",
+          "narrative": "Your first mission: identify all seven continents! Captain Globe's magic globe will test your knowledge.",
+          "problem": {
+            "question": "Which is the largest continent in the world?",
+            "type": "multiple_choice",
+            "options": ["Africa", "Asia", "North America", "Europe"],
+            "correct_answer": "Asia",
+            "explanation": "Excellent! Asia is the largest continent, home to countries like India, China, and Russia. It covers about 30% of Earth's land!"
+          }
+        },
+        {
+          "id": "ocean_adventure_voyage",
+          "type": "exploration",
+          "title": "Ocean Adventure Voyage",
+          "narrative": "Dive into the ocean adventure! Explore the five mighty oceans that cover most of our blue planet.",
+          "problem": {
+            "question": "Which ocean surrounds India on three sides?",
+            "type": "multiple_choice",
+            "options": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
+            "correct_answer": "Indian Ocean",
+            "explanation": "Perfect! The Indian Ocean surrounds India on the south, southwest, and southeast. It's named after our beautiful country!"
+          }
+        },
+        {
+          "id": "mountain_climbing_challenge",
+          "type": "physical_geography",
+          "title": "Mountain Climbing Challenge",
+          "narrative": "Scale the highest peaks and learn about Earth's magnificent mountain ranges! Each mountain has its own story.",
+          "problem": {
+            "question": "Which mountain range contains Mount Everest, the world's highest peak?",
+            "type": "multiple_choice",
+            "options": ["Rocky Mountains", "Andes Mountains", "Himalayas", "Alps"],
+            "correct_answer": "Himalayas",
+            "explanation": "Amazing! The Himalayas contain Mount Everest. These mountains are like Earth's crown, and they're right here in our region!"
+          }
+        },
+        {
+          "id": "climate_weather_wizard",
+          "type": "boss_battle",
+          "title": "Defeat the Climate Weather Wizard",
+          "narrative": "The Weather Wizard has mixed up all the seasons and climates! Use your geography knowledge to restore natural order to the world!",
+          "problem": {
+            "question": "Why does India have different seasons throughout the year?",
+            "type": "multiple_choice",
+            "options": ["Earth moves closer and farther from the sun", "Earth tilts as it orbits the sun", "The sun gets hotter and cooler", "Clouds change the weather"],
+            "correct_answer": "Earth tilts as it orbits the sun",
+            "explanation": "Brilliant! Earth tilts on its axis as it orbits the sun. This tilt causes different parts to get more or less sunlight, creating our seasons!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 150,
+        "badges": ["Geography Explorer", "World Navigator"],
+        "unlocks": ["indian_heritage_journey", "map_making_academy"]
+      }
+    },
+    {
+      "id": "indian_heritage_journey",
+      "title": "The Indian Heritage Journey",
+      "description": "Discover the rich cultural heritage of India through festivals, traditions, and values!",
+      "type": "cultural_quest",
+      "difficulty": "easy",
+      "estimatedTime": "40 min",
+      "xpReward": 135,
+      "prerequisites": ["geography_explorer_quest"],
+      "story": {
+        "introduction": "Welcome to the Indian Heritage Museum! Curator Bharati will take you on a colorful journey through India's festivals, languages, arts, and traditions.",
+        "setting": "The Indian Heritage Museum",
+        "character": "Curator Bharati"
+      },
+      "steps": [
+        {
+          "id": "festival_celebration_hall",
+          "type": "cultural_learning",
+          "title": "Festival Celebration Hall",
+          "narrative": "Enter the Festival Hall where every day is a celebration! Learn about India's colorful festivals and their meanings.",
+          "problem": {
+            "question": "Which festival is known as the 'Festival of Lights'?",
+            "type": "multiple_choice",
+            "options": ["Holi", "Diwali", "Eid", "Christmas"],
+            "correct_answer": "Diwali",
+            "explanation": "Wonderful! Diwali is the Festival of Lights when we light diyas and celebrate the victory of light over darkness, good over evil!"
+          }
+        },
+        {
+          "id": "language_diversity_garden",
+          "type": "diversity_appreciation",
+          "title": "Language Diversity Garden",
+          "narrative": "Walk through the Language Garden where every flower represents a different Indian language! Appreciate our linguistic diversity.",
+          "problem": {
+            "question": "How many official languages does India have?",
+            "type": "multiple_choice",
+            "options": ["1", "2", "22", "100"],
+            "correct_answer": "22",
+            "explanation": "Excellent! India has 22 official languages! This shows how diverse and rich our country is. Unity in diversity is our strength!"
+          }
+        },
+        {
+          "id": "art_craft_workshop",
+          "type": "creative_appreciation",
+          "title": "Traditional Art and Craft Workshop",
+          "narrative": "Visit the workshop where master artisans create beautiful traditional crafts. Learn about India's artistic heritage!",
+          "problem": {
+            "question": "Which traditional Indian art form uses colored sand to create beautiful patterns?",
+            "type": "multiple_choice",
+            "options": ["Rangoli", "Madhubani", "Warli", "Tanjore"],
+            "correct_answer": "Rangoli",
+            "explanation": "Perfect! Rangoli is made with colored sand, rice, or flower petals. It's created during festivals to welcome guests and bring good luck!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 135,
+        "badges": ["Heritage Guardian", "Cultural Ambassador"],
+        "unlocks": ["citizenship_academy", "democracy_training_camp"]
+      }
+    }
+  ]
+}

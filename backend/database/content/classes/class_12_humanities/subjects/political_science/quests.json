@@ -1,0 +1,30 @@
+{
+  "quests": [
+    {
+      "id": "international_diplomat",
+      "title": "International Diplomat Challenge",
+      "description": "Navigate complex international relations and diplomatic challenges!",
+      "type": "diplomatic_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "85 min",
+      "xpReward": 510,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "cold_war_diplomacy",
+          "type": "diplomatic_analysis",
+          "title": "Cold War Diplomacy Challenge",
+          "narrative": "You are a diplomat during the Cold War. Navigate the complex international situation!",
+          "problem": {
+            "question": "How did the Non-Aligned Movement help developing countries during the Cold War?",
+            "type": "essay_short",
+            "rubric": {
+              "criteria": ["Understanding of NAM", "Cold War context", "Benefits analysis", "Historical examples"],
+              "max_points": 25
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "economics_12_macro",
+      "title": "Economics - Grade 12 (Macroeconomics)",
+      "description": "Macroeconomic theory and Indian economic development",
+      "chapters": [
+        {
+          "id": "national_income",
+          "title": "National Income and Related Aggregates",
+          "topics": ["GDP, GNP, NNP", "Methods of Calculation", "Real vs Nominal", "Welfare and GDP"]
+        },
+        {
+          "id": "money_banking",
+          "title": "Money and Banking",
+          "topics": ["Money Functions", "Commercial Banks", "Central Bank", "Credit Creation"]
+        },
+        {
+          "id": "income_employment",
+          "title": "Determination of Income and Employment",
+          "topics": ["Aggregate Demand", "Aggregate Supply", "Investment Multiplier", "Full Employment"]
+        },
+        {
+          "id": "government_budget",
+          "title": "Government Budget and the Economy",
+          "topics": ["Government Budget", "Fiscal Policy", "Public Debt", "Deficit Financing"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 100
+    }
+  ]
+}

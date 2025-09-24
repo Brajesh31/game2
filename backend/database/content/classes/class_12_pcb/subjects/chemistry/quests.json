@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "biochemistry_explorer",
+      "title": "Biochemistry Explorer Mission",
+      "description": "Explore the chemistry of life and understand biological processes at the molecular level!",
+      "type": "biochemistry_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "85 min",
+      "xpReward": 500,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "protein_structure_study",
+          "type": "biochemical_analysis",
+          "title": "Protein Structure Investigation",
+          "narrative": "Dr. Biochem needs your help to understand protein structures and their functions.",
+          "problem": {
+            "question": "What determines the primary structure of a protein?",
+            "type": "multiple_choice",
+            "options": [
+              "Hydrogen bonding pattern",
+              "Sequence of amino acids",
+              "3D folding pattern",
+              "Disulfide bonds"
+            ],
+            "correct_answer": "Sequence of amino acids",
+            "explanation": "Primary structure is determined by the linear sequence of amino acids connected by peptide bonds."
+          }
+        }
+      ]
+    }
+  ]
+}

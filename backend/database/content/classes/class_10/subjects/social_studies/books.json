@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "social_studies_10_board",
+      "title": "Social Studies - Grade 10",
+      "description": "Board examination social studies covering history, geography, civics, and economics",
+      "chapters": [
+        {
+          "id": "nationalism_europe",
+          "title": "The Rise of Nationalism in Europe",
+          "topics": ["French Revolution Impact", "Unification of Germany", "Unification of Italy", "Nationalism and Imperialism"]
+        },
+        {
+          "id": "nationalism_india",
+          "title": "Nationalism in India",
+          "topics": ["Non-Cooperation Movement", "Civil Disobedience", "Quit India Movement", "Partition"]
+        },
+        {
+          "id": "resources_development",
+          "title": "Resources and Development",
+          "topics": ["Resource Planning", "Land Resources", "Water Resources", "Forest Resources"]
+        },
+        {
+          "id": "democratic_politics",
+          "title": "Democratic Politics",
+          "topics": ["Power Sharing", "Federalism", "Democracy and Diversity", "Political Parties"]
+        }
+      ],
+      "difficulty": "board_level",
+      "estimatedHours": 90
+    }
+  ]
+}

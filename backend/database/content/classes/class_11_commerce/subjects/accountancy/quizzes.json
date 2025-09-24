@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "accounting_fundamentals_quiz",
+      "title": "Accounting Fundamentals Test",
+      "description": "Test your understanding of basic accounting principles and procedures",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which of these follows the accounting equation Assets = Liabilities + Capital?",
+          "options": [
+            "Purchase of goods for cash",
+            "Sale of goods on credit",
+            "Payment to creditors",
+            "All of the above"
+          ],
+          "correct_answer": "All of the above",
+          "points": 5,
+          "explanation": "All business transactions must maintain the accounting equation balance."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 270,
+        "badges": ["Accounting Expert"],
+        "unlocks": ["advanced_accounting_quiz"]
+      }
+    }
+  ]
+}

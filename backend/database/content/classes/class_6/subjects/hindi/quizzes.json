@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "hindi_vyakaran_quiz",
+      "title": "हिंदी व्याकरण प्रश्नोत्तरी",
+      "description": "हिंदी व्याकरण की बुनियादी बातों की जांच",
+      "difficulty": "easy",
+      "timeLimit": 600,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "'लड़का' शब्द में कौन सी मात्रा है?",
+          "options": ["अ की मात्रा", "आ की मात्रा", "इ की मात्रा", "उ की मात्रा"],
+          "correct_answer": "अ की मात्रा",
+          "points": 10,
+          "explanation": "'लड़का' में 'अ' की मात्रा है जो स्वर के रूप में प्रयोग होती है।"
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 80,
+        "badges": ["व्याकरण विशेषज्ञ"],
+        "unlocks": ["advanced_hindi_quiz"]
+      }
+    }
+  ]
+}

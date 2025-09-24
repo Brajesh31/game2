@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "microorganisms_quiz",
+      "title": "Microorganisms Knowledge Test",
+      "description": "Test your understanding of the microscopic world",
+      "difficulty": "advanced",
+      "timeLimit": 900,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which microorganism is used in making bread?",
+          "options": ["Bacteria", "Virus", "Yeast", "Algae"],
+          "correct_answer": "Yeast",
+          "points": 10,
+          "explanation": "Yeast is a fungus that ferments sugars in dough, producing carbon dioxide that makes bread rise."
+        }
+      ],
+      "passing_score": 80,
+      "rewards": {
+        "xp": 120,
+        "badges": ["Microbe Expert"],
+        "unlocks": ["cell_biology_quiz"]
+      }
+    }
+  ]
+}

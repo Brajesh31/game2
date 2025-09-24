@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "biophysics_quiz",
+      "title": "Biophysics Applications Test",
+      "description": "Test your understanding of physics applications in biology and medicine",
+      "difficulty": "board_advanced",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which property of ultrasound makes it useful for medical imaging?",
+          "options": [
+            "High frequency and good penetration",
+            "Low frequency and poor penetration",
+            "Visible to human eye",
+            "Causes no reflections"
+          ],
+          "correct_answer": "High frequency and good penetration",
+          "points": 5,
+          "explanation": "Ultrasound has high frequency (above 20 kHz) and good penetration properties, making it safe and effective for medical imaging."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 350,
+        "badges": ["Biophysics Expert"],
+        "unlocks": ["medical_physics_advanced"]
+      }
+    }
+  ]
+}

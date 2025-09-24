@@ -1,0 +1,37 @@
+{
+  "user": {
+    "id": "admin-001",
+    "username": "admin",
+    "name": "Sarah Johnson",
+    "role": "admin",
+    "email": "sarah.johnson@system.admin",
+    "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150"
+  },
+  "permissions": ["user_management", "system_config", "analytics", "content_moderation"],
+  "systemMetrics": {
+    "totalUsers": 1247,
+    "activeToday": 892,
+    "averageEngagement": 76.3,
+    "systemHealth": 98.5
+  },
+  "analyticsData": {
+    "userGrowth": [
+      { "month": "Jan", "students": 456, "teachers": 23, "guardians": 178 },
+      { "month": "Feb", "students": 523, "teachers": 27, "guardians": 201 },
+      { "month": "Mar", "students": 612, "teachers": 31, "guardians": 245 },
+      { "month": "Apr", "students": 698, "teachers": 35, "guardians": 278 },
+      { "month": "May", "students": 789, "teachers": 39, "guardians": 312 },
+      { "month": "Jun", "students": 856, "teachers": 42, "guardians": 349 }
+    ],
+    "engagementMetrics": {
+      "dailyActive": [85, 78, 92, 88, 94, 87, 91],
+      "weeklyRetention": 76.5,
+      "averageSessionTime": 24.3,
+      "completionRates": {
+        "quests": 87.2,
+        "challenges": 64.8,
+        "assessments": 91.5
+      }
+    }
+  }
+}

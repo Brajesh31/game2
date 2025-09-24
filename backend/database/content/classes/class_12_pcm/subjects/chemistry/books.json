@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "chemistry_12_advanced",
+      "title": "Chemistry - Grade 12",
+      "description": "Advanced chemistry covering physical, organic, and inorganic chemistry",
+      "chapters": [
+        {
+          "id": "solid_state",
+          "title": "The Solid State",
+          "topics": ["Crystal Lattices", "Unit Cells", "Packing Efficiency", "Imperfections in Solids"]
+        },
+        {
+          "id": "solutions",
+          "title": "Solutions",
+          "topics": ["Concentration Terms", "Raoult's Law", "Colligative Properties", "Abnormal Molecular Mass"]
+        },
+        {
+          "id": "chemical_kinetics",
+          "title": "Chemical Kinetics",
+          "topics": ["Rate of Reaction", "Rate Law", "Order and Molecularity", "Arrhenius Equation"]
+        },
+        {
+          "id": "organic_chemistry_advanced",
+          "title": "Organic Chemistry",
+          "topics": ["Alcohols and Phenols", "Ethers", "Aldehydes and Ketones", "Carboxylic Acids"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 150
+    }
+  ]
+}

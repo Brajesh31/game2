@@ -1,0 +1,30 @@
+{
+  "quests": [
+    {
+      "id": "indian_heritage_guardian",
+      "title": "Indian Heritage Guardian Quest",
+      "description": "Protect and preserve India's rich historical heritage through deep understanding!",
+      "type": "heritage_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "95 min",
+      "xpReward": 550,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "harappan_mystery",
+          "type": "archaeological_analysis",
+          "title": "Harappan Civilization Mystery",
+          "narrative": "Archaeological evidence from Harappa needs interpretation. Use your historical analysis skills!",
+          "problem": {
+            "question": "What does the uniformity of Harappan artifacts across different sites suggest about their civilization?",
+            "type": "essay_short",
+            "rubric": {
+              "criteria": ["Archaeological understanding", "Logical reasoning", "Historical evidence", "Clear explanation"],
+              "max_points": 25
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

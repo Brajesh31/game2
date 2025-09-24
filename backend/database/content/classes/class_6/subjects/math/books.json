@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "math_6_fundamentals",
+      "title": "Mathematics - Grade 6",
+      "description": "Foundation mathematics with numbers, operations, and basic geometry",
+      "chapters": [
+        {
+          "id": "numbers_operations",
+          "title": "Numbers and Operations",
+          "topics": ["Whole Numbers", "Place Value", "Addition and Subtraction", "Multiplication and Division"]
+        },
+        {
+          "id": "fractions_decimals",
+          "title": "Fractions and Decimals",
+          "topics": ["Understanding Fractions", "Equivalent Fractions", "Decimal Numbers", "Operations with Decimals"]
+        },
+        {
+          "id": "geometry_basics",
+          "title": "Basic Geometry",
+          "topics": ["Lines and Angles", "Triangles", "Quadrilaterals", "Circles"]
+        },
+        {
+          "id": "measurement",
+          "title": "Measurement",
+          "topics": ["Length", "Weight", "Capacity", "Time", "Money"]
+        }
+      ],
+      "difficulty": "beginner",
+      "estimatedHours": 40
+    }
+  ]
+}

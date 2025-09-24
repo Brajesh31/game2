@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "business_fundamentals_quiz",
+      "title": "Business Fundamentals Test",
+      "description": "Test your understanding of basic business concepts and organization",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What is the primary objective of business?",
+          "options": [
+            "Social service",
+            "Profit maximization",
+            "Employment generation",
+            "All of the above"
+          ],
+          "correct_answer": "All of the above",
+          "points": 5,
+          "explanation": "Modern businesses aim for profit while also contributing to society through employment and services."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 260,
+        "badges": ["Business Expert"],
+        "unlocks": ["entrepreneurship_quiz"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "quizzes": [
+    {
+      "id": "basic_arithmetic_quiz",
+      "title": "Basic Arithmetic Challenge",
+      "description": "Test your fundamental math skills",
+      "difficulty": "easy",
+      "timeLimit": 600,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What is 456 + 345?",
+          "options": ["801", "791", "811", "701"],
+          "correct_answer": "801",
+          "points": 10,
+          "explanation": "456 + 345 = 801. Add column by column: 6+5=11 (write 1, carry 1), 5+4+1=10 (write 0, carry 1), 4+3+1=8."
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "What is 12 × 8?",
+          "options": ["84", "96", "104", "88"],
+          "correct_answer": "96",
+          "points": 10,
+          "explanation": "12 × 8 = 96. You can think of it as (10 × 8) + (2 × 8) = 80 + 16 = 96."
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Arrange these fractions in ascending order: 1/2, 1/4, 3/4, 1/8",
+          "options": ["1/8, 1/4, 1/2, 3/4", "1/4, 1/8, 1/2, 3/4", "1/2, 1/4, 3/4, 1/8", "3/4, 1/2, 1/4, 1/8"],
+          "correct_answer": "1/8, 1/4, 1/2, 3/4",
+          "points": 15,
+          "explanation": "Convert to decimals: 1/8=0.125, 1/4=0.25, 1/2=0.5, 3/4=0.75. Ascending order: 1/8, 1/4, 1/2, 3/4."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 75,
+        "badges": ["Math Beginner"],
+        "unlocks": ["fraction_quiz"]
+      }
+    }
+  ]
+}

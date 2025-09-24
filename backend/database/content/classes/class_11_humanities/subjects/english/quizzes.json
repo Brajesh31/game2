@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "humanities_english_quiz",
+      "title": "Humanities English Proficiency Test",
+      "description": "Advanced English test for humanities stream students",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which literary movement emphasized emotion and individualism?",
+          "options": ["Classicism", "Romanticism", "Realism", "Modernism"],
+          "correct_answer": "Romanticism",
+          "points": 5,
+          "explanation": "Romanticism emphasized emotion, individualism, and the glorification of nature, in contrast to the rationalism of the Enlightenment."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 260,
+        "badges": ["Literary Scholar"],
+        "unlocks": ["advanced_literary_criticism"]
+      }
+    }
+  ]
+}

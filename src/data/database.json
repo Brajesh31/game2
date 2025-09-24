@@ -1,0 +1,242 @@
+{
+  "users": {
+    "student-001": {
+      "id": "student-001",
+      "username": "student",
+      "name": "Aria Patel",
+      "role": "student",
+      "email": "aria.patel@example.com",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "level": 12,
+      "xp": 2847,
+      "status": "On Track",
+      "lastActive": "2024-01-30T10:30:00Z",
+      "guardianId": "guardian-001"
+    },
+    "student-002": {
+      "id": "student-002",
+      "username": "student2",
+      "name": "Rahul Sharma",
+      "role": "student",
+      "email": "rahul.sharma@example.com",
+      "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "level": 8,
+      "xp": 1456,
+      "status": "Struggling",
+      "lastActive": "2024-01-29T15:20:00Z",
+      "guardianId": "guardian-002"
+    },
+    "student-003": {
+      "id": "student-003",
+      "username": "student3",
+      "name": "Priya Singh",
+      "role": "student",
+      "email": "priya.singh@example.com",
+      "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "level": 15,
+      "xp": 3892,
+      "status": "Needs Help",
+      "lastActive": "2024-01-30T08:45:00Z",
+      "guardianId": "guardian-003"
+    },
+    "teacher-001": {
+      "id": "teacher-001",
+      "username": "teacher",
+      "name": "Dr. Rajesh Kumar",
+      "role": "teacher",
+      "email": "rajesh.kumar@school.edu",
+      "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "subjects": ["Mathematics", "Physics"],
+      "professionalDevelopment": {
+        "completedModules": 8,
+        "totalModules": 12,
+        "currentCourse": "Advanced Teaching Techniques"
+      }
+    },
+    "admin-001": {
+      "id": "admin-001",
+      "username": "admin",
+      "name": "Sarah Johnson",
+      "role": "admin",
+      "email": "sarah.johnson@system.admin",
+      "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150"
+    },
+    "guardian-001": {
+      "id": "guardian-001",
+      "username": "guardian",
+      "name": "Priya Sharma",
+      "role": "guardian",
+      "email": "priya.sharma@email.com",
+      "avatar": "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "children": ["student-001"]
+    },
+    "guardian-002": {
+      "id": "guardian-002",
+      "username": "guardian2",
+      "name": "Amit Sharma",
+      "role": "guardian",
+      "email": "amit.sharma@email.com",
+      "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "children": ["student-002"]
+    },
+    "guardian-003": {
+      "id": "guardian-003",
+      "username": "guardian3",
+      "name": "Meera Singh",
+      "role": "guardian",
+      "email": "meera.singh@email.com",
+      "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "children": ["student-003"]
+    }
+  },
+  "classes": {
+    "math-10a": {
+      "id": "math-10a",
+      "name": "Mathematics 10A",
+      "subject": "Mathematics",
+      "teacherId": "teacher-001",
+      "students": ["student-001", "student-002", "student-003"],
+      "avgProgress": 78
+    },
+    "physics-11b": {
+      "id": "physics-11b",
+      "name": "Physics 11B",
+      "subject": "Physics",
+      "teacherId": "teacher-001",
+      "students": ["student-001", "student-003"],
+      "avgProgress": 65
+    }
+  },
+  "quests": [
+    {
+      "id": "daily-practice",
+      "title": "Daily Practice Session",
+      "description": "Complete 3 practice problems",
+      "type": "daily",
+      "subject": "Mathematics",
+      "difficulty": "Easy",
+      "xpReward": 50,
+      "estimatedTime": "15 min",
+      "createdBy": "teacher-001",
+      "createdAt": "2024-01-25T10:00:00Z",
+      "status": "active"
+    },
+    {
+      "id": "algebra-challenge",
+      "title": "Algebra Challenge",
+      "description": "Solve 20 algebraic equations",
+      "type": "weekly",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "xpReward": 200,
+      "estimatedTime": "45 min",
+      "createdBy": "teacher-001",
+      "createdAt": "2024-01-20T14:00:00Z",
+      "status": "active"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-001",
+      "fromId": "teacher-001",
+      "toId": "guardian-001",
+      "studentId": "student-001",
+      "subject": "Weekly Progress Update",
+      "message": "Aria is doing excellent work in mathematics. She completed all assignments this week with 95% accuracy.",
+      "timestamp": "2024-01-29T16:30:00Z",
+      "read": false,
+      "type": "progress_update"
+    },
+    {
+      "id": "msg-002",
+      "fromId": "teacher-001",
+      "toId": "guardian-002",
+      "studentId": "student-002",
+      "subject": "Attention Needed",
+      "message": "Rahul has been struggling with algebra concepts. I recommend additional practice sessions at home.",
+      "timestamp": "2024-01-28T11:15:00Z",
+      "read": true,
+      "type": "concern"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first-quest",
+      "title": "Quest Conqueror",
+      "description": "Complete your first daily quest",
+      "icon": "trophy",
+      "studentId": "student-001",
+      "unlockedAt": "2024-01-15T10:30:00Z",
+      "blockchainTxId": "0x1a2b3c4d5e6f7890abcdef1234567890"
+    },
+    {
+      "id": "math-master",
+      "title": "Mathematics Master",
+      "description": "Achieve 100% accuracy in 10 consecutive math challenges",
+      "icon": "calculator",
+      "studentId": "student-001",
+      "unlockedAt": "2024-01-20T14:45:00Z",
+      "blockchainTxId": "0x2b3c4d5e6f7890abcdef1234567890ab"
+    }
+  ],
+  "studentProgress": {
+    "student-001": {
+      "currentQuests": [
+        {
+          "questId": "daily-practice",
+          "progress": 2,
+          "maxProgress": 3,
+          "startedAt": "2024-01-30T09:00:00Z"
+        },
+        {
+          "questId": "algebra-challenge",
+          "progress": 12,
+          "maxProgress": 20,
+          "startedAt": "2024-01-25T10:00:00Z"
+        }
+      ],
+      "subjects": {
+        "Mathematics": { "progress": 78, "lastUpdated": "2024-01-30T10:00:00Z" },
+        "Physics": { "progress": 65, "lastUpdated": "2024-01-29T15:00:00Z" },
+        "Chemistry": { "progress": 71, "lastUpdated": "2024-01-28T14:00:00Z" }
+      }
+    },
+    "student-002": {
+      "currentQuests": [
+        {
+          "questId": "daily-practice",
+          "progress": 1,
+          "maxProgress": 3,
+          "startedAt": "2024-01-30T09:00:00Z"
+        }
+      ],
+      "subjects": {
+        "Mathematics": { "progress": 45, "lastUpdated": "2024-01-29T16:00:00Z" },
+        "Physics": { "progress": 38, "lastUpdated": "2024-01-28T11:00:00Z" },
+        "Chemistry": { "progress": 52, "lastUpdated": "2024-01-27T13:00:00Z" }
+      }
+    },
+    "student-003": {
+      "currentQuests": [
+        {
+          "questId": "algebra-challenge",
+          "progress": 8,
+          "maxProgress": 20,
+          "startedAt": "2024-01-26T14:00:00Z"
+        }
+      ],
+      "subjects": {
+        "Mathematics": { "progress": 82, "lastUpdated": "2024-01-30T11:00:00Z" },
+        "Physics": { "progress": 75, "lastUpdated": "2024-01-29T10:00:00Z" },
+        "Chemistry": { "progress": 68, "lastUpdated": "2024-01-28T16:00:00Z" }
+      }
+    }
+  },
+  "systemMetrics": {
+    "totalUsers": 1247,
+    "activeToday": 892,
+    "averageEngagement": 76.3,
+    "systemHealth": 98.5,
+    "strugglingStudents": 2
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "board_science_quiz",
+      "title": "Board Science Comprehensive Test",
+      "description": "Complete science preparation for board examinations",
+      "difficulty": "board_level",
+      "timeLimit": 5400,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What is the power of a lens with focal length 25 cm?",
+          "options": ["+4 D", "-4 D", "+0.25 D", "-0.25 D"],
+          "correct_answer": "+4 D",
+          "points": 3,
+          "explanation": "Power = 1/focal length (in meters) = 1/0.25 = +4 D. Positive because it's a converging lens."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 400,
+        "badges": ["Science Scholar"],
+        "unlocks": ["advanced_physics_chemistry"]
+      }
+    }
+  ]
+}

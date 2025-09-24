@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "history_12_indian",
+      "title": "History - Grade 12 (Indian History)",
+      "description": "Themes in Indian history from ancient to contemporary times",
+      "chapters": [
+        {
+          "id": "bricks_beads_bones",
+          "title": "Bricks, Beads and Bones",
+          "topics": ["Harappan Civilization", "Archaeological Evidence", "Urban Planning", "Decline"]
+        },
+        {
+          "id": "kings_farmers_towns",
+          "title": "Kings, Farmers and Towns",
+          "topics": ["Mauryan Empire", "Gupta Period", "Agricultural Economy", "Urban Centers"]
+        },
+        {
+          "id": "colonial_cities",
+          "title": "Colonial Cities",
+          "topics": ["Urbanization under British", "Calcutta, Bombay, Madras", "Architecture", "Social Changes"]
+        },
+        {
+          "id": "mahatma_gandhi",
+          "title": "Mahatma Gandhi and the Nationalist Movement",
+          "topics": ["Gandhi's Philosophy", "Non-violent Resistance", "Mass Movements", "Partition"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 90
+    }
+  ]
+}

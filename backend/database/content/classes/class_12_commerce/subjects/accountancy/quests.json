@@ -1,0 +1,28 @@
+{
+  "quests": [
+    {
+      "id": "financial_analyst_master",
+      "title": "Financial Analyst Master Quest",
+      "description": "Analyze complex financial statements and make strategic business recommendations!",
+      "type": "financial_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "100 min",
+      "xpReward": 580,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "ratio_analysis_mastery",
+          "type": "financial_analysis",
+          "title": "Financial Ratio Analysis Mastery",
+          "narrative": "The Investment Firm needs your expertise to analyze company financial health using ratio analysis.",
+          "problem": {
+            "question": "A company has Current Assets of ₹5,00,000 and Current Liabilities of ₹2,00,000. What is the Current Ratio and what does it indicate?",
+            "type": "calculation_analysis",
+            "correct_answer": "2.5:1 - Good liquidity position",
+            "explanation": "Current Ratio = Current Assets/Current Liabilities = 5,00,000/2,00,000 = 2.5:1. This indicates good short-term liquidity."
+          }
+        }
+      ]
+    }
+  ]
+}

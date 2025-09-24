@@ -1,0 +1,1011 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import responsive button styles */
+@import url('./styles/responsive-buttons.css');
+
+/* Global CSS Variables for Theme System */
+:root {
+  /* Light Theme Variables */
+  --color-primary: #2563EB;
+  --color-primary-hover: #1D4ED8;
+  --color-secondary: #6C757D;
+  --color-secondary-hover: #5A6268;
+  
+  /* Background Colors */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F8F9FA;
+  --color-bg-tertiary: #E9ECEF;
+  
+  /* Card and Component Backgrounds */
+  --color-card-bg: #FFFFFF;
+  --color-modal-bg: #FFFFFF;
+  --color-input-bg: #FFFFFF;
+  
+  /* Text Colors */
+  --color-text-primary: #212529;
+  --color-text-secondary: #6C757D;
+  --color-text-muted: #ADB5BD;
+  --color-text-on-primary: #FFFFFF;
+  
+  /* Border Colors */
+  --color-border: #DEE2E6;
+  --color-border-light: #E9ECEF;
+  
+  /* Feedback Colors */
+  --color-success: #28A745;
+  --color-success-hover: #218838;
+  --color-danger: #DC3545;
+  --color-danger-hover: #C82333;
+  --color-warning: #FFC107;
+  --color-warning-hover: #E0A800;
+  --color-info: #17A2B8;
+  --color-info-hover: #138496;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  
+  /* Transition for smooth theme changes */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  
+  /* Teacher Theme Variables */
+  --color-teacher-primary: #0D6EFD;
+  --color-teacher-secondary: #6F42C1;
+  --color-teacher-accent: #FD7E14;
+  --color-teacher-bg-primary: #FFFFFF;
+  --color-teacher-bg-secondary: #F8F9FA;
+  --color-teacher-bg-tertiary: #E9ECEF;
+  --color-teacher-text-primary: #212529;
+  --color-teacher-text-secondary: #6C757D;
+  --color-teacher-text-muted: #ADB5BD;
+  
+  /* Admin Theme Variables */
+  --color-admin-primary: #DC3545;
+  --color-admin-secondary: #28A745;
+  --color-admin-accent: #FFC107;
+  --color-admin-bg-primary: #FFFFFF;
+  --color-admin-bg-secondary: #F8F9FA;
+  --color-admin-bg-tertiary: #E9ECEF;
+  --color-admin-text-primary: #212529;
+  --color-admin-text-secondary: #6C757D;
+  --color-admin-text-muted: #ADB5BD;
+  
+  /* Guardian Theme Variables */
+  --color-guardian-primary: #E91E63;
+  --color-guardian-primary-hover: #C2185B;
+  --color-guardian-secondary: #4CAF50;
+  --color-guardian-accent: #FF9800;
+  --color-guardian-bg-primary: #FFFFFF;
+  --color-guardian-bg-secondary: #FCE4EC;
+  --color-guardian-bg-tertiary: #F8BBD9;
+  --color-guardian-text-primary: #212529;
+  --color-guardian-text-secondary: #6C757D;
+  --color-guardian-text-muted: #ADB5BD;
+  --color-guardian-on-primary: #FFFFFF;
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"], .dark-theme {
+  /* Primary Colors */
+  --color-primary: #3B82F6;
+  --color-primary-hover: #2563EB;
+  --color-secondary: #8B5CF6;
+  --color-secondary-hover: #7C3AED;
+  
+  /* Background Colors */
+  --color-bg-primary: #1A1A1A;
+  --color-bg-secondary: #2D2D2D;
+  --color-bg-tertiary: #404040;
+  
+  /* Card and Component Backgrounds */
+  --color-card-bg: #2D2D2D;
+  --color-modal-bg: #2D2D2D;
+  --color-input-bg: #404040;
+  
+  /* Text Colors */
+  --color-text-primary: #F8F9FA;
+  --color-text-secondary: #ADB5BD;
+  --color-text-muted: #6C757D;
+  --color-text-on-primary: #FFFFFF;
+  
+  /* Border Colors */
+  --color-border: #495057;
+  --color-border-light: #6C757D;
+  
+  /* Feedback Colors */
+  --color-success: #10B981;
+  --color-success-hover: #059669;
+  --color-danger: #EF4444;
+  --color-danger-hover: #DC2626;
+  --color-warning: #F59E0B;
+  --color-warning-hover: #D97706;
+  --color-info: #06B6D4;
+  --color-info-hover: #0891B2;
+  
+  /* Shadows for Dark Mode */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
+  
+  /* Teacher Theme Variables - Dark */
+  --color-teacher-primary: #3B82F6;
+  --color-teacher-secondary: #A855F7;
+  --color-teacher-accent: #FBBF24;
+  --color-teacher-bg-primary: #1A1A1A;
+  --color-teacher-bg-secondary: #2D2D2D;
+  --color-teacher-bg-tertiary: #404040;
+  --color-teacher-text-primary: #F8F9FA;
+  --color-teacher-text-secondary: #ADB5BD;
+  --color-teacher-text-muted: #6C757D;
+  
+  /* Admin Theme Variables - Dark */
+  --color-admin-primary: #EF4444;
+  --color-admin-secondary: #22C55E;
+  --color-admin-accent: #3B82F6;
+  --color-admin-bg-primary: #1A1A1A;
+  --color-admin-bg-secondary: #2D2D2D;
+  --color-admin-bg-tertiary: #404040;
+  --color-admin-text-primary: #F8F9FA;
+  --color-admin-text-secondary: #ADB5BD;
+  --color-admin-text-muted: #6C757D;
+  
+  /* Guardian Theme Variables - Dark */
+  --color-guardian-primary: #F59E0B;
+  --color-guardian-primary-hover: #D97706;
+  --color-guardian-secondary: #10B981;
+  --color-guardian-accent: #A78BFA;
+  --color-guardian-bg-primary: #1A1A1A;
+  --color-guardian-bg-secondary: #2D2D2D;
+  --color-guardian-bg-tertiary: #404040;
+  --color-guardian-text-primary: #F8F9FA;
+  --color-guardian-text-secondary: #ADB5BD;
+  --color-guardian-text-muted: #6C757D;
+  --color-guardian-on-primary: #FFFFFF;
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+/* Student Theme Specific Styles */
+.student-theme-container {
+  background-color: var(--student-app-bg, var(--color-bg-primary));
+  color: var(--student-body-text, var(--color-text-primary));
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* Student Component Styles */
+.student-card {
+  background-color: var(--student-card-bg, var(--color-card-bg));
+  border: var(--student-card-border, 1px solid var(--color-border));
+  border-radius: 1rem;
+  box-shadow: var(--student-card-shadow, var(--shadow-md));
+  transition: all 0.3s ease;
+}
+
+.student-card:hover {
+  box-shadow: var(--student-card-hover-shadow, var(--shadow-lg));
+  transform: translateY(-2px);
+}
+
+.student-welcome-header {
+  background: var(--student-hero-gradient, linear-gradient(90deg, #4F46E5, #F97316));
+  color: var(--student-header-text, #FFFFFF);
+  border-radius: 1.5rem;
+  box-shadow: var(--student-card-shadow, var(--shadow-md));
+}
+
+.student-sidebar-enhanced {
+  background-color: var(--student-nav-bg, var(--color-bg-secondary));
+  border-right: var(--student-nav-border, 1px solid var(--color-border));
+  box-shadow: var(--student-nav-elevation, var(--shadow-md));
+}
+
+.student-nav-active {
+  background-color: var(--student-nav-item-active-bg, var(--student-primary, #4F46E5)) !important;
+  color: var(--student-header-text, #FFFFFF) !important;
+  box-shadow: var(--student-card-shadow, var(--shadow-md));
+}
+
+.student-quest-card {
+  background-color: var(--student-card-bg);
+  border: var(--student-card-border);
+  border-radius: 1rem;
+  box-shadow: var(--student-card-shadow);
+  transition: all 0.3s ease;
+}
+
+.student-quest-card:hover {
+  box-shadow: var(--student-card-hover-shadow);
+}
+
+.student-progress-bar-enhanced {
+  background-color: var(--student-progress-bg);
+  border-radius: 9999px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.student-progress-fill-enhanced {
+  background: var(--student-progress-fill);
+  border-radius: 9999px;
+  transition: width 0.5s ease;
+}
+
+.student-tab-container {
+  background-color: var(--student-card-bg);
+  border: var(--student-card-border);
+  border-radius: 0.75rem;
+  padding: 0.25rem;
+}
+
+.student-tab-active {
+  background-color: var(--student-primary);
+  color: var(--student-header-text);
+  box-shadow: var(--student-card-shadow);
+}
+
+.student-text-gradient {
+  background: var(--student-hero-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.student-level-badge {
+  background: var(--student-primary);
+  color: var(--student-header-text);
+  box-shadow: var(--student-card-shadow);
+}
+
+.student-xp-counter {
+  background: var(--student-accent);
+  color: var(--student-header-text);
+  box-shadow: var(--student-card-shadow);
+}
+
+.student-achievement-badge {
+  background: var(--student-secondary);
+  color: var(--student-header-text);
+  box-shadow: var(--student-card-shadow);
+}
+
+.student-card-daily-challenge {
+  background: var(--student-card-bg);
+  border: var(--student-card-border);
+  box-shadow: var(--student-card-shadow);
+}
+
+/* Button Styles */
+.btn-student-primary {
+  background-color: var(--student-btn-primary-bg);
+  color: var(--student-btn-primary-text);
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.btn-student-primary:hover {
+  background-color: var(--student-btn-primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--student-card-hover-shadow);
+}
+
+.btn-student-secondary {
+  background-color: var(--student-btn-secondary-bg);
+  color: var(--student-btn-primary-text);
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.btn-student-secondary:hover {
+  background-color: var(--student-btn-secondary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--student-card-hover-shadow);
+}
+
+.btn-student-accent {
+  background-color: var(--student-btn-accent-bg);
+  color: var(--student-btn-primary-text);
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.btn-student-accent:hover {
+  background-color: var(--student-btn-accent-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--student-card-hover-shadow);
+}
+
+/* Input Styles */
+.input-student {
+  background-color: var(--student-input-bg);
+  border: 1px solid var(--student-input-border);
+  color: var(--student-input-text);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s ease;
+}
+
+.input-student:focus {
+  border-color: var(--student-input-focus);
+  box-shadow: 0 0 0 3px var(--student-focus-ring);
+  outline: none;
+}
+
+.input-student::placeholder {
+  color: var(--student-input-placeholder);
+}
+
+/* Animation Classes */
+.student-hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+.student-click-bounce:active {
+  transform: scale(0.98);
+}
+
+.student-achievement-glow {
+  box-shadow: 0 0 15px var(--student-card-hover-glow);
+}
+
+.student-achievement-glow-hover:hover {
+  box-shadow: 0 0 25px var(--student-card-hover-glow);
+}
+
+/* Quest Type Badges */
+.student-quest-daily {
+  background-color: var(--student-primary);
+  color: var(--student-header-text);
+}
+
+.student-quest-weekly {
+  background-color: var(--student-secondary);
+  color: var(--student-header-text);
+}
+
+.student-quest-challenge {
+  background-color: var(--student-accent);
+  color: var(--student-header-text);
+}
+
+/* Skill Tree Styles */
+.student-skill-mastered {
+  background: linear-gradient(135deg, var(--student-accent), var(--student-secondary));
+  color: var(--student-header-text);
+  box-shadow: var(--student-achievement-glow);
+}
+
+.student-skill-available {
+  background: var(--student-primary);
+  color: var(--student-header-text);
+  box-shadow: var(--student-card-shadow);
+}
+
+.student-skill-locked {
+  background: var(--student-muted-text);
+  color: var(--student-header-text);
+  opacity: 0.6;
+}
+
+/* Professional Component Styles */
+.card-professional {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  transition: all 0.3s ease;
+}
+
+.btn-professional {
+  transition: all 0.2s ease;
+}
+
+.modal-professional {
+  background-color: var(--color-modal-bg);
+  border: 1px solid var(--color-border);
+}
+
+.input-professional {
+  background-color: var(--color-input-bg);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-primary);
+}
+
+.input-professional:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Teacher Specific Styles */
+.teacher-card {
+  background-color: var(--color-teacher-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+}
+
+.teacher-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.teacher-card-attention {
+  border-left: 4px solid var(--color-teacher-accent);
+  background: linear-gradient(135deg, var(--color-teacher-bg-secondary), var(--color-teacher-bg-tertiary));
+}
+
+.teacher-nav-active {
+  background-color: var(--color-teacher-primary) !important;
+  color: #FFFFFF !important;
+}
+
+.btn-teacher-primary {
+  background-color: var(--color-teacher-primary);
+  color: #FFFFFF;
+  border: none;
+}
+
+.btn-teacher-primary:hover {
+  background-color: var(--color-teacher-secondary);
+}
+
+.input-teacher {
+  background-color: var(--color-teacher-bg-primary);
+  border: 1px solid var(--color-border);
+  color: var(--color-teacher-text-primary);
+}
+
+.teacher-table-zebra tbody tr:nth-child(even) {
+  background-color: var(--color-teacher-bg-tertiary);
+}
+
+/* Admin Specific Styles */
+.admin-card {
+  background-color: var(--color-admin-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+}
+
+.admin-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.admin-card-attention {
+  border-left: 4px solid var(--color-admin-accent);
+  background: linear-gradient(135deg, var(--color-admin-bg-secondary), var(--color-admin-bg-tertiary));
+}
+
+.admin-nav-active {
+  background-color: var(--color-admin-primary) !important;
+  color: #FFFFFF !important;
+}
+
+.btn-admin-primary {
+  background-color: var(--color-admin-primary);
+  color: #FFFFFF;
+  border: none;
+}
+
+.btn-admin-primary:hover {
+  background-color: var(--color-admin-secondary);
+}
+
+.input-admin {
+  background-color: var(--color-admin-bg-primary);
+  border: 1px solid var(--color-border);
+  color: var(--color-admin-text-primary);
+}
+
+.admin-table-zebra tbody tr:nth-child(even) {
+  background-color: var(--color-admin-bg-tertiary);
+}
+
+.admin-modal {
+  background-color: var(--color-admin-bg-secondary);
+  color: var(--color-admin-text-primary);
+}
+
+/* Guardian Specific Styles */
+.guardian-card {
+  background-color: var(--color-guardian-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+}
+
+.guardian-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.guardian-card-warm {
+  background: linear-gradient(135deg, var(--color-guardian-bg-secondary), var(--color-guardian-bg-tertiary));
+  border: 2px solid var(--color-guardian-primary);
+}
+
+.guardian-card-attention {
+  border-left: 4px solid var(--color-guardian-accent);
+  background: linear-gradient(135deg, var(--color-guardian-bg-secondary), var(--color-guardian-bg-tertiary));
+}
+
+.guardian-nav-active {
+  background-color: var(--color-guardian-primary) !important;
+  color: var(--color-guardian-on-primary) !important;
+}
+
+.btn-guardian-primary {
+  background-color: var(--color-guardian-primary);
+  color: var(--color-guardian-on-primary);
+  border: none;
+}
+
+.btn-guardian-primary:hover {
+  background-color: var(--color-guardian-primary-hover);
+}
+
+.input-guardian {
+  background-color: var(--color-guardian-bg-primary);
+  border: 1px solid var(--color-border);
+  color: var(--color-guardian-text-primary);
+}
+
+.guardian-progress-default {
+  background: linear-gradient(90deg, var(--color-guardian-primary), var(--color-guardian-secondary));
+}
+
+.guardian-progress-math {
+  background: linear-gradient(90deg, #3B82F6, #1D4ED8);
+}
+
+.guardian-progress-science {
+  background: linear-gradient(90deg, #10B981, #059669);
+}
+
+.guardian-progress-language {
+  background: linear-gradient(90deg, #F59E0B, #D97706);
+}
+
+.guardian-notification-badge {
+  background: var(--color-guardian-accent);
+}
+
+.guardian-achievement-glow {
+  box-shadow: 0 0 15px rgba(236, 72, 153, 0.2);
+}
+
+.guardian-achievement-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(236, 72, 153, 0.4);
+}
+
+.guardian-message-outgoing {
+  background: var(--color-guardian-primary);
+  color: var(--color-guardian-on-primary);
+  border-radius: 1rem 1rem 0.25rem 1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.guardian-message-incoming {
+  background-color: var(--color-guardian-bg-primary);
+  color: var(--color-guardian-text-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem 1rem 1rem 0.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.guardian-modal {
+  background-color: var(--color-guardian-bg-secondary);
+  color: var(--color-guardian-text-primary);
+  border: 1px solid var(--color-border);
+}
+
+/* Shadow Utilities */
+.shadow-card-default {
+  box-shadow: var(--shadow-md);
+}
+
+.shadow-card-hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.shadow-student-card {
+  box-shadow: var(--student-card-shadow);
+}
+
+.shadow-student-hover {
+  box-shadow: var(--student-card-hover-shadow);
+}
+
+.shadow-student-modal {
+  box-shadow: var(--shadow-xl);
+}
+
+.shadow-student-glow {
+  box-shadow: 0 0 15px var(--student-card-hover-glow);
+}
+
+.shadow-teacher-card {
+  box-shadow: var(--shadow-md);
+}
+
+.shadow-admin-card {
+  box-shadow: var(--shadow-md);
+}
+
+.shadow-guardian-card {
+  box-shadow: var(--shadow-md);
+}
+
+.shadow-guardian-hover {
+  box-shadow: var(--shadow-lg);
+}
+
+/* Global Layout Styles */
+.global-layout {
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  transition: all 0.3s ease;
+}
+
+.global-main-content {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.global-content-container {
+  padding: 2rem;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  transition: all 0.3s ease;
+}
+
+/* Student Content Wrapper */
+.student-content-wrapper {
+  background-color: var(--student-app-bg);
+  color: var(--student-body-text);
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* Student Theme Wrapper - Enhanced */
+.student-theme-wrapper {
+  background-color: var(--student-app-bg, #F9FAFB);
+  color: var(--student-body-text, #374151);
+  min-height: 100vh;
+  transition: all 0.2s ease;
+  font-family: var(--student-font-body, 'Inter', sans-serif);
+}
+
+.student-theme-wrapper[data-student-theme="dark"] {
+  background-color: var(--student-app-bg, #111827);
+  color: var(--student-body-text, #E5E7EB);
+}
+
+/* Enhanced Student Theme Classes */
+.student-theme-active .student-card {
+  background-color: var(--student-card-bg) !important;
+  border: var(--student-card-border) !important;
+  box-shadow: var(--student-card-shadow) !important;
+  color: var(--student-body-text) !important;
+  border-radius: 1rem;
+  transition: all var(--student-transition-normal, 150ms) var(--student-easing-default, cubic-bezier(0.4, 0, 0.2, 1));
+}
+
+.student-theme-active .student-card:hover {
+  box-shadow: var(--student-card-hover-shadow) !important;
+  transform: translateY(-2px);
+}
+
+.student-theme-active .btn-student-primary {
+  background-color: var(--student-btn-primary-bg) !important;
+  color: var(--student-btn-primary-text) !important;
+  border: none !important;
+  transition: all var(--student-transition-normal, 150ms) var(--student-easing-default, cubic-bezier(0.4, 0, 0.2, 1));
+}
+
+.student-theme-active .btn-student-primary:hover {
+  background-color: var(--student-btn-primary-hover) !important;
+  transform: translateY(-1px);
+  box-shadow: var(--student-card-hover-shadow) !important;
+}
+
+.student-theme-active .btn-student-secondary {
+  background-color: var(--student-btn-secondary-bg) !important;
+  color: var(--student-btn-primary-text) !important;
+  border: none !important;
+  transition: all var(--student-transition-normal, 150ms) var(--student-easing-default, cubic-bezier(0.4, 0, 0.2, 1));
+}
+
+.student-theme-active .btn-student-secondary:hover {
+  background-color: var(--student-btn-secondary-hover) !important;
+  transform: translateY(-1px);
+  box-shadow: var(--student-card-hover-shadow) !important;
+}
+
+.student-theme-active .btn-student-accent {
+  background-color: var(--student-btn-accent-bg) !important;
+  color: var(--student-btn-primary-text) !important;
+  border: none !important;
+  transition: all var(--student-transition-normal, 150ms) var(--student-easing-default, cubic-bezier(0.4, 0, 0.2, 1));
+}
+
+.student-theme-active .btn-student-accent:hover {
+  background-color: var(--student-btn-accent-hover) !important;
+  transform: translateY(-1px);
+  box-shadow: var(--student-card-hover-shadow) !important;
+}
+
+.student-theme-active .input-student {
+  background-color: var(--student-input-bg) !important;
+  border: 1px solid var(--student-input-border) !important;
+  color: var(--student-input-text) !important;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  transition: all var(--student-transition-normal, 150ms) var(--student-easing-default, cubic-bezier(0.4, 0, 0.2, 1));
+}
+
+.student-theme-active .input-student:focus {
+  border-color: var(--student-input-focus) !important;
+  box-shadow: 0 0 0 3px var(--student-focus-ring) !important;
+  outline: none;
+}
+
+.student-theme-active .input-student::placeholder {
+  color: var(--student-input-placeholder) !important;
+}
+
+.student-theme-active .student-welcome-header {
+  background: var(--student-hero-gradient) !important;
+  color: var(--student-header-text) !important;
+  border-radius: 1.5rem;
+  box-shadow: var(--student-card-shadow) !important;
+  transition: all 0.2s ease !important;
+}
+
+.student-theme-active .student-sidebar-enhanced {
+  background-color: var(--student-nav-bg) !important;
+  border-right: var(--student-nav-border) !important;
+  box-shadow: var(--student-nav-elevation) !important;
+  transition: all 0.2s ease !important;
+}
+
+.student-theme-active .student-nav-active {
+  background-color: var(--student-nav-item-active-bg) !important;
+  color: var(--student-header-text) !important;
+  box-shadow: var(--student-card-shadow) !important;
+  transition: all 0.2s ease !important;
+}
+
+.student-theme-active .student-progress-bar-enhanced {
+  background-color: var(--student-progress-bg) !important;
+  border-radius: 9999px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease !important;
+}
+
+.student-theme-active .student-progress-fill-enhanced {
+  background: var(--student-progress-fill) !important;
+  border-radius: 9999px;
+  transition: width 0.5s ease, background 0.2s ease;
+}
+
+.student-theme-active .student-text-gradient {
+  background: var(--student-hero-gradient) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.2s ease !important;
+}
+
+/* Student Typography Enhancements */
+.student-theme-active h1,
+.student-theme-active h2,
+.student-theme-active h3,
+.student-theme-active h4,
+.student-theme-active h5,
+.student-theme-active h6 {
+  color: var(--student-heading-text) !important;
+  font-family: var(--student-font-heading, 'Poppins', sans-serif);
+}
+
+.student-theme-active p,
+.student-theme-active span,
+.student-theme-active div {
+  color: var(--student-body-text);
+  font-family: var(--student-font-body, 'Inter', sans-serif);
+}
+
+.student-theme-active .text-student-text {
+  color: var(--student-heading-text) !important;
+}
+
+.student-theme-active .text-student-text-secondary {
+  color: var(--student-body-text) !important;
+}
+
+.student-theme-active .text-student-text-muted {
+  color: var(--student-muted-text) !important;
+}
+
+.student-theme-active .bg-student-background {
+  background-color: var(--student-app-bg) !important;
+}
+
+.student-theme-active .bg-student-background-secondary {
+  background-color: var(--student-component-bg) !important;
+}
+
+.student-theme-active .bg-student-background-tertiary {
+  background-color: var(--student-sidenav-bg) !important;
+}
+
+/* Student Animation Classes */
+.student-theme-active .student-hover-lift:hover {
+  transform: translateY(-2px);
+  transition: transform var(--student-transition-normal, 200ms) var(--student-easing-default, cubic-bezier(0.4, 0, 0.2, 1));
+}
+
+.student-theme-active .student-click-bounce:active {
+  transform: scale(0.98);
+  transition: transform var(--student-transition-fast, 150ms) var(--student-easing-bounce, cubic-bezier(0.68, -0.55, 0.265, 1.55));
+}
+
+.student-theme-active .student-achievement-glow {
+  box-shadow: 0 0 15px var(--student-card-hover-glow) !important;
+}
+
+.student-theme-active .student-achievement-glow-hover:hover {
+  box-shadow: 0 0 25px var(--student-card-hover-glow) !important;
+}
+
+/* Student Focus States */
+.student-theme-active *:focus {
+  outline: 2px solid var(--student-primary) !important;
+  outline-offset: 2px;
+}
+
+/* Student Modal Styling */
+.student-theme-active .modal-professional {
+  background-color: var(--student-card-bg) !important;
+  border: var(--student-card-border) !important;
+  color: var(--student-body-text) !important;
+}
+
+/* Student Table Styling */
+.student-theme-active table {
+  background-color: var(--student-card-bg) !important;
+  color: var(--student-body-text) !important;
+}
+
+.student-theme-active th {
+  background-color: var(--student-sidenav-bg) !important;
+  color: var(--student-heading-text) !important;
+  border-bottom: 1px solid var(--student-input-border) !important;
+}
+
+.student-theme-active td {
+  border-bottom: 1px solid var(--student-input-border) !important;
+  color: var(--student-body-text) !important;
+}
+
+/* Student Form Elements */
+.student-theme-active select,
+.student-theme-active textarea {
+  background-color: var(--student-input-bg) !important;
+  border: 1px solid var(--student-input-border) !important;
+  color: var(--student-input-text) !important;
+  border-radius: 0.5rem;
+}
+
+.student-theme-active select:focus,
+.student-theme-active textarea:focus {
+  border-color: var(--student-input-focus) !important;
+  box-shadow: 0 0 0 3px var(--student-focus-ring) !important;
+}
+
+.teacher-content-wrapper {
+  background-color: var(--color-teacher-bg-primary);
+  color: var(--color-teacher-text-primary);
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.admin-content-wrapper {
+  background-color: var(--color-admin-bg-primary);
+  color: var(--color-admin-text-primary);
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.guardian-content-wrapper {
+  background-color: var(--color-guardian-bg-primary);
+  color: var(--color-guardian-text-primary);
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .global-content-container {
+    padding: 1rem;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus Styles */
+*:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.student-theme-container *:focus {
+  outline: 2px solid var(--student-primary);
+  outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+  .global-layout {
+    background: white !important;
+    color: black !important;
+  }
+  
+  .student-card,
+  .teacher-card,
+  .admin-card,
+  .guardian-card {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+}
+
+/* Hide scrollbars for navigation menus */
+.teacher-content-wrapper nav::-webkit-scrollbar,
+.admin-content-wrapper nav::-webkit-scrollbar,
+.guardian-content-wrapper nav::-webkit-scrollbar {
+  display: none;
+}
+
+.teacher-content-wrapper nav,
+.admin-content-wrapper nav,
+.guardian-content-wrapper nav {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

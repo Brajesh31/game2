@@ -1,0 +1,100 @@
+{
+  "messages": [
+    {
+      "id": "msg-001",
+      "fromId": "teacher-001",
+      "toId": "guardian-001",
+      "studentId": "student-001",
+      "subject": "Weekly Progress Update",
+      "message": "Aria is doing excellent work in mathematics. She completed all assignments this week with 95% accuracy. Her problem-solving skills are improving remarkably.",
+      "timestamp": "2024-01-29T16:30:00Z",
+      "read": false,
+      "type": "progress_update",
+      "priority": "normal",
+      "attachments": []
+    },
+    {
+      "id": "msg-002",
+      "fromId": "teacher-001",
+      "toId": "guardian-002",
+      "studentId": "student-002",
+      "subject": "Attention Needed - Mathematics",
+      "message": "Rahul has been struggling with algebra concepts. I recommend additional practice sessions at home. I'm available for a parent-teacher meeting to discuss strategies.",
+      "timestamp": "2024-01-28T11:15:00Z",
+      "read": true,
+      "type": "concern",
+      "priority": "high",
+      "attachments": ["algebra_practice_worksheet.pdf"]
+    },
+    {
+      "id": "msg-003",
+      "fromId": "guardian-001",
+      "toId": "teacher-001",
+      "studentId": "student-001",
+      "subject": "Thank you for the update",
+      "message": "Thank you for the positive feedback about Aria's progress. We are very proud of her achievements. Please let us know if there's anything we can do to support her learning at home.",
+      "timestamp": "2024-01-29T20:45:00Z",
+      "read": false,
+      "type": "response",
+      "priority": "normal",
+      "attachments": []
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-001",
+      "userId": "student-001",
+      "title": "New Quest Available!",
+      "message": "A new mathematics quest 'Fraction Kingdom' is now available for you to explore!",
+      "type": "quest_available",
+      "timestamp": "2024-01-30T08:00:00Z",
+      "read": false,
+      "actionUrl": "/student/quests",
+      "priority": "normal"
+    },
+    {
+      "id": "notif-002",
+      "userId": "guardian-001",
+      "title": "Weekly Progress Report",
+      "message": "Aria's weekly progress report is ready. She completed 5 out of 7 daily quests this week.",
+      "type": "progress_report",
+      "timestamp": "2024-01-29T18:00:00Z",
+      "read": false,
+      "actionUrl": "/guardian/progress",
+      "priority": "normal"
+    },
+    {
+      "id": "notif-003",
+      "userId": "teacher-001",
+      "title": "Student Needs Attention",
+      "message": "Rahul Sharma's performance has declined. Consider providing additional support.",
+      "type": "student_alert",
+      "timestamp": "2024-01-28T10:00:00Z",
+      "read": true,
+      "actionUrl": "/teacher/classroom",
+      "priority": "high"
+    }
+  ],
+  "systemAnnouncements": [
+    {
+      "id": "announcement-001",
+      "title": "New AR Labs Feature Released!",
+      "message": "Exciting new augmented reality labs are now available for all science subjects. Explore 3D models and interactive experiments!",
+      "targetAudience": "all",
+      "type": "feature_release",
+      "timestamp": "2024-01-25T12:00:00Z",
+      "isActive": true,
+      "priority": "normal"
+    },
+    {
+      "id": "announcement-002",
+      "title": "Scheduled Maintenance",
+      "message": "The platform will undergo scheduled maintenance on February 1st from 2:00 AM to 4:00 AM IST. Please save your work before this time.",
+      "targetAudience": "all",
+      "type": "maintenance",
+      "timestamp": "2024-01-30T10:00:00Z",
+      "isActive": true,
+      "priority": "high"
+    }
+  ]
+}

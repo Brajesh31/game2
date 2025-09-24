@@ -1,0 +1,37 @@
+{
+  "quests": [
+    {
+      "id": "political_philosopher",
+      "title": "Political Philosopher Quest",
+      "description": "Explore fundamental questions about politics, freedom, and justice!",
+      "type": "philosophical_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "75 min",
+      "xpReward": 410,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Academy of Political Thought needs your help to resolve great philosophical debates about freedom, equality, and justice!",
+        "setting": "Academy of Political Thought",
+        "character": "Philosopher Guide"
+      },
+      "steps": [
+        {
+          "id": "freedom_debate",
+          "type": "philosophical_analysis",
+          "title": "The Great Freedom Debate",
+          "narrative": "Join the debate between different philosophers about the nature of freedom.",
+          "problem": {
+            "question": "According to Isaiah Berlin, what is the difference between negative and positive liberty?",
+            "type": "essay_short",
+            "rubric": {
+              "criteria": ["Understanding of concepts", "Clear distinction", "Examples", "Critical thinking"],
+              "max_points": 20
+            },
+            "sample_answer": "Negative liberty is freedom FROM external constraints, while positive liberty is freedom TO achieve one's potential...",
+            "explanation": "Students should explain negative liberty as absence of obstacles and positive liberty as capacity for self-realization."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "urban_planner_india",
+      "title": "Urban Planner India Challenge",
+      "description": "Plan sustainable cities and solve India's urbanization challenges!",
+      "type": "planning_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "80 min",
+      "xpReward": 470,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "smart_city_planning",
+          "type": "urban_planning",
+          "title": "Smart City Planning Challenge",
+          "narrative": "The Ministry of Urban Development needs your expertise to design a smart city for India.",
+          "problem": {
+            "question": "What should be the primary focus when planning a smart city in India?",
+            "type": "multiple_choice",
+            "options": [
+              "Only technology integration",
+              "Sustainable development with citizen welfare",
+              "Maximum population density",
+              "Industrial development only"
+            ],
+            "correct_answer": "Sustainable development with citizen welfare",
+            "explanation": "Smart cities should focus on sustainable development that improves quality of life while being environmentally responsible."
+          }
+        }
+      ]
+    }
+  ]
+}

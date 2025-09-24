@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "management_principles_quiz",
+      "title": "Management Principles Mastery",
+      "description": "Test your understanding of management theories and principles",
+      "difficulty": "board_advanced",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "According to Henri Fayol, how many principles of management are there?",
+          "options": ["12", "14", "16", "18"],
+          "correct_answer": "14",
+          "points": 5,
+          "explanation": "Henri Fayol proposed 14 principles of management including division of work, authority and responsibility, discipline, etc."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 420,
+        "badges": ["Management Expert"],
+        "unlocks": ["entrepreneurship_advanced"]
+      }
+    }
+  ]
+}

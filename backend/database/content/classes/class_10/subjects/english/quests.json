@@ -1,0 +1,37 @@
+{
+  "quests": [
+    {
+      "id": "board_exam_warrior",
+      "title": "Board Exam Warrior Quest",
+      "description": "Master board exam techniques and become confident in English literature!",
+      "type": "exam_prep_quest",
+      "difficulty": "board_level",
+      "estimatedTime": "90 min",
+      "xpReward": 450,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Board Exam Arena awaits! Prepare yourself with the skills and confidence needed to excel in your English examination.",
+        "setting": "Board Exam Preparation Academy",
+        "character": "Exam Master"
+      },
+      "steps": [
+        {
+          "id": "character_analysis_mastery",
+          "type": "literary_analysis",
+          "title": "Character Analysis Mastery",
+          "narrative": "The Exam Master presents you with a character from 'First Flight'. Analyze their traits and motivations.",
+          "problem": {
+            "question": "Analyze the character of Lencho in 'A Letter to God'. What does his character represent?",
+            "type": "essay_short",
+            "rubric": {
+              "criteria": ["Character traits identification", "Use of textual evidence", "Understanding of theme", "Writing clarity"],
+              "max_points": 20
+            },
+            "sample_answer": "Lencho represents unwavering faith and simplicity. Despite facing natural disaster, his belief in God remains strong...",
+            "explanation": "Students should identify Lencho's faith, simplicity, and determination while connecting to the story's themes."
+          }
+        }
+      ]
+    }
+  ]
+}

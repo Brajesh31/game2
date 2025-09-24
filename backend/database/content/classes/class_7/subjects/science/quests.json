@@ -1,0 +1,226 @@
+{
+  "quests": [
+    {
+      "id": "nutrition_detective_lab",
+      "title": "The Nutrition Detective Laboratory",
+      "description": "Investigate how plants and animals get their food and become a Nutrition Detective!",
+      "type": "investigation_quest",
+      "difficulty": "medium",
+      "estimatedTime": "50 min",
+      "xpReward": 240,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Nutrition Detective Lab! Dr. Foodie has discovered mysterious eating habits in nature. Help solve the cases of how different living things get their nutrition!",
+        "setting": "The Advanced Nutrition Laboratory",
+        "character": "Dr. Foodie"
+      },
+      "steps": [
+        {
+          "id": "photosynthesis_factory_tour",
+          "type": "process_understanding",
+          "title": "The Photosynthesis Factory Tour",
+          "narrative": "Visit the amazing Photosynthesis Factory inside a leaf! Discover how plants make their own food using sunlight, water, and air.",
+          "problem": {
+            "question": "What do plants need to make food through photosynthesis?",
+            "type": "multiple_choice",
+            "options": ["Only water", "Only sunlight", "Sunlight, water, and carbon dioxide", "Only soil"],
+            "correct_answer": "Sunlight, water, and carbon dioxide",
+            "explanation": "Brilliant discovery! Plants are like amazing chefs - they use sunlight as energy, water from roots, and carbon dioxide from air to cook their own food (glucose)!"
+          }
+        },
+        {
+          "id": "digestive_system_journey",
+          "type": "system_exploration",
+          "title": "The Digestive System Journey",
+          "narrative": "Shrink down and take an incredible journey through the human digestive system! Follow food from mouth to... well, the end!",
+          "problem": {
+            "question": "Where does digestion begin in the human body?",
+            "type": "multiple_choice",
+            "options": ["Stomach", "Small intestine", "Mouth", "Large intestine"],
+            "correct_answer": "Mouth",
+            "explanation": "Perfect journey start! Digestion begins in the mouth where teeth break down food and saliva starts the chemical breakdown. What an amazing system!"
+          }
+        },
+        {
+          "id": "food_chain_ecosystem",
+          "type": "relationship_mapping",
+          "title": "Food Chain Ecosystem Mission",
+          "narrative": "Explore the interconnected world of food chains! Discover how energy flows from plants to animals in nature's perfect system.",
+          "problem": {
+            "question": "In this food chain: Grass → Rabbit → Fox, what is the rabbit?",
+            "type": "multiple_choice",
+            "options": ["Producer", "Primary consumer", "Secondary consumer", "Decomposer"],
+            "correct_answer": "Primary consumer",
+            "explanation": "Excellent ecosystem understanding! The rabbit is a primary consumer because it eats plants (producers). The fox would be a secondary consumer!"
+          }
+        },
+        {
+          "id": "nutrition_master_challenge",
+          "type": "boss_battle",
+          "title": "The Nutrition Master Challenge",
+          "narrative": "Face the ultimate test! The Nutrition Master challenges you to solve a complex case involving both plant and animal nutrition!",
+          "problem": {
+            "question": "A farmer notices his crops are yellow and not growing well, while his animals are healthy. What might be the problem?",
+            "type": "multiple_choice",
+            "options": ["Animals are eating the crops", "Plants lack proper nutrients or sunlight", "Too much water", "The soil is too hard"],
+            "correct_answer": "Plants lack proper nutrients or sunlight",
+            "explanation": "Master detective work! Yellow, poorly growing plants usually indicate lack of nutrients (especially nitrogen) or insufficient sunlight for photosynthesis!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 240,
+        "badges": ["Nutrition Detective", "Ecosystem Expert"],
+        "unlocks": ["heat_temperature_lab", "acid_base_chemistry_quest"]
+      }
+    },
+    {
+      "id": "heat_temperature_lab",
+      "title": "The Heat and Temperature Laboratory",
+      "description": "Explore the exciting world of heat and temperature in Dr. Thermal's amazing laboratory!",
+      "type": "experimental_quest",
+      "difficulty": "medium",
+      "estimatedTime": "45 min",
+      "xpReward": 210,
+      "prerequisites": ["nutrition_detective_lab"],
+      "story": {
+        "introduction": "Dr. Thermal's laboratory is full of hot and cold mysteries! Learn about heat transfer, thermal expansion, and temperature measurement through exciting experiments!",
+        "setting": "Dr. Thermal's Heat Laboratory",
+        "character": "Dr. Thermal"
+      },
+      "steps": [
+        {
+          "id": "temperature_measurement_station",
+          "type": "measurement",
+          "title": "Temperature Measurement Station",
+          "narrative": "Dr. Thermal shows you different thermometers and temperature scales. Learn to measure heat like a true scientist!",
+          "problem": {
+            "question": "At what temperature does water freeze?",
+            "type": "multiple_choice",
+            "options": ["0°C", "100°C", "50°C", "25°C"],
+            "correct_answer": "0°C",
+            "explanation": "Perfect measurement! Water freezes at 0°C (32°F). This is why we get ice when it's very cold outside!"
+          }
+        },
+        {
+          "id": "heat_transfer_expedition",
+          "type": "process_understanding",
+          "title": "Heat Transfer Expedition",
+          "narrative": "Embark on an expedition to discover the three ways heat travels: conduction, convection, and radiation!",
+          "problem": {
+            "question": "When you touch a hot metal spoon, heat travels to your hand through:",
+            "type": "multiple_choice",
+            "options": ["Conduction", "Convection", "Radiation", "Magic"],
+            "correct_answer": "Conduction",
+            "explanation": "Excellent understanding! Conduction is heat transfer through direct contact. The hot metal transfers heat directly to your skin - that's why it feels hot!"
+          }
+        },
+        {
+          "id": "thermal_expansion_workshop",
+          "type": "observation",
+          "title": "Thermal Expansion Workshop",
+          "narrative": "Discover why things expand when heated and contract when cooled! This knowledge helps engineers build better structures.",
+          "problem": {
+            "question": "Why do railway tracks have small gaps between them?",
+            "type": "multiple_choice",
+            "options": ["To save metal", "To allow for thermal expansion", "To make noise", "To let water drain"],
+            "correct_answer": "To allow for thermal expansion",
+            "explanation": "Brilliant engineering insight! Railway tracks expand when hot and contract when cold. Gaps prevent the tracks from bending or breaking!"
+          }
+        },
+        {
+          "id": "thermal_energy_master",
+          "type": "boss_battle",
+          "title": "Defeat the Thermal Energy Master",
+          "narrative": "The final thermal challenge! The Thermal Energy Master controls all heat in the kingdom. Prove your mastery to restore thermal balance!",
+          "problem": {
+            "question": "Which material would be best for making a cooking pot handle?",
+            "type": "multiple_choice",
+            "options": ["Metal", "Wood", "Glass", "Ice"],
+            "correct_answer": "Wood",
+            "explanation": "Thermal mastery achieved! Wood is a poor conductor of heat (good insulator), so it won't burn your hand when the pot is hot. Safety first!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 210,
+        "badges": ["Thermal Master", "Heat Detective"],
+        "unlocks": ["acid_base_chemistry_quest", "weather_climate_explorer"]
+      }
+    },
+    {
+      "id": "acid_base_chemistry_quest",
+      "title": "The Acid-Base Chemistry Quest",
+      "description": "Enter the colorful world of acids and bases and become a Chemistry Color Master!",
+      "type": "chemistry_quest",
+      "difficulty": "medium",
+      "estimatedTime": "40 min",
+      "xpReward": 190,
+      "prerequisites": ["heat_temperature_lab"],
+      "story": {
+        "introduction": "Professor Litmus has lost control of his acid-base laboratory! Colors are changing everywhere, and only a Chemistry Color Master can restore order using indicators and neutralization!",
+        "setting": "The Colorful Chemistry Laboratory",
+        "character": "Professor Litmus"
+      },
+      "steps": [
+        {
+          "id": "acid_identification_chamber",
+          "type": "identification",
+          "title": "Acid Identification Chamber",
+          "narrative": "Enter the Acid Chamber where sour substances reveal their secrets! Learn to identify acids by their properties.",
+          "problem": {
+            "question": "Which of these is an acid commonly found in your kitchen?",
+            "type": "multiple_choice",
+            "options": ["Lemon juice", "Soap", "Baking soda", "Salt"],
+            "correct_answer": "Lemon juice",
+            "explanation": "Excellent identification! Lemon juice contains citric acid, which makes it sour. Acids have a sour taste and turn blue litmus paper red!"
+          }
+        },
+        {
+          "id": "base_detection_laboratory",
+          "type": "property_testing",
+          "title": "Base Detection Laboratory",
+          "narrative": "Now explore the Base Laboratory! Bases have different properties from acids. Use your detective skills to identify them!",
+          "problem": {
+            "question": "What happens when you touch soap with wet hands?",
+            "type": "multiple_choice",
+            "options": ["It feels rough", "It feels slippery", "It feels hot", "It feels cold"],
+            "correct_answer": "It feels slippery",
+            "explanation": "Great observation! Soap is a base, and bases feel slippery or soapy to touch. This slippery feeling helps soap clean things!"
+          }
+        },
+        {
+          "id": "indicator_magic_show",
+          "type": "color_change_experiment",
+          "title": "The Indicator Magic Show",
+          "narrative": "Watch the amazing color-changing magic show! Indicators change colors to reveal whether substances are acids or bases.",
+          "problem": {
+            "question": "Red litmus paper turns blue when dipped in:",
+            "type": "multiple_choice",
+            "options": ["Acid", "Base", "Water", "Salt"],
+            "correct_answer": "Base",
+            "explanation": "Magical color change mastered! Red litmus turns blue in bases. Remember: 'Red to Blue = Base is true!' This helps us identify bases easily."
+          }
+        },
+        {
+          "id": "neutralization_wizard_duel",
+          "type": "boss_battle",
+          "title": "Neutralization Wizard Duel",
+          "narrative": "The final challenge! The Neutralization Wizard has created chaos by mixing acids and bases. Use neutralization to restore balance!",
+          "problem": {
+            "question": "What happens when an acid and base are mixed in the right amounts?",
+            "type": "multiple_choice",
+            "options": ["They explode", "They form salt and water", "They become stronger", "Nothing happens"],
+            "correct_answer": "They form salt and water",
+            "explanation": "Neutralization mastery! When acids and bases neutralize each other, they form salt and water. The dangerous properties cancel out - perfect balance!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 190,
+        "badges": ["Chemistry Color Master", "Neutralization Wizard"],
+        "unlocks": ["weather_climate_explorer", "light_shadow_physics_quest"]
+      }
+    }
+  ]
+}

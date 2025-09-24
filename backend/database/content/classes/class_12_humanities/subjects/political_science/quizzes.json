@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "contemporary_politics_quiz",
+      "title": "Contemporary World Politics Test",
+      "description": "Test your understanding of modern international relations and politics",
+      "difficulty": "board_advanced",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which country led the Non-Aligned Movement along with India?",
+          "options": ["China", "Egypt", "Yugoslavia", "Indonesia"],
+          "correct_answer": "Yugoslavia",
+          "points": 5,
+          "explanation": "Yugoslavia, under Josip Broz Tito, was one of the founding leaders of the Non-Aligned Movement along with India's Nehru and Egypt's Nasser."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 400,
+        "badges": ["Political Science Master"],
+        "unlocks": ["international_relations_advanced"]
+      }
+    }
+  ]
+}

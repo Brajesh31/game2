@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "ceo_simulator_advanced",
+      "title": "CEO Simulator Advanced Challenge",
+      "description": "Lead a multinational corporation and make strategic management decisions!",
+      "type": "management_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "100 min",
+      "xpReward": 600,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "strategic_planning",
+          "type": "management_decision",
+          "title": "Strategic Planning Challenge",
+          "narrative": "As CEO, you must develop a strategic plan for expanding into international markets.",
+          "problem": {
+            "question": "Your company wants to expand internationally. Which factor is MOST important to consider first?",
+            "type": "multiple_choice",
+            "options": [
+              "Currency exchange rates",
+              "Market research and cultural understanding",
+              "Shipping costs",
+              "Language barriers"
+            ],
+            "correct_answer": "Market research and cultural understanding",
+            "explanation": "Understanding the target market and cultural differences is crucial for successful international expansion."
+          }
+        }
+      ]
+    }
+  ]
+}

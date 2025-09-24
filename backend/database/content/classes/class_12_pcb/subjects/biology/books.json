@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "biology_12_advanced",
+      "title": "Biology - Grade 12",
+      "description": "Advanced biology covering reproduction, genetics, evolution, and ecology",
+      "chapters": [
+        {
+          "id": "reproduction",
+          "title": "Reproduction",
+          "topics": ["Sexual Reproduction in Flowering Plants", "Human Reproduction", "Reproductive Health"]
+        },
+        {
+          "id": "genetics_evolution",
+          "title": "Genetics and Evolution",
+          "topics": ["Heredity and Variation", "Molecular Basis of Inheritance", "Evolution", "Human Evolution"]
+        },
+        {
+          "id": "biology_human_welfare",
+          "title": "Biology and Human Welfare",
+          "topics": ["Human Health and Disease", "Microbes in Human Welfare", "Biotechnology Principles"]
+        },
+        {
+          "id": "ecology_environment",
+          "title": "Ecology and Environment",
+          "topics": ["Organisms and Populations", "Ecosystem", "Biodiversity", "Environmental Issues"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 140
+    }
+  ]
+}

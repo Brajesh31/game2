@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "microeconomics_quiz",
+      "title": "Microeconomics Principles Test",
+      "description": "Test your understanding of microeconomic concepts and theories",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What does the Production Possibility Curve show?",
+          "options": [
+            "Maximum production with given resources",
+            "Minimum production required",
+            "Average production over time",
+            "Production without any constraints"
+          ],
+          "correct_answer": "Maximum production with given resources",
+          "points": 5,
+          "explanation": "PPC shows the maximum possible production of two goods with given resources and technology."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 280,
+        "badges": ["Economics Expert"],
+        "unlocks": ["macroeconomics_quiz"]
+      }
+    }
+  ]
+}

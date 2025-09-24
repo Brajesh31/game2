@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "atomic_structure_quiz",
+      "title": "Atomic Structure and Chemical Bonding",
+      "description": "Test your understanding of atoms, molecules, and chemical bonding",
+      "difficulty": "advanced",
+      "timeLimit": 1800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What is the maximum number of electrons in the second shell of an atom?",
+          "options": ["2", "8", "18", "32"],
+          "correct_answer": "8",
+          "points": 15,
+          "explanation": "The second electron shell can hold a maximum of 8 electrons according to the 2n² rule."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 170,
+        "badges": ["Atomic Scientist"],
+        "unlocks": ["chemical_bonding_quiz"]
+      }
+    }
+  ]
+}

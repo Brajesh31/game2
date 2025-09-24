@@ -1,0 +1,70 @@
+{
+  "questSubmissions": [
+    {
+      "id": "submission-001",
+      "studentId": "student-001",
+      "questId": "number_explorer",
+      "stepId": "step_3",
+      "submissionType": "creative_challenge",
+      "content": {
+        "title": "The Magic Number Adventure",
+        "story": "Once upon a time, in a land of numbers, there lived a young mathematician named Alex...",
+        "mathProblems": [
+          {
+            "question": "Alex found 15 magic coins and gave 7 to his friend. How many coins does Alex have left?",
+            "answer": "8 coins"
+          }
+        ]
+      },
+      "submittedAt": "2024-01-28T16:45:00Z",
+      "status": "submitted",
+      "teacherFeedback": {
+        "score": 95,
+        "comments": "Excellent creative story with clear math problems!",
+        "gradedAt": "2024-01-29T09:15:00Z",
+        "gradedBy": "teacher-001"
+      }
+    }
+  ],
+  "quizSubmissions": [
+    {
+      "id": "quiz-submission-001",
+      "studentId": "student-001",
+      "quizId": "basic_arithmetic_quiz",
+      "answers": {
+        "q1": "801",
+        "q2": "96",
+        "q3": ["1/8", "1/4", "1/2", "3/4"]
+      },
+      "submittedAt": "2024-01-27T11:30:00Z",
+      "score": 35,
+      "maxScore": 35,
+      "timeSpent": 420,
+      "status": "completed"
+    }
+  ],
+  "projectSubmissions": [
+    {
+      "id": "project-submission-001",
+      "studentId": "student-001",
+      "projectId": "team-project-001",
+      "submissionType": "research_report",
+      "content": {
+        "title": "Solar System Research Report",
+        "sections": [
+          {
+            "heading": "Introduction",
+            "content": "The solar system consists of the Sun and all celestial objects that orbit around it..."
+          },
+          {
+            "heading": "Planets Overview",
+            "content": "There are eight planets in our solar system, divided into terrestrial and gas giants..."
+          }
+        ]
+      },
+      "fileReferences": ["solar_system_diagram.jpg", "planet_data_table.pdf"],
+      "submittedAt": "2024-02-10T18:00:00Z",
+      "status": "submitted"
+    }
+  ]
+}

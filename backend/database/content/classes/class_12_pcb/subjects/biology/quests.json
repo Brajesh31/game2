@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "genetics_researcher",
+      "title": "Genetics Researcher Expedition",
+      "description": "Unravel the mysteries of heredity and genetic engineering!",
+      "type": "genetics_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "95 min",
+      "xpReward": 560,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Genetics Research Institute has discovered unusual inheritance patterns! Use your knowledge of genetics to solve these biological mysteries.",
+        "setting": "Advanced Genetics Laboratory",
+        "character": "Dr. Gene"
+      },
+      "steps": [
+        {
+          "id": "dna_analysis",
+          "type": "genetic_analysis",
+          "title": "DNA Fingerprinting Investigation",
+          "narrative": "Dr. Gene shows you DNA samples that need analysis. Use genetic principles to solve the case!",
+          "problem": {
+            "question": "In a dihybrid cross between AaBb × AaBb, what is the phenotypic ratio?",
+            "type": "multiple_choice",
+            "options": ["3:1", "1:2:1", "9:3:3:1", "1:1:1:1"],
+            "correct_answer": "9:3:3:1",
+            "explanation": "In a dihybrid cross, the phenotypic ratio is 9:3:3:1, representing the different combinations of dominant and recessive traits."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "indian_history_advanced_quiz",
+      "title": "Indian History Advanced Test",
+      "description": "Comprehensive test on Indian historical themes and developments",
+      "difficulty": "board_advanced",
+      "timeLimit": 10800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What was the main feature of Harappan urban planning?",
+          "options": [
+            "Circular city layout",
+            "Grid pattern with drainage system",
+            "Random construction",
+            "Vertical city development"
+          ],
+          "correct_answer": "Grid pattern with drainage system",
+          "points": 5,
+          "explanation": "Harappan cities featured sophisticated grid-pattern streets with advanced drainage systems, showing remarkable urban planning."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 460,
+        "badges": ["Indian History Master"],
+        "unlocks": ["archaeology_specialist"]
+      }
+    }
+  ]
+}

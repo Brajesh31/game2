@@ -1,0 +1,39 @@
+{
+  "quests": [
+    {
+      "id": "carbon_chemistry_master",
+      "title": "Carbon Chemistry Master Quest",
+      "description": "Explore the fascinating world of carbon compounds and organic chemistry!",
+      "type": "chemistry_quest",
+      "difficulty": "board_level",
+      "estimatedTime": "80 min",
+      "xpReward": 430,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Carbon Laboratory! Dr. Organic needs your help to understand the amazing world of carbon compounds.",
+        "setting": "Advanced Chemistry Laboratory",
+        "character": "Dr. Organic"
+      },
+      "steps": [
+        {
+          "id": "carbon_bonding",
+          "type": "chemistry_analysis",
+          "title": "Carbon Bonding Investigation",
+          "narrative": "Dr. Organic shows you different carbon compounds. Analyze their bonding patterns!",
+          "problem": {
+            "question": "Why can carbon form so many different compounds?",
+            "type": "multiple_choice",
+            "options": [
+              "It has 4 valence electrons and can form 4 bonds",
+              "It is a metal",
+              "It has only 2 electrons",
+              "It cannot form bonds"
+            ],
+            "correct_answer": "It has 4 valence electrons and can form 4 bonds",
+            "explanation": "Carbon has 4 valence electrons, allowing it to form 4 covalent bonds with other atoms, creating diverse compounds."
+          }
+        }
+      ]
+    }
+  ]
+}

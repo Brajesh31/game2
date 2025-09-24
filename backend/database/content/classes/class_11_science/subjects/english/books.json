@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "english_11_advanced",
+      "title": "English - Grade 11",
+      "description": "Advanced English for higher secondary with focus on communication skills",
+      "chapters": [
+        {
+          "id": "hornbill_prose",
+          "title": "Hornbill - Prose",
+          "topics": ["The Portrait of a Lady", "We're Not Afraid to Die", "Discovering Tut", "Landscape of the Soul"]
+        },
+        {
+          "id": "hornbill_poetry",
+          "title": "Hornbill - Poetry",
+          "topics": ["A Photograph", "The Laburnum Top", "The Voice of the Rain", "Childhood"]
+        },
+        {
+          "id": "snapshots",
+          "title": "Snapshots",
+          "topics": ["The Summer of the Beautiful White Horse", "The Address", "Ranga's Marriage", "Albert Einstein at School"]
+        },
+        {
+          "id": "advanced_writing",
+          "title": "Advanced Writing Skills",
+          "topics": ["Notice Writing", "Poster Making", "Advertisement", "Report Writing"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 75
+    }
+  ]
+}

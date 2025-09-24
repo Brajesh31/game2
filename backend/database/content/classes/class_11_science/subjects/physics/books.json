@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "physics_11_comprehensive",
+      "title": "Physics - Grade 11",
+      "description": "Comprehensive physics course covering mechanics, thermodynamics, and waves",
+      "chapters": [
+        {
+          "id": "units_measurements",
+          "title": "Physical World and Measurement",
+          "topics": ["Scope of Physics", "Units and Dimensions", "Measurement Errors", "Significant Figures"]
+        },
+        {
+          "id": "kinematics",
+          "title": "Kinematics",
+          "topics": ["Motion in Straight Line", "Motion in Plane", "Projectile Motion", "Circular Motion"]
+        },
+        {
+          "id": "laws_motion",
+          "title": "Laws of Motion",
+          "topics": ["Newton's Laws", "Friction", "Circular Motion Dynamics", "Momentum Conservation"]
+        },
+        {
+          "id": "work_energy_power",
+          "title": "Work, Energy and Power",
+          "topics": ["Work-Energy Theorem", "Kinetic Energy", "Potential Energy", "Conservation of Energy"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 120
+    }
+  ]
+}

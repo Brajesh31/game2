@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "social_studies_7",
+      "title": "Social Studies - Grade 7",
+      "description": "Medieval history, geography, and civic understanding",
+      "chapters": [
+        {
+          "id": "medieval_india",
+          "title": "Medieval India",
+          "topics": ["Delhi Sultanate", "Mughal Empire", "Regional Kingdoms", "Art and Architecture"]
+        },
+        {
+          "id": "environment_society",
+          "title": "Environment and Society",
+          "topics": ["Human Environment Interaction", "Settlement Patterns", "Transportation", "Communication"]
+        },
+        {
+          "id": "markets_trade",
+          "title": "Markets and Trade",
+          "topics": ["Local Markets", "Trade Routes", "Currency", "Economic Activities"]
+        },
+        {
+          "id": "equality_democracy",
+          "title": "Equality and Democracy",
+          "topics": ["Constitutional Values", "Equality", "Justice", "Democratic Processes"]
+        }
+      ],
+      "difficulty": "intermediate",
+      "estimatedHours": 45
+    }
+  ]
+}

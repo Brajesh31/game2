@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "physics_12_pcb",
+      "title": "Physics - Grade 12 (PCB Stream)",
+      "description": "Physics for biology students with emphasis on biophysics applications",
+      "chapters": [
+        {
+          "id": "electric_charges_fields_bio",
+          "title": "Electric Charges and Fields",
+          "topics": ["Coulomb's Law", "Electric Field", "Applications in Biology", "Bioelectricity"]
+        },
+        {
+          "id": "optics_biological",
+          "title": "Optics and Biological Systems",
+          "topics": ["Human Eye", "Optical Instruments", "Microscopy", "Medical Imaging"]
+        },
+        {
+          "id": "electromagnetic_waves_bio",
+          "title": "Electromagnetic Waves in Biology",
+          "topics": ["EM Spectrum", "Medical Applications", "Radiation Effects", "Imaging Techniques"]
+        },
+        {
+          "id": "modern_physics_bio",
+          "title": "Modern Physics in Biology",
+          "topics": ["Radioactivity", "Medical Physics", "Nuclear Medicine", "Radiation Therapy"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 120
+    }
+  ]
+}

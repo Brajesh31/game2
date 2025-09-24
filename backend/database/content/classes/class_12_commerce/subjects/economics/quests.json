@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "economic_policy_advisor",
+      "title": "Economic Policy Advisor Challenge",
+      "description": "Advise the government on macroeconomic policies and their impacts!",
+      "type": "policy_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "90 min",
+      "xpReward": 540,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "fiscal_policy_design",
+          "type": "policy_analysis",
+          "title": "Fiscal Policy Design Challenge",
+          "narrative": "The Finance Ministry needs your advice on fiscal policy during economic recession.",
+          "problem": {
+            "question": "During a recession, which fiscal policy measure would be most effective?",
+            "type": "multiple_choice",
+            "options": [
+              "Increase taxes and reduce government spending",
+              "Decrease taxes and increase government spending",
+              "Keep taxes and spending unchanged",
+              "Increase taxes and increase government spending"
+            ],
+            "correct_answer": "Decrease taxes and increase government spending",
+            "explanation": "Expansionary fiscal policy (lower taxes, higher spending) stimulates aggregate demand during recession."
+          }
+        }
+      ]
+    }
+  ]
+}

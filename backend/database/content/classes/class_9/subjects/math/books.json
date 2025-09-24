@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "math_9_foundation",
+      "title": "Mathematics - Grade 9",
+      "description": "Foundation course for higher secondary mathematics",
+      "chapters": [
+        {
+          "id": "number_systems",
+          "title": "Number Systems",
+          "topics": ["Real Numbers", "Irrational Numbers", "Rationalization", "Laws of Exponents"]
+        },
+        {
+          "id": "polynomials",
+          "title": "Polynomials",
+          "topics": ["Polynomial Definition", "Factorization", "Remainder Theorem", "Factor Theorem"]
+        },
+        {
+          "id": "coordinate_geometry",
+          "title": "Coordinate Geometry",
+          "topics": ["Cartesian Plane", "Linear Equations", "Graphing", "Distance Formula"]
+        },
+        {
+          "id": "euclid_geometry",
+          "title": "Introduction to Euclid's Geometry",
+          "topics": ["Axioms and Postulates", "Geometric Proofs", "Parallel Lines", "Triangles"]
+        }
+      ],
+      "difficulty": "advanced",
+      "estimatedHours": 80
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "geography_12_india",
+      "title": "Geography - Grade 12 (India: People and Economy)",
+      "description": "Human geography of India with focus on population, economy, and development",
+      "chapters": [
+        {
+          "id": "population_composition",
+          "title": "Population: Distribution, Density, Growth and Composition",
+          "topics": ["Population Distribution", "Population Density", "Population Growth", "Age-Sex Composition"]
+        },
+        {
+          "id": "migration",
+          "title": "Migration: Types, Causes and Consequences",
+          "topics": ["Types of Migration", "Rural-Urban Migration", "International Migration", "Migration Consequences"]
+        },
+        {
+          "id": "human_settlements",
+          "title": "Human Settlements",
+          "topics": ["Rural Settlements", "Urban Settlements", "Town Planning", "Smart Cities"]
+        },
+        {
+          "id": "transport_communication",
+          "title": "Transport and Communication",
+          "topics": ["Road Transport", "Railway Transport", "Water Transport", "Air Transport", "Communication Networks"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 80
+    }
+  ]
+}

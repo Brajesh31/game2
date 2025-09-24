@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "ancient_india_quiz",
+      "title": "Ancient India Knowledge Test",
+      "description": "Test your knowledge about ancient Indian civilizations",
+      "difficulty": "easy",
+      "timeLimit": 600,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which river was central to the Indus Valley Civilization?",
+          "options": ["Ganges", "Yamuna", "Indus", "Narmada"],
+          "correct_answer": "Indus",
+          "points": 10,
+          "explanation": "The Indus Valley Civilization developed along the Indus River, which is why it's called the Indus Valley Civilization."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 85,
+        "badges": ["History Explorer"],
+        "unlocks": ["medieval_india_quiz"]
+      }
+    }
+  ]
+}

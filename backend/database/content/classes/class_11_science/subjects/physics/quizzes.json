@@ -1,0 +1,27 @@
+{
+  "quizzes": [
+    {
+      "id": "mechanics_mastery_quiz",
+      "title": "Classical Mechanics Mastery",
+      "description": "Advanced test on kinematics, dynamics, and energy",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "numerical",
+          "question": "A car accelerates from rest at 2 m/s² for 10 seconds. What distance does it cover?",
+          "correct_answer": "100 m",
+          "points": 5,
+          "explanation": "Using s = ut + ½at², where u = 0, a = 2 m/s², t = 10 s: s = 0 + ½(2)(10)² = 100 m."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 300,
+        "badges": ["Mechanics Expert"],
+        "unlocks": ["thermodynamics_quiz"]
+      }
+    }
+  ]
+}

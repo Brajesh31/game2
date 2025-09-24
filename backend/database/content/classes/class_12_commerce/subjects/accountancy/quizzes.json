@@ -1,0 +1,27 @@
+{
+  "quizzes": [
+    {
+      "id": "advanced_accountancy_quiz",
+      "title": "Advanced Accountancy Board Test",
+      "description": "Comprehensive test on partnership and company accounts",
+      "difficulty": "board_advanced",
+      "timeLimit": 10800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "numerical",
+          "question": "Calculate goodwill by capitalization method: Average profit = ₹80,000, Normal rate of return = 10%, Capital employed = ₹6,00,000",
+          "correct_answer": "₹2,00,000",
+          "points": 6,
+          "explanation": "Capitalized value = Average profit/Normal rate = 80,000/0.10 = ₹8,00,000. Goodwill = Capitalized value - Capital employed = 8,00,000 - 6,00,000 = ₹2,00,000."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 480,
+        "badges": ["Accountancy Master"],
+        "unlocks": ["ca_foundation_prep"]
+      }
+    }
+  ]
+}

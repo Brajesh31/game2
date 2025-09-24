@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "math_8_advanced",
+      "title": "Mathematics - Grade 8",
+      "description": "Advanced mathematical concepts preparing for higher mathematics",
+      "chapters": [
+        {
+          "id": "rational_numbers",
+          "title": "Rational Numbers",
+          "topics": ["Properties of Rational Numbers", "Operations", "Representation on Number Line", "Decimal Expansion"]
+        },
+        {
+          "id": "linear_equations",
+          "title": "Linear Equations in One Variable",
+          "topics": ["Solving Linear Equations", "Word Problems", "Applications", "Verification"]
+        },
+        {
+          "id": "quadrilaterals",
+          "title": "Understanding Quadrilaterals",
+          "topics": ["Properties of Quadrilaterals", "Parallelograms", "Rectangles", "Squares", "Rhombus"]
+        },
+        {
+          "id": "data_handling",
+          "title": "Data Handling",
+          "topics": ["Organizing Data", "Bar Graphs", "Histograms", "Circle Graphs", "Probability"]
+        }
+      ],
+      "difficulty": "advanced",
+      "estimatedHours": 65
+    }
+  ]
+}

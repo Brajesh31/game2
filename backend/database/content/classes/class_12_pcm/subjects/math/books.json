@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "math_12_advanced",
+      "title": "Mathematics - Grade 12",
+      "description": "Advanced mathematics including calculus, vectors, and probability",
+      "chapters": [
+        {
+          "id": "relations_functions_advanced",
+          "title": "Relations and Functions",
+          "topics": ["Types of Relations", "Types of Functions", "Composite Functions", "Inverse Trigonometric Functions"]
+        },
+        {
+          "id": "matrices_determinants",
+          "title": "Matrices and Determinants",
+          "topics": ["Matrix Operations", "Types of Matrices", "Determinants", "Adjoint and Inverse"]
+        },
+        {
+          "id": "calculus_advanced",
+          "title": "Calculus",
+          "topics": ["Continuity and Differentiability", "Applications of Derivatives", "Integrals", "Applications of Integrals"]
+        },
+        {
+          "id": "vectors_3d_geometry",
+          "title": "Vectors and Three-Dimensional Geometry",
+          "topics": ["Vector Algebra", "Scalar and Vector Products", "Lines and Planes", "Distance Formulas"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 160
+    }
+  ]
+}

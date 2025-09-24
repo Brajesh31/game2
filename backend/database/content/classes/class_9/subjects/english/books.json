@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "english_9_literature",
+      "title": "English Literature and Language - Grade 9",
+      "description": "Comprehensive study of English literature with advanced language skills",
+      "chapters": [
+        {
+          "id": "prose_study",
+          "title": "Prose Literature",
+          "topics": ["Short Stories", "Essays", "Biographies", "Travel Writing"]
+        },
+        {
+          "id": "poetry_analysis",
+          "title": "Poetry and Poetic Devices",
+          "topics": ["Sonnets", "Free Verse", "Ballads", "Poetic Techniques"]
+        },
+        {
+          "id": "drama_study",
+          "title": "Drama and Theatre",
+          "topics": ["One-Act Plays", "Character Analysis", "Dialogue", "Stage Directions"]
+        },
+        {
+          "id": "writing_skills",
+          "title": "Advanced Writing Skills",
+          "topics": ["Formal Letters", "Articles", "Reports", "Creative Writing"]
+        }
+      ],
+      "difficulty": "advanced",
+      "estimatedHours": 70
+    }
+  ]
+}

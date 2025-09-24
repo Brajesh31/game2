@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "quadratic_champion",
+      "title": "Quadratic Equation Champion",
+      "description": "Master quadratic equations and become the ultimate problem-solving champion!",
+      "type": "mathematical_quest",
+      "difficulty": "board_level",
+      "estimatedTime": "75 min",
+      "xpReward": 400,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Quadratic Kingdom faces a crisis! Only a true champion can solve the ancient quadratic puzzles and restore balance.",
+        "setting": "Quadratic Kingdom",
+        "character": "Quadratic Sage"
+      },
+      "steps": [
+        {
+          "id": "quadratic_formula_mastery",
+          "type": "formula_application",
+          "title": "The Ultimate Formula Challenge",
+          "narrative": "The Quadratic Sage presents the most challenging equation. Use the quadratic formula to solve it!",
+          "problem": {
+            "question": "Solve using quadratic formula: 2x² - 7x + 3 = 0",
+            "type": "multiple_choice",
+            "options": ["x = 3, x = 1/2", "x = 3, x = 1", "x = 2, x = 1/2", "x = 4, x = 1/3"],
+            "correct_answer": "x = 3, x = 1/2",
+            "explanation": "Using quadratic formula: x = (7 ± √(49-24))/4 = (7 ± 5)/4. So x = 3 or x = 1/2."
+          }
+        }
+      ]
+    }
+  ]
+}

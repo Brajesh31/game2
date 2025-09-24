@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "polynomials_quiz",
+      "title": "Polynomials Mastery Test",
+      "description": "Comprehensive test on polynomial operations and factorization",
+      "difficulty": "advanced",
+      "timeLimit": 1800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What is the degree of the polynomial 3x⁴ + 2x² - 5x + 1?",
+          "options": ["1", "2", "3", "4"],
+          "correct_answer": "4",
+          "points": 10,
+          "explanation": "The degree of a polynomial is the highest power of the variable. Here, the highest power is 4."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 160,
+        "badges": ["Polynomial Expert"],
+        "unlocks": ["quadratic_equations_quiz"]
+      }
+    }
+  ]
+}

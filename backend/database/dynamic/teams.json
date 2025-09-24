@@ -1,0 +1,58 @@
+{
+  "teamProjects": [
+    {
+      "id": "team-project-001",
+      "name": "Solar System Model",
+      "description": "Create a 3D model of the solar system with accurate proportions",
+      "classLevel": "class_6",
+      "subject": "science",
+      "memberIds": ["student-001", "student-002"],
+      "teacherId": "teacher-001",
+      "createdAt": "2024-01-25T10:00:00Z",
+      "dueDate": "2024-02-15T23:59:59Z",
+      "status": "active",
+      "submissions": [],
+      "chatMessages": [
+        {
+          "id": "msg-001",
+          "senderId": "student-001",
+          "senderName": "Aria Patel",
+          "message": "Hi! Should we start with the sun or the planets?",
+          "timestamp": "2024-01-26T14:30:00Z",
+          "type": "text"
+        },
+        {
+          "id": "msg-002",
+          "senderId": "student-002",
+          "senderName": "Rahul Sharma",
+          "message": "Let's start with the sun since it's the center!",
+          "timestamp": "2024-01-26T14:35:00Z",
+          "type": "text"
+        }
+      ],
+      "requirements": {
+        "deliverables": ["3D Model", "Research Report", "Presentation"],
+        "gradingCriteria": ["Accuracy", "Creativity", "Teamwork", "Presentation"]
+      }
+    }
+  ],
+  "studyGroups": [
+    {
+      "id": "math-masters-6",
+      "name": "Math Masters - Grade 6",
+      "description": "Study group for Grade 6 mathematics",
+      "classLevel": "class_6",
+      "subject": "math",
+      "memberIds": ["student-001", "student-002"],
+      "moderatorId": "teacher-001",
+      "createdAt": "2024-01-20T10:00:00Z",
+      "isActive": true,
+      "meetingSchedule": {
+        "frequency": "weekly",
+        "day": "Saturday",
+        "time": "10:00 AM",
+        "duration": "1 hour"
+      }
+    }
+  ]
+}

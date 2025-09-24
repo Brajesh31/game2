@@ -1,0 +1,38 @@
+{
+  "quests": [
+    {
+      "id": "calculus_master_final",
+      "title": "Calculus Master Final Challenge",
+      "description": "Master advanced calculus concepts and become a true mathematical expert!",
+      "type": "mathematical_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "110 min",
+      "xpReward": 650,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Mathematical Olympiad Committee has prepared the ultimate calculus challenge! Prove your mastery of advanced mathematical concepts.",
+        "setting": "Mathematical Olympiad Arena",
+        "character": "Grandmaster Mathematician"
+      },
+      "steps": [
+        {
+          "id": "integration_mastery",
+          "type": "advanced_calculus",
+          "title": "Integration Mastery Challenge",
+          "narrative": "The Grandmaster presents you with complex integration problems that test your understanding of various techniques.",
+          "problem": {
+            "question": "Evaluate: ∫(x² + 1)/(x³ + 3x + 2) dx",
+            "type": "step_by_step",
+            "solution_steps": [
+              "Factor the denominator",
+              "Use partial fractions",
+              "Integrate each term",
+              "Combine results"
+            ],
+            "explanation": "This requires partial fraction decomposition and knowledge of standard integration formulas."
+          }
+        }
+      ]
+    }
+  ]
+}

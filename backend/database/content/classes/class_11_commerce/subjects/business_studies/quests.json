@@ -1,0 +1,39 @@
+{
+  "quests": [
+    {
+      "id": "entrepreneur_simulator",
+      "title": "Entrepreneur Simulator Challenge",
+      "description": "Start and manage your own virtual business empire!",
+      "type": "business_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "85 min",
+      "xpReward": 450,
+      "prerequisites": [],
+      "story": {
+        "introduction": "You have ₹1 lakh to start your business! Make smart decisions to build a successful enterprise.",
+        "setting": "Business Incubation Center",
+        "character": "Business Mentor"
+      },
+      "steps": [
+        {
+          "id": "business_plan_creation",
+          "type": "strategic_planning",
+          "title": "Creating Your Business Plan",
+          "narrative": "The Business Mentor asks you to choose the best business structure for your startup.",
+          "problem": {
+            "question": "For a small tech startup with 2 founders, which business form would be most suitable?",
+            "type": "multiple_choice",
+            "options": [
+              "Sole Proprietorship",
+              "Partnership",
+              "Public Limited Company",
+              "Cooperative Society"
+            ],
+            "correct_answer": "Partnership",
+            "explanation": "Partnership is ideal for 2 founders as it allows shared responsibility, resources, and decision-making while being easy to establish."
+          }
+        }
+      ]
+    }
+  ]
+}

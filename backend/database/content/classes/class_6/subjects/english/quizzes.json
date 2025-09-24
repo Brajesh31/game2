@@ -1,0 +1,38 @@
+{
+  "quizzes": [
+    {
+      "id": "reading_comprehension_quiz",
+      "title": "Reading Comprehension Challenge",
+      "description": "Test your understanding of stories and passages",
+      "difficulty": "easy",
+      "timeLimit": 900,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "passage": "The sun was setting behind the mountains, painting the sky in shades of orange and pink. Birds flew home to their nests, and the village below began to light up with warm, golden lights.",
+          "question": "What time of day is described in this passage?",
+          "options": ["Morning", "Afternoon", "Evening", "Night"],
+          "correct_answer": "Evening",
+          "points": 10,
+          "explanation": "The passage mentions 'sun was setting' which indicates evening time."
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Which of these is a proper noun?",
+          "options": ["city", "Mumbai", "school", "teacher"],
+          "correct_answer": "Mumbai",
+          "points": 10,
+          "explanation": "Mumbai is a proper noun because it's the specific name of a city and should be capitalized."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 75,
+        "badges": ["Reading Expert"],
+        "unlocks": ["advanced_comprehension_quiz"]
+      }
+    }
+  ]
+}

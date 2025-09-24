@@ -1,0 +1,37 @@
+{
+  "quests": [
+    {
+      "id": "nationalism_historian",
+      "title": "Nationalism Historian Quest",
+      "description": "Explore the rise of nationalism in Europe and India through historical analysis!",
+      "type": "historical_quest",
+      "difficulty": "board_level",
+      "estimatedTime": "85 min",
+      "xpReward": 450,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Travel through the 19th and 20th centuries to witness the rise of nationalism. Understand how nations were born and freedom was won!",
+        "setting": "Historical Time Machine",
+        "character": "Professor History"
+      },
+      "steps": [
+        {
+          "id": "european_nationalism",
+          "type": "historical_analysis",
+          "title": "European Nationalism Study",
+          "narrative": "Professor History takes you to 19th century Europe. Observe how nationalism shaped modern nations.",
+          "problem": {
+            "question": "What role did the French Revolution play in spreading nationalism in Europe?",
+            "type": "essay_short",
+            "rubric": {
+              "criteria": ["Understanding of French Revolution", "Connection to nationalism", "Historical examples", "Clear explanation"],
+              "max_points": 20
+            },
+            "sample_answer": "The French Revolution introduced ideas of liberty, equality, and fraternity, which inspired nationalist movements across Europe...",
+            "explanation": "Students should explain how revolutionary ideas spread and inspired other European nations to seek independence and unification."
+          }
+        }
+      ]
+    }
+  ]
+}

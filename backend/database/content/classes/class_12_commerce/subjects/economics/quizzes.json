@@ -1,0 +1,27 @@
+{
+  "quizzes": [
+    {
+      "id": "macroeconomics_quiz",
+      "title": "Macroeconomics Mastery Test",
+      "description": "Comprehensive test on macroeconomic concepts and policies",
+      "difficulty": "board_advanced",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "numerical",
+          "question": "If MPC = 0.8, what is the value of the multiplier?",
+          "correct_answer": "5",
+          "points": 5,
+          "explanation": "Multiplier = 1/(1-MPC) = 1/(1-0.8) = 1/0.2 = 5."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 440,
+        "badges": ["Macroeconomics Expert"],
+        "unlocks": ["economic_development_quiz"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "alankar_quiz",
+      "title": "अलंकार पहचान प्रश्नोत्तरी",
+      "description": "विभिन्न अलंकारों की पहचान और समझ",
+      "difficulty": "advanced",
+      "timeLimit": 900,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "'हरि हरे हरे हरि हरे' में कौन सा अलंकार है?",
+          "options": ["यमक", "श्लेष", "अनुप्रास", "वक्रोक्ति"],
+          "correct_answer": "यमक",
+          "points": 15,
+          "explanation": "यमक अलंकार में एक ही शब्द की आवृत्ति अलग-अलग अर्थों में होती है।"
+        }
+      ],
+      "passing_score": 80,
+      "rewards": {
+        "xp": 130,
+        "badges": ["अलंकार विशेषज्ञ"],
+        "unlocks": ["chand_quiz"]
+      }
+    }
+  ]
+}

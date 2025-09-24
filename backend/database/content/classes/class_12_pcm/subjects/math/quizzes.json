@@ -1,0 +1,27 @@
+{
+  "quizzes": [
+    {
+      "id": "board_math_advanced_quiz",
+      "title": "Advanced Mathematics Board Test",
+      "description": "Final preparation for mathematics board examination",
+      "difficulty": "board_advanced",
+      "timeLimit": 10800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "numerical",
+          "question": "Find the area bounded by the curve y = x² and the line y = 4.",
+          "correct_answer": "32/3 square units",
+          "points": 6,
+          "explanation": "The curves intersect at x = ±2. Area = ∫₋₂² (4 - x²) dx = [4x - x³/3]₋₂² = 32/3 square units."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 500,
+        "badges": ["Mathematics Grandmaster"],
+        "unlocks": ["jee_advanced_prep"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "science_9_comprehensive",
+      "title": "Science - Grade 9",
+      "description": "Comprehensive science covering physics, chemistry, and biology",
+      "chapters": [
+        {
+          "id": "matter_nature",
+          "title": "Matter in Our Surroundings",
+          "topics": ["States of Matter", "Particle Theory", "Evaporation", "Sublimation"]
+        },
+        {
+          "id": "atoms_molecules",
+          "title": "Atoms and Molecules",
+          "topics": ["Atomic Theory", "Molecular Formula", "Mole Concept", "Chemical Equations"]
+        },
+        {
+          "id": "motion",
+          "title": "Motion",
+          "topics": ["Types of Motion", "Velocity", "Acceleration", "Equations of Motion"]
+        },
+        {
+          "id": "fundamental_unit_life",
+          "title": "The Fundamental Unit of Life",
+          "topics": ["Cell Structure", "Cell Organelles", "Cell Division", "Prokaryotes vs Eukaryotes"]
+        }
+      ],
+      "difficulty": "advanced",
+      "estimatedHours": 85
+    }
+  ]
+}

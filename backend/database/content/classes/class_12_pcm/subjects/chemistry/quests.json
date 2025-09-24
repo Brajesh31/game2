@@ -1,0 +1,39 @@
+{
+  "quests": [
+    {
+      "id": "organic_synthesis_master",
+      "title": "Organic Synthesis Master",
+      "description": "Master organic chemistry reactions and synthesis pathways!",
+      "type": "chemistry_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "95 min",
+      "xpReward": 580,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Pharmaceutical Research Lab needs your expertise in organic synthesis to develop new medicines!",
+        "setting": "Pharmaceutical Research Laboratory",
+        "character": "Dr. Synthesis"
+      },
+      "steps": [
+        {
+          "id": "reaction_mechanism",
+          "type": "organic_analysis",
+          "title": "Reaction Mechanism Investigation",
+          "narrative": "Dr. Synthesis challenges you to predict the products of organic reactions.",
+          "problem": {
+            "question": "What is the major product when 2-methylpropene reacts with HBr?",
+            "type": "multiple_choice",
+            "options": [
+              "1-bromo-2-methylpropane",
+              "2-bromo-2-methylpropane",
+              "1-bromo-1-methylpropane",
+              "2-bromo-1-methylpropane"
+            ],
+            "correct_answer": "2-bromo-2-methylpropane",
+            "explanation": "According to Markovnikov's rule, H⁺ adds to the carbon with more hydrogens, and Br⁻ adds to the carbon with fewer hydrogens, forming the more stable tertiary carbocation."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "quests": [
+    {
+      "id": "accounting_detective",
+      "title": "Accounting Detective Case",
+      "description": "Solve financial mysteries using accounting principles and detective skills!",
+      "type": "financial_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "70 min",
+      "xpReward": 380,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Financial Crime Investigation Unit needs your accounting expertise! Solve cases involving missing money and incorrect records.",
+        "setting": "Financial Investigation Bureau",
+        "character": "Detective Ledger"
+      },
+      "steps": [
+        {
+          "id": "trial_balance_mystery",
+          "type": "accounting_analysis",
+          "title": "The Trial Balance Mystery",
+          "narrative": "A company's trial balance doesn't match! Find the errors and restore financial order.",
+          "problem": {
+            "question": "If the trial balance shows a difference of ₹500 (credit side excess), what could be a possible error?",
+            "type": "multiple_choice",
+            "options": [
+              "Cash account understated by ₹500",
+              "Sales account understated by ₹500",
+              "Purchase account overstated by ₹500",
+              "Capital account understated by ₹500"
+            ],
+            "correct_answer": "Cash account understated by ₹500",
+            "explanation": "If credit side is excess by ₹500, either a debit entry is missing or understated, or a credit entry is overstated."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "chemical_bonding_quiz",
+      "title": "Chemical Bonding and Molecular Structure",
+      "description": "Advanced test on bonding theories and molecular geometry",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which type of hybridization is present in methane (CH₄)?",
+          "options": ["sp", "sp²", "sp³", "sp³d"],
+          "correct_answer": "sp³",
+          "points": 5,
+          "explanation": "Methane has tetrahedral geometry with carbon forming 4 equivalent bonds, indicating sp³ hybridization."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 280,
+        "badges": ["Bonding Expert"],
+        "unlocks": ["organic_chemistry_quiz"]
+      }
+    }
+  ]
+}

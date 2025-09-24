@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "accountancy_11_fundamentals",
+      "title": "Accountancy - Grade 11",
+      "description": "Fundamental principles of accounting and financial record keeping",
+      "chapters": [
+        {
+          "id": "accounting_introduction",
+          "title": "Introduction to Accounting",
+          "topics": ["Meaning and Scope", "Accounting Equation", "Double Entry System", "Accounting Principles"]
+        },
+        {
+          "id": "recording_transactions",
+          "title": "Recording of Transactions",
+          "topics": ["Journal Entries", "Ledger Posting", "Trial Balance", "Subsidiary Books"]
+        },
+        {
+          "id": "bank_reconciliation",
+          "title": "Bank Reconciliation Statement",
+          "topics": ["Need for Reconciliation", "Causes of Difference", "Preparation", "Adjusted Cash Book"]
+        },
+        {
+          "id": "depreciation",
+          "title": "Depreciation, Provisions and Reserves",
+          "topics": ["Methods of Depreciation", "Provisions", "Reserves", "Secret Reserves"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 100
+    }
+  ]
+}

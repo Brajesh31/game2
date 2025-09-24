@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "hornbill_comprehensive_quiz",
+      "title": "Hornbill Literature Comprehensive Test",
+      "description": "Complete test covering all Hornbill prose and poetry",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In 'The Portrait of a Lady', what does the grandmother's portrait symbolize?",
+          "options": [
+            "Old age and death",
+            "Memory and eternal love",
+            "Traditional values",
+            "Family heritage"
+          ],
+          "correct_answer": "Memory and eternal love",
+          "points": 5,
+          "explanation": "The portrait symbolizes the enduring memory and eternal love between the narrator and his grandmother."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 250,
+        "badges": ["Literature Scholar"],
+        "unlocks": ["advanced_poetry_analysis"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "id": "accountancy_12_advanced",
+      "title": "Accountancy - Grade 12",
+      "description": "Advanced accounting including partnership, company accounts, and analysis",
+      "chapters": [
+        {
+          "id": "partnership_accounts",
+          "title": "Accounting for Partnership Firms",
+          "topics": ["Partnership Fundamentals", "Profit and Loss Appropriation", "Admission of Partner", "Retirement and Death"]
+        },
+        {
+          "id": "company_accounts",
+          "title": "Company Accounts and Analysis of Financial Statements",
+          "topics": ["Share Capital", "Debentures", "Financial Statement Analysis", "Cash Flow Statement"]
+        },
+        {
+          "id": "project_work",
+          "title": "Project Work",
+          "topics": ["Comprehensive Project", "Case Studies", "Practical Applications", "Report Writing"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 120
+    }
+  ]
+}

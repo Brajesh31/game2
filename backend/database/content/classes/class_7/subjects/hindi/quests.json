@@ -1,0 +1,27 @@
+{
+  "quests": [
+    {
+      "id": "kavi_sammelan",
+      "title": "कवि सम्मेलन चुनौती",
+      "description": "महान कवियों के साथ काव्य प्रतियोगिता में भाग लें!",
+      "type": "creative_quest",
+      "difficulty": "medium",
+      "estimatedTime": "40 min",
+      "xpReward": 180,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "kavita_rachna",
+          "type": "creative_writing",
+          "title": "कविता रचना",
+          "narrative": "कवि सम्मेलन में आपको एक सुंदर कविता लिखनी है।",
+          "challenge": {
+            "type": "creative_task",
+            "prompt": "प्रकृति के सौंदर्य पर एक छोटी कविता लिखें (कम से कम 4 पंक्तियां)",
+            "requirements": ["तुकबंदी हो", "प्रकृति का वर्णन हो", "सकारात्मक भावना हो"]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "quests": [
+    {
+      "id": "number_system_explorer",
+      "title": "The Number System Explorer Expedition",
+      "description": "Embark on an epic journey through the vast universe of number systems and discover mathematical infinity!",
+      "type": "exploration_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "70 min",
+      "xpReward": 350,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Number Universe Observatory! Professor Infinity has discovered new realms of numbers beyond imagination. Join the expedition to explore rational, irrational, and real numbers!",
+        "setting": "The Number Universe Observatory",
+        "character": "Professor Infinity"
+      },
+      "steps": [
+        {
+          "id": "rational_number_space_station",
+          "type": "classification_mastery",
+          "title": "Rational Number Space Station",
+          "narrative": "Board the Rational Number Space Station! Here, numbers that can be expressed as fractions rule the cosmos.",
+          "problem": {
+            "question": "Which of these numbers is rational?",
+            "type": "multiple_choice",
+            "options": ["√2", "π", "22/7", "√3"],
+            "correct_answer": "22/7",
+            "explanation": "Space navigation success! 22/7 is rational because it's already in p/q form where p and q are integers and q ≠ 0!"
+          }
+        },
+        {
+          "id": "irrational_mystery_planet",
+          "type": "irrational_understanding",
+          "title": "Irrational Mystery Planet",
+          "narrative": "Land on the mysterious Irrational Planet where numbers cannot be expressed as simple fractions! These numbers have infinite, non-repeating decimals.",
+          "problem": {
+            "question": "Why is √2 an irrational number?",
+            "type": "multiple_choice",
+            "options": ["It's negative", "It cannot be expressed as p/q where p,q are integers", "It's too big", "It's imaginary"],
+            "correct_answer": "It cannot be expressed as p/q where p,q are integers",
+            "explanation": "Irrational mystery solved! √2 = 1.414213... goes on forever without repeating, so it can't be written as a simple fraction!"
+          }
+        },
+        {
+          "id": "real_number_line_highway",
+          "type": "number_line_mastery",
+          "title": "Real Number Line Highway",
+          "narrative": "Travel the infinite Real Number Line Highway that contains ALL numbers - rational and irrational together in perfect mathematical harmony!",
+          "problem": {
+            "question": "Between any two rational numbers, what can you always find?",
+            "type": "multiple_choice",
+            "options": ["Nothing", "Another rational number", "An irrational number", "Both rational and irrational numbers"],
+            "correct_answer": "Both rational and irrational numbers",
+            "explanation": "Real number highway mastery! Between any two numbers, you can find infinitely many rational AND irrational numbers. The number line is densely packed!"
+          }
+        },
+        {
+          "id": "infinity_guardian_challenge",
+          "type": "boss_battle",
+          "title": "Challenge the Infinity Guardian",
+          "narrative": "The ultimate mathematical challenge! The Infinity Guardian tests your complete understanding of the number system universe!",
+          "problem": {
+            "question": "Prove your mastery: Which set contains all the others?",
+            "type": "multiple_choice",
+            "options": ["Natural numbers", "Whole numbers", "Integers", "Real numbers"],
+            "correct_answer": "Real numbers",
+            "explanation": "Infinity Guardian defeated! Real numbers contain all others: Natural ⊂ Whole ⊂ Integers ⊂ Rational ⊂ Real. You've mastered the number universe!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 350,
+        "badges": ["Number System Explorer", "Infinity Master"],
+        "unlocks": ["polynomial_detective_agency", "coordinate_geometry_architect"]
+      }
+    },
+    {
+      "id": "polynomial_detective_agency",
+      "title": "The Polynomial Detective Agency",
+      "description": "Join the elite detective agency that solves the most complex polynomial mysteries!",
+      "type": "algebraic_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "65 min",
+      "xpReward": 380,
+      "prerequisites": ["number_system_explorer"],
+      "story": {
+        "introduction": "The Polynomial Detective Agency handles the most challenging algebraic cases! Chief Detective Poly needs your expertise to solve polynomial crimes and restore mathematical order!",
+        "setting": "The Polynomial Detective Agency Headquarters",
+        "character": "Chief Detective Poly"
+      },
+      "steps": [
+        {
+          "id": "polynomial_identification_training",
+          "type": "classification",
+          "title": "Polynomial Identification Training",
+          "narrative": "Your detective training begins! Learn to identify different types of polynomials and their degrees in the evidence room.",
+          "problem": {
+            "question": "What is the degree of the polynomial 3x⁴ + 2x² - 5x + 1?",
+            "type": "multiple_choice",
+            "options": ["1", "2", "3", "4"],
+            "correct_answer": "4",
+            "explanation": "Detective training complete! The degree is the highest power of the variable. Here, x⁴ is the highest power, so the degree is 4!"
+          }
+        },
+        {
+          "id": "factorization_crime_scene",
+          "type": "factorization_mastery",
+          "title": "Factorization Crime Scene Investigation",
+          "narrative": "A polynomial has been found broken at the crime scene! Use factorization techniques to piece together the evidence.",
+          "problem": {
+            "question": "Factor the polynomial: x² + 7x + 12",
+            "type": "multiple_choice",
+            "options": ["(x + 3)(x + 4)", "(x + 2)(x + 6)", "(x + 1)(x + 12)", "(x - 3)(x - 4)"],
+            "correct_answer": "(x + 3)(x + 4)",
+            "explanation": "Crime solved! Find two numbers that multiply to 12 and add to 7. Those are 3 and 4, so the factors are (x + 3)(x + 4)!"
+          }
+        },
+        {
+          "id": "remainder_theorem_laboratory",
+          "type": "theorem_application",
+          "title": "Remainder Theorem Laboratory",
+          "narrative": "In the high-tech laboratory, use the Remainder Theorem to solve polynomial division mysteries without actually dividing!",
+          "problem": {
+            "question": "Using the Remainder Theorem, find the remainder when x³ - 2x² + x - 1 is divided by (x - 1):",
+            "type": "multiple_choice",
+            "options": ["-1", "0", "1", "2"],
+            "correct_answer": "-1",
+            "explanation": "Theorem mastery! Substitute x = 1: (1)³ - 2(1)² + (1) - 1 = 1 - 2 + 1 - 1 = -1. The remainder is -1!"
+          }
+        },
+        {
+          "id": "polynomial_mastermind_showdown",
+          "type": "boss_battle",
+          "title": "Showdown with the Polynomial Mastermind",
+          "narrative": "The ultimate polynomial challenge! The Polynomial Mastermind has created the most complex case ever. Solve it to become the agency's top detective!",
+          "problem": {
+            "question": "The Mastermind's challenge: If p(x) = x³ - 6x² + 11x - 6, and you know (x - 1) is a factor, find all factors!",
+            "type": "multiple_choice",
+            "options": ["(x - 1)(x - 2)(x - 3)", "(x - 1)(x + 2)(x + 3)", "(x + 1)(x - 2)(x - 3)", "(x - 1)(x - 2)(x + 3)"],
+            "correct_answer": "(x - 1)(x - 2)(x - 3)",
+            "explanation": "Mastermind defeated! Using synthetic division or factoring: p(x) = (x - 1)(x - 2)(x - 3). You're now the agency's top detective!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 380,
+        "badges": ["Polynomial Detective Master", "Algebraic Investigator"],
+        "unlocks": ["coordinate_geometry_architect", "linear_equation_systems_lab"]
+      }
+    },
+    {
+      "id": "coordinate_geometry_architect",
+      "title": "The Coordinate Geometry Architect",
+      "description": "Design amazing structures using coordinate geometry and become a master mathematical architect!",
+      "type": "geometric_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "60 min",
+      "xpReward": 340,
+      "prerequisites": ["polynomial_detective_agency"],
+      "story": {
+        "introduction": "The Coordinate Geometry Guild needs master architects! Architect Cartesian will teach you to design perfect structures using coordinate planes and geometric precision!",
+        "setting": "The Coordinate Geometry Guild",
+        "character": "Architect Cartesian"
+      },
+      "steps": [
+        {
+          "id": "cartesian_plane_foundation",
+          "type": "coordinate_understanding",
+          "title": "Cartesian Plane Foundation",
+          "narrative": "Architect Cartesian shows you the magical coordinate plane where every point has a unique address! Master this foundation for all geometric construction.",
+          "problem": {
+            "question": "What are the coordinates of a point that is 3 units right and 4 units up from the origin?",
+            "type": "multiple_choice",
+            "options": ["(4, 3)", "(3, 4)", "(-3, 4)", "(3, -4)"],
+            "correct_answer": "(3, 4)",
+            "explanation": "Coordinate mastery! The first number (3) is the x-coordinate (horizontal), the second number (4) is the y-coordinate (vertical). Perfect navigation!"
+          }
+        },
+        {
+          "id": "distance_formula_expedition",
+          "type": "formula_application",
+          "title": "Distance Formula Expedition",
+          "narrative": "Embark on an expedition to measure distances between any two points in the coordinate plane! This formula is an architect's best tool.",
+          "problem": {
+            "question": "Find the distance between points A(1, 2) and B(4, 6):",
+            "type": "multiple_choice",
+            "options": ["3", "4", "5", "7"],
+            "correct_answer": "5",
+            "explanation": "Distance expedition success! Using distance formula: √[(4-1)² + (6-2)²] = √[9 + 16] = √25 = 5 units!"
+          }
+        },
+        {
+          "id": "linear_equation_graphing",
+          "type": "graphing_mastery",
+          "title": "Linear Equation Graphing Studio",
+          "narrative": "Transform algebraic equations into beautiful geometric lines! Every linear equation creates a unique line on the coordinate plane.",
+          "problem": {
+            "question": "What is the slope of the line passing through points (0, 1) and (2, 5)?",
+            "type": "multiple_choice",
+            "options": ["1", "2", "3", "4"],
+            "correct_answer": "2",
+            "explanation": "Graphing mastery! Slope = (y₂ - y₁)/(x₂ - x₁) = (5 - 1)/(2 - 0) = 4/2 = 2. The line rises 2 units for every 1 unit right!"
+          }
+        },
+        {
+          "id": "geometric_proof_master",
+          "type": "boss_battle",
+          "title": "Geometric Proof Master Challenge",
+          "narrative": "The ultimate architectural test! The Geometric Proof Master challenges you to prove geometric relationships using coordinate geometry!",
+          "problem": {
+            "question": "Prove that the triangle with vertices A(0,0), B(3,0), and C(0,4) is a right triangle:",
+            "type": "multiple_choice",
+            "options": ["All sides are equal", "Two sides are perpendicular", "It has three angles", "The angles sum to 180°"],
+            "correct_answer": "Two sides are perpendicular",
+            "explanation": "Geometric Proof Master defeated! Sides AB (horizontal) and AC (vertical) are perpendicular, forming a 90° angle. You've proven it's a right triangle!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 340,
+        "badges": ["Coordinate Geometry Master", "Mathematical Architect"],
+        "unlocks": ["euclid_geometry_academy", "statistics_data_science_lab"]
+      }
+    }
+  ]
+}

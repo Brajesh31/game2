@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "calculus_foundations_quiz",
+      "title": "Calculus Foundations Test",
+      "description": "Test your understanding of limits and basic derivatives",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What is the derivative of x³ + 2x² - 5x + 3?",
+          "options": ["3x² + 4x - 5", "x⁴ + 2x³ - 5x²", "3x² + 2x - 5", "3x² + 4x + 5"],
+          "correct_answer": "3x² + 4x - 5",
+          "points": 5,
+          "explanation": "Using power rule: d/dx(x³) = 3x², d/dx(2x²) = 4x, d/dx(-5x) = -5, d/dx(3) = 0."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 320,
+        "badges": ["Calculus Initiate"],
+        "unlocks": ["advanced_calculus_quiz"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "cell_biology_advanced_quiz",
+      "title": "Advanced Cell Biology Test",
+      "description": "Comprehensive test on cell structure, function, and biomolecules",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which of these is NOT a function of the smooth endoplasmic reticulum?",
+          "options": [
+            "Lipid synthesis",
+            "Protein synthesis",
+            "Detoxification",
+            "Steroid hormone synthesis"
+          ],
+          "correct_answer": "Protein synthesis",
+          "points": 5,
+          "explanation": "Protein synthesis occurs on rough ER (with ribosomes), not smooth ER. Smooth ER handles lipid synthesis, detoxification, and steroid synthesis."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 290,
+        "badges": ["Cell Expert"],
+        "unlocks": ["genetics_quiz"]
+      }
+    }
+  ]
+}

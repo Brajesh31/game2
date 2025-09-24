@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "physical_geography_quiz",
+      "title": "Physical Geography Mastery Test",
+      "description": "Comprehensive test on physical geography concepts and processes",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which layer of the atmosphere contains the ozone layer?",
+          "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+          "correct_answer": "Stratosphere",
+          "points": 5,
+          "explanation": "The ozone layer is located in the stratosphere, approximately 15-35 km above Earth's surface."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 280,
+        "badges": ["Geography Expert"],
+        "unlocks": ["human_geography_quiz"]
+      }
+    }
+  ]
+}

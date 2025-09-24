@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "mughal_empire_quiz",
+      "title": "Mughal Empire Knowledge Test",
+      "description": "Test your knowledge about the Mughal Empire",
+      "difficulty": "medium",
+      "timeLimit": 900,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Who was the founder of the Mughal Empire in India?",
+          "options": ["Akbar", "Babur", "Humayun", "Shah Jahan"],
+          "correct_answer": "Babur",
+          "points": 10,
+          "explanation": "Babur founded the Mughal Empire in India after winning the First Battle of Panipat in 1526."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 105,
+        "badges": ["History Scholar"],
+        "unlocks": ["british_india_quiz"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "english_6_fundamentals",
+      "title": "English Language & Literature - Grade 6",
+      "description": "Foundation course in English language skills and literature appreciation",
+      "chapters": [
+        {
+          "id": "reading_comprehension",
+          "title": "Reading Comprehension",
+          "topics": ["Story Elements", "Main Ideas", "Context Clues", "Inference"]
+        },
+        {
+          "id": "grammar_basics",
+          "title": "Grammar Fundamentals",
+          "topics": ["Parts of Speech", "Sentence Structure", "Punctuation", "Capitalization"]
+        },
+        {
+          "id": "creative_writing",
+          "title": "Creative Writing",
+          "topics": ["Narrative Writing", "Descriptive Writing", "Poetry", "Character Development"]
+        },
+        {
+          "id": "literature_study",
+          "title": "Literature Study",
+          "topics": ["Short Stories", "Poems", "Folk Tales", "Character Analysis"]
+        }
+      ],
+      "difficulty": "beginner",
+      "estimatedHours": 45
+    }
+  ]
+}

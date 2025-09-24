@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "history_11_world",
+      "title": "History - Grade 11 (World History)",
+      "description": "Themes in world history from ancient to modern times",
+      "chapters": [
+        {
+          "id": "early_societies",
+          "title": "From the Beginning of Time",
+          "topics": ["Early Human Societies", "Nomadic Empires", "Agricultural Revolution", "Urban Centers"]
+        },
+        {
+          "id": "empires",
+          "title": "Empires",
+          "topics": ["Roman Empire", "Chinese Empire", "Islamic Empires", "Mongol Empire"]
+        },
+        {
+          "id": "changing_cultural_traditions",
+          "title": "Changing Cultural Traditions",
+          "topics": ["Renaissance", "Reformation", "Scientific Revolution", "Enlightenment"]
+        },
+        {
+          "id": "paths_modernization",
+          "title": "Paths to Modernization",
+          "topics": ["Industrial Revolution", "Colonialism", "Nationalism", "World Wars"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 85
+    }
+  ]
+}

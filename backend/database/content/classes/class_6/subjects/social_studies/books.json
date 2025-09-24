@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "social_studies_6",
+      "title": "Social Studies - Grade 6",
+      "description": "Understanding our world, history, and society",
+      "chapters": [
+        {
+          "id": "ancient_civilizations",
+          "title": "Ancient Civilizations",
+          "topics": ["Indus Valley Civilization", "Mesopotamia", "Ancient Egypt", "Early Settlements"]
+        },
+        {
+          "id": "geography_basics",
+          "title": "Geography Fundamentals",
+          "topics": ["Maps and Globes", "Continents and Oceans", "Climate", "Natural Resources"]
+        },
+        {
+          "id": "indian_heritage",
+          "title": "Indian Heritage and Culture",
+          "topics": ["Festivals", "Languages", "Art and Craft", "Traditional Knowledge"]
+        },
+        {
+          "id": "civic_sense",
+          "title": "Civic Sense and Citizenship",
+          "topics": ["Rights and Duties", "Community Service", "Government Basics", "Democracy"]
+        }
+      ],
+      "difficulty": "beginner",
+      "estimatedHours": 35
+    }
+  ]
+}

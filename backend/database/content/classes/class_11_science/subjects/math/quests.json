@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "calculus_pioneer",
+      "title": "Calculus Pioneer Expedition",
+      "description": "Embark on a journey to discover the foundations of calculus!",
+      "type": "mathematical_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "95 min",
+      "xpReward": 520,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Join the great mathematicians Newton and Leibniz in discovering calculus! Explore limits, derivatives, and their applications.",
+        "setting": "Mathematical Discovery Institute",
+        "character": "Professor Calculus"
+      },
+      "steps": [
+        {
+          "id": "limits_exploration",
+          "type": "conceptual_understanding",
+          "title": "The Concept of Limits",
+          "narrative": "Professor Calculus introduces you to the fundamental concept of limits.",
+          "problem": {
+            "question": "Find the limit: lim(x→2) (x² - 4)/(x - 2)",
+            "type": "multiple_choice",
+            "options": ["0", "2", "4", "undefined"],
+            "correct_answer": "4",
+            "explanation": "Factor the numerator: (x² - 4) = (x - 2)(x + 2). Cancel (x - 2): lim(x→2) (x + 2) = 2 + 2 = 4."
+          }
+        }
+      ]
+    }
+  ]
+}

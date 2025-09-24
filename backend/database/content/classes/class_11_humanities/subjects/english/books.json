@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "english_11_humanities",
+      "title": "English - Grade 11 (Humanities Stream)",
+      "description": "English language and literature for humanities students",
+      "chapters": [
+        {
+          "id": "prose_analysis",
+          "title": "Prose Analysis and Appreciation",
+          "topics": ["Critical Essays", "Biographical Writing", "Travel Literature", "Social Commentary"]
+        },
+        {
+          "id": "poetry_study",
+          "title": "Poetry Study and Analysis",
+          "topics": ["Romantic Poetry", "Modern Poetry", "Indian English Poetry", "Comparative Analysis"]
+        },
+        {
+          "id": "drama_theatre",
+          "title": "Drama and Theatre Studies",
+          "topics": ["Classical Drama", "Modern Theatre", "Indian Theatre", "Performance Analysis"]
+        },
+        {
+          "id": "research_writing",
+          "title": "Research and Academic Writing",
+          "topics": ["Research Methods", "Citation Styles", "Academic Essays", "Critical Reviews"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 75
+    }
+  ]
+}

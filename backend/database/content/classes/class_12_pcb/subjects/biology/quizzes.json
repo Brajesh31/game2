@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "board_biology_advanced_quiz",
+      "title": "Advanced Biology Board Preparation",
+      "description": "Comprehensive biology test for board examination",
+      "difficulty": "board_advanced",
+      "timeLimit": 10800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which enzyme is responsible for joining DNA fragments in genetic engineering?",
+          "options": ["DNA polymerase", "DNA ligase", "Restriction endonuclease", "DNA helicase"],
+          "correct_answer": "DNA ligase",
+          "points": 5,
+          "explanation": "DNA ligase joins DNA fragments by forming phosphodiester bonds, essential in genetic engineering and DNA repair."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 460,
+        "badges": ["Biology Master"],
+        "unlocks": ["neet_biology_prep"]
+      }
+    }
+  ]
+}

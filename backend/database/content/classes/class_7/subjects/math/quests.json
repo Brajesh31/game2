@@ -1,0 +1,226 @@
+{
+  "quests": [
+    {
+      "id": "integer_warrior_academy",
+      "title": "The Integer Warrior Academy",
+      "description": "Master the battlefield of positive and negative numbers and become an Integer Warrior!",
+      "type": "skill_quest",
+      "difficulty": "medium",
+      "estimatedTime": "50 min",
+      "xpReward": 220,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Integer Warrior Academy! The Number Line Kingdom is at war between positive and negative forces. Only trained Integer Warriors can bring balance and peace!",
+        "setting": "The Integer Warrior Academy",
+        "character": "General Positive"
+      },
+      "steps": [
+        {
+          "id": "number_line_bootcamp",
+          "type": "understanding",
+          "title": "Number Line Bootcamp",
+          "narrative": "General Positive starts your training on the magical Number Line. Learn to navigate between positive and negative territories!",
+          "problem": {
+            "question": "On a number line, which number is greater: -5 or -2?",
+            "type": "multiple_choice",
+            "options": ["-5", "-2", "They are equal", "Cannot determine"],
+            "correct_answer": "-2",
+            "explanation": "Great thinking! On the number line, -2 is to the right of -5, making it greater. Remember: the further right, the greater the number!"
+          }
+        },
+        {
+          "id": "addition_battle_arena",
+          "type": "calculation",
+          "title": "Addition Battle Arena",
+          "narrative": "Enter the arena where positive and negative numbers battle! Master integer addition to win these epic battles!",
+          "problem": {
+            "question": "Calculate: (-8) + (+12) = ?",
+            "type": "multiple_choice",
+            "options": ["-20", "-4", "+4", "+20"],
+            "correct_answer": "+4",
+            "explanation": "Excellent battle strategy! When adding integers with different signs, subtract the smaller from the larger and keep the sign of the larger: 12 - 8 = 4, and since 12 is positive, the answer is +4!"
+          }
+        },
+        {
+          "id": "subtraction_fortress_siege",
+          "type": "advanced_calculation",
+          "title": "Siege of Subtraction Fortress",
+          "narrative": "The Subtraction Fortress is under attack! Use your integer subtraction skills to defend it from the chaos army!",
+          "problem": {
+            "question": "Defend the fortress: (+7) - (-3) = ?",
+            "type": "multiple_choice",
+            "options": ["+4", "+10", "-4", "-10"],
+            "correct_answer": "+10",
+            "explanation": "Heroic defense! Subtracting a negative is like adding a positive: (+7) - (-3) = (+7) + (+3) = +10. The fortress is saved!"
+          }
+        },
+        {
+          "id": "multiplication_division_championship",
+          "type": "boss_battle",
+          "title": "Integer Championship Final Battle",
+          "narrative": "The ultimate test! Face the Integer Champion in the final battle. Master multiplication and division of integers to claim victory!",
+          "problem": {
+            "question": "Final battle calculation: (-6) × (+4) = ?",
+            "type": "multiple_choice",
+            "options": ["+24", "-24", "+10", "-10"],
+            "correct_answer": "-24",
+            "explanation": "Victory is yours! When multiplying integers with different signs, the result is negative: (-6) × (+4) = -24. You are now an Integer Warrior Champion!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 220,
+        "badges": ["Integer Warrior", "Number Line Master"],
+        "unlocks": ["algebra_wizard_academy", "fraction_decimal_kingdom"]
+      }
+    },
+    {
+      "id": "algebra_wizard_academy",
+      "title": "The Algebra Wizard Academy",
+      "description": "Enter the mystical world of algebra and learn to tame wild variables and mysterious equations!",
+      "type": "magical_quest",
+      "difficulty": "medium",
+      "estimatedTime": "55 min",
+      "xpReward": 250,
+      "prerequisites": ["integer_warrior_academy"],
+      "story": {
+        "introduction": "The Algebra Kingdom is in chaos! Variables have escaped from their equations and are running wild. Master Algebraist needs your help to capture them and restore mathematical order!",
+        "setting": "The Mystical Algebra Kingdom",
+        "character": "Master Algebraist"
+      },
+      "steps": [
+        {
+          "id": "variable_capture_mission",
+          "type": "concept_learning",
+          "title": "The Great Variable Capture",
+          "narrative": "Variables x and y have escaped! Master Algebraist teaches you how to capture and understand these mysterious mathematical creatures.",
+          "problem": {
+            "question": "If x + 5 = 12, what is the value of x?",
+            "type": "multiple_choice",
+            "options": ["x = 5", "x = 7", "x = 12", "x = 17"],
+            "correct_answer": "x = 7",
+            "explanation": "Excellent capture technique! To find x, subtract 5 from both sides: x + 5 - 5 = 12 - 5, so x = 7. The variable is captured!"
+          }
+        },
+        {
+          "id": "expression_building_workshop",
+          "type": "construction",
+          "title": "Expression Building Workshop",
+          "narrative": "Learn to build powerful algebraic expressions! Combine numbers and variables to create mathematical spells.",
+          "problem": {
+            "question": "Write an expression for: 'A number increased by 8'",
+            "type": "multiple_choice",
+            "options": ["x - 8", "x + 8", "8x", "x ÷ 8"],
+            "correct_answer": "x + 8",
+            "explanation": "Perfect spell creation! 'Increased by' means addition, so 'a number (x) increased by 8' becomes x + 8!"
+          }
+        },
+        {
+          "id": "equation_solving_duel",
+          "type": "problem_solving",
+          "title": "Equation Solving Duel",
+          "narrative": "Challenge the Equation Knight to a mathematical duel! Solve equations to prove your algebraic prowess.",
+          "problem": {
+            "question": "Solve the equation: 2x + 3 = 11",
+            "type": "multiple_choice",
+            "options": ["x = 3", "x = 4", "x = 5", "x = 6"],
+            "correct_answer": "x = 4",
+            "explanation": "Masterful duel victory! First subtract 3: 2x = 8, then divide by 2: x = 4. You've defeated the Equation Knight!"
+          }
+        },
+        {
+          "id": "algebra_dragon_final_battle",
+          "type": "boss_battle",
+          "title": "Final Battle with the Algebra Dragon",
+          "narrative": "The mighty Algebra Dragon guards the kingdom's greatest treasure! Solve this complex equation to defeat the dragon and become an Algebra Wizard!",
+          "problem": {
+            "question": "The dragon's riddle: If 3x - 7 = 2x + 5, find the value of x to unlock the treasure!",
+            "type": "multiple_choice",
+            "options": ["x = 10", "x = 12", "x = 15", "x = 8"],
+            "correct_answer": "x = 12",
+            "explanation": "Legendary victory! Subtract 2x from both sides: x - 7 = 5, then add 7: x = 12. The dragon is defeated and the treasure is yours!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 250,
+        "badges": ["Algebra Wizard", "Equation Master"],
+        "unlocks": ["geometry_architect_guild", "ratio_proportion_academy"]
+      }
+    },
+    {
+      "id": "geometry_architect_guild",
+      "title": "The Geometry Architect Guild",
+      "description": "Join the prestigious Geometry Architect Guild and design amazing structures using mathematical precision!",
+      "type": "construction_quest",
+      "difficulty": "medium",
+      "estimatedTime": "45 min",
+      "xpReward": 200,
+      "prerequisites": ["algebra_wizard_academy"],
+      "story": {
+        "introduction": "The Geometry Architect Guild needs new members! Master Builder Euclid will teach you to design perfect structures using angles, lines, and geometric principles.",
+        "setting": "The Geometry Architect Guild Hall",
+        "character": "Master Builder Euclid"
+      },
+      "steps": [
+        {
+          "id": "angle_measurement_academy",
+          "type": "measurement",
+          "title": "Angle Measurement Academy",
+          "narrative": "Master Builder Euclid teaches you the art of angle measurement. Every great structure starts with perfect angles!",
+          "problem": {
+            "question": "What type of angle measures exactly 90 degrees?",
+            "type": "multiple_choice",
+            "options": ["Acute angle", "Right angle", "Obtuse angle", "Straight angle"],
+            "correct_answer": "Right angle",
+            "explanation": "Perfect precision! A right angle is exactly 90 degrees - like the corner of a square or rectangle. It's the foundation of many structures!"
+          }
+        },
+        {
+          "id": "triangle_construction_site",
+          "type": "construction",
+          "title": "Triangle Construction Site",
+          "narrative": "Build the strongest structures using triangles! Learn why triangles are the most stable shape in architecture.",
+          "problem": {
+            "question": "What is the sum of all angles in any triangle?",
+            "type": "multiple_choice",
+            "options": ["90 degrees", "180 degrees", "270 degrees", "360 degrees"],
+            "correct_answer": "180 degrees",
+            "explanation": "Architectural genius! Every triangle's angles always add up to 180 degrees. This mathematical rule helps architects build stable structures!"
+          }
+        },
+        {
+          "id": "parallel_perpendicular_plaza",
+          "type": "relationship_understanding",
+          "title": "Parallel and Perpendicular Plaza",
+          "narrative": "Design the beautiful Parallel and Perpendicular Plaza! Understand how lines relate to each other in geometric harmony.",
+          "problem": {
+            "question": "Two lines that never meet, no matter how far they extend, are called:",
+            "type": "multiple_choice",
+            "options": ["Perpendicular lines", "Parallel lines", "Intersecting lines", "Curved lines"],
+            "correct_answer": "Parallel lines",
+            "explanation": "Brilliant design! Parallel lines never meet - like railway tracks! They stay the same distance apart forever, creating perfect geometric harmony."
+          }
+        },
+        {
+          "id": "geometric_master_builder",
+          "type": "boss_battle",
+          "title": "Challenge the Geometric Master Builder",
+          "narrative": "The final test! The legendary Geometric Master Builder challenges you to design a perfect structure using all your geometric knowledge!",
+          "problem": {
+            "question": "You're designing a rectangular garden. If the length is 12 meters and width is 8 meters, what is the perimeter?",
+            "type": "multiple_choice",
+            "options": ["20 meters", "40 meters", "96 meters", "32 meters"],
+            "correct_answer": "40 meters",
+            "explanation": "Master Builder level achieved! Perimeter = 2(length + width) = 2(12 + 8) = 2(20) = 40 meters. Your garden design is perfect!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 200,
+        "badges": ["Geometry Architect", "Master Builder"],
+        "unlocks": ["data_detective_agency", "measurement_master_quest"]
+      }
+    }
+  ]
+}

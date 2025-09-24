@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "english_11_commerce",
+      "title": "English - Grade 11 (Commerce Stream)",
+      "description": "English language and literature for commerce students",
+      "chapters": [
+        {
+          "id": "business_communication",
+          "title": "Business Communication",
+          "topics": ["Formal Letters", "Business Reports", "Presentations", "Email Etiquette"]
+        },
+        {
+          "id": "prose_literature",
+          "title": "Prose and Literature",
+          "topics": ["Short Stories", "Essays", "Biographies", "Contemporary Writing"]
+        },
+        {
+          "id": "poetry_appreciation",
+          "title": "Poetry Appreciation",
+          "topics": ["Modern Poetry", "Classical Poetry", "Poetic Devices", "Critical Analysis"]
+        },
+        {
+          "id": "language_skills",
+          "title": "Advanced Language Skills",
+          "topics": ["Vocabulary Building", "Grammar Mastery", "Comprehension Skills", "Writing Techniques"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 70
+    }
+  ]
+}

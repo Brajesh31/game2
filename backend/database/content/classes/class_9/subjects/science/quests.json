@@ -1,0 +1,226 @@
+{
+  "quests": [
+    {
+      "id": "matter_universe_explorer",
+      "title": "The Matter Universe Explorer",
+      "description": "Journey into the fundamental building blocks of the universe and master the mysteries of matter!",
+      "type": "scientific_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "70 min",
+      "xpReward": 380,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Matter Universe Research Station! Dr. Particle has discovered amazing secrets about how matter behaves. Join the expedition to explore atoms, molecules, and the states of matter!",
+        "setting": "The Matter Universe Research Station",
+        "character": "Dr. Particle"
+      },
+      "steps": [
+        {
+          "id": "particle_theory_laboratory",
+          "type": "theory_understanding",
+          "title": "Particle Theory Laboratory",
+          "narrative": "Dr. Particle reveals the secret: everything is made of tiny, invisible particles! Understand how these particles explain all matter behavior.",
+          "problem": {
+            "question": "According to particle theory, what happens to particles when a solid melts into a liquid?",
+            "type": "multiple_choice",
+            "options": ["Particles disappear", "Particles move faster and farther apart", "Particles stop moving", "Particles become bigger"],
+            "correct_answer": "Particles move faster and farther apart",
+            "explanation": "Particle mastery! When heated, particles gain energy and move faster. In liquids, they're farther apart than in solids but closer than in gases!"
+          }
+        },
+        {
+          "id": "states_of_matter_transformation",
+          "type": "state_change_analysis",
+          "title": "States of Matter Transformation Chamber",
+          "narrative": "Enter the Transformation Chamber where matter changes states before your eyes! Master the processes of melting, boiling, and sublimation.",
+          "problem": {
+            "question": "What is sublimation?",
+            "type": "multiple_choice",
+            "options": ["Solid to liquid", "Liquid to gas", "Solid directly to gas", "Gas to liquid"],
+            "correct_answer": "Solid directly to gas",
+            "explanation": "Transformation mastery! Sublimation is when solids skip the liquid stage and go directly to gas - like dry ice or mothballs!"
+          }
+        },
+        {
+          "id": "evaporation_condensation_cycle",
+          "type": "process_understanding",
+          "title": "Evaporation-Condensation Cycle Mission",
+          "narrative": "Discover how water cycles through different states in nature! This process is essential for all life on Earth.",
+          "problem": {
+            "question": "Why does evaporation cause cooling?",
+            "type": "multiple_choice",
+            "options": ["Water is always cold", "Fast-moving particles escape, leaving slower ones behind", "The sun stops shining", "Air becomes thicker"],
+            "correct_answer": "Fast-moving particles escape, leaving slower ones behind",
+            "explanation": "Cooling cycle mastery! The fastest (hottest) particles escape during evaporation, leaving behind slower (cooler) particles. That's why sweating cools you!"
+          }
+        },
+        {
+          "id": "matter_universe_guardian",
+          "type": "boss_battle",
+          "title": "Become the Matter Universe Guardian",
+          "narrative": "The ultimate matter challenge! The Universe Guardian tests your complete understanding of matter, particles, and state changes!",
+          "problem": {
+            "question": "A substance changes from solid to liquid at 0°C and from liquid to gas at 100°C. What is this substance?",
+            "type": "multiple_choice",
+            "options": ["Iron", "Water", "Gold", "Oxygen"],
+            "correct_answer": "Water",
+            "explanation": "Universe Guardian status achieved! Water melts at 0°C and boils at 100°C at standard pressure. You've mastered the matter universe!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 380,
+        "badges": ["Matter Universe Guardian", "Particle Theory Master"],
+        "unlocks": ["atomic_molecular_laboratory", "motion_physics_academy"]
+      }
+    },
+    {
+      "id": "atomic_molecular_laboratory",
+      "title": "The Atomic and Molecular Laboratory",
+      "description": "Dive into the microscopic world of atoms and molecules - the building blocks of everything!",
+      "type": "chemistry_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "65 min",
+      "xpReward": 360,
+      "prerequisites": ["matter_universe_explorer"],
+      "story": {
+        "introduction": "Welcome to the Atomic Laboratory! Professor Atom has shrunk you down to atomic size to explore the incredible world of atoms and molecules. Discover how these tiny particles create everything around us!",
+        "setting": "The Microscopic Atomic Laboratory",
+        "character": "Professor Atom"
+      },
+      "steps": [
+        {
+          "id": "atomic_structure_expedition",
+          "type": "structure_exploration",
+          "title": "Atomic Structure Expedition",
+          "narrative": "Journey inside an atom! Explore the nucleus with protons and neutrons, and the electron clouds that surround them.",
+          "problem": {
+            "question": "What determines the atomic number of an element?",
+            "type": "multiple_choice",
+            "options": ["Number of neutrons", "Number of protons", "Number of electrons", "Total mass"],
+            "correct_answer": "Number of protons",
+            "explanation": "Atomic exploration success! The atomic number equals the number of protons in the nucleus. This defines what element it is!"
+          }
+        },
+        {
+          "id": "molecular_formula_workshop",
+          "type": "formula_construction",
+          "title": "Molecular Formula Workshop",
+          "narrative": "Learn to write the secret codes of molecules! Molecular formulas tell us exactly which atoms are connected and how many of each.",
+          "problem": {
+            "question": "What does the molecular formula H₂O tell us about water?",
+            "type": "multiple_choice",
+            "options": ["2 hydrogen atoms and 1 oxygen atom", "1 hydrogen atom and 2 oxygen atoms", "2 water molecules", "3 total atoms"],
+            "correct_answer": "2 hydrogen atoms and 1 oxygen atom",
+            "explanation": "Molecular code cracked! H₂O means 2 hydrogen atoms bonded to 1 oxygen atom. This simple formula represents every water molecule!"
+          }
+        },
+        {
+          "id": "chemical_equation_balancing",
+          "type": "equation_balancing",
+          "title": "Chemical Equation Balancing Arena",
+          "narrative": "Enter the balancing arena where chemical equations must follow the law of conservation of mass! Balance equations like a true chemist.",
+          "problem": {
+            "question": "Balance this equation: H₂ + O₂ → H₂O",
+            "type": "multiple_choice",
+            "options": ["H₂ + O₂ → H₂O", "2H₂ + O₂ → 2H₂O", "H₂ + 2O₂ → H₂O", "H₂ + O₂ → 2H₂O"],
+            "correct_answer": "2H₂ + O₂ → 2H₂O",
+            "explanation": "Balancing mastery! We need equal atoms on both sides: 2H₂ + O₂ → 2H₂O gives us 4H and 2O on each side. Perfectly balanced!"
+          }
+        },
+        {
+          "id": "molecular_architect_master",
+          "type": "boss_battle",
+          "title": "Defeat the Molecular Architect Master",
+          "narrative": "The ultimate chemistry challenge! The Molecular Architect Master controls all atomic and molecular processes. Prove your mastery to claim victory!",
+          "problem": {
+            "question": "Calculate the molecular mass of water (H₂O). (H = 1, O = 16)",
+            "type": "multiple_choice",
+            "options": ["17", "18", "19", "20"],
+            "correct_answer": "18",
+            "explanation": "Molecular Architect Master defeated! H₂O = (2 × 1) + (1 × 16) = 2 + 16 = 18. You've mastered atomic and molecular science!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 360,
+        "badges": ["Atomic Explorer", "Molecular Architect Master"],
+        "unlocks": ["motion_physics_academy", "cell_biology_expedition"]
+      }
+    },
+    {
+      "id": "motion_physics_academy",
+      "title": "The Motion Physics Academy",
+      "description": "Master the laws of motion and become a Physics Champion in the ultimate motion academy!",
+      "type": "physics_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "65 min",
+      "xpReward": 370,
+      "prerequisites": ["atomic_molecular_laboratory"],
+      "story": {
+        "introduction": "Welcome to the Motion Physics Academy! Coach Newton needs champions who can master velocity, acceleration, and the laws of motion. Train to become a Physics Champion!",
+        "setting": "The Motion Physics Academy",
+        "character": "Coach Newton"
+      },
+      "steps": [
+        {
+          "id": "velocity_acceleration_training",
+          "type": "concept_mastery",
+          "title": "Velocity and Acceleration Training",
+          "narrative": "Coach Newton puts you through intense training! Learn the difference between speed, velocity, and acceleration in the motion simulator.",
+          "problem": {
+            "question": "A car travels 100 meters in 10 seconds. What is its speed?",
+            "type": "multiple_choice",
+            "options": ["10 m/s", "100 m/s", "1000 m/s", "1 m/s"],
+            "correct_answer": "10 m/s",
+            "explanation": "Speed training complete! Speed = Distance ÷ Time = 100m ÷ 10s = 10 m/s. You're ready for advanced motion training!"
+          }
+        },
+        {
+          "id": "equations_of_motion_challenge",
+          "type": "formula_application",
+          "title": "Equations of Motion Challenge",
+          "narrative": "Master the three sacred equations of motion! These powerful formulas can predict the future position of any moving object.",
+          "problem": {
+            "question": "A ball is dropped from rest. After 2 seconds, how far has it fallen? (g = 10 m/s²)",
+            "type": "multiple_choice",
+            "options": ["10 m", "20 m", "40 m", "100 m"],
+            "correct_answer": "20 m",
+            "explanation": "Motion equation mastery! Using s = ut + ½gt²: s = 0(2) + ½(10)(2)² = 0 + ½(10)(4) = 20 m!"
+          }
+        },
+        {
+          "id": "force_motion_relationship",
+          "type": "law_understanding",
+          "title": "Force and Motion Relationship Lab",
+          "narrative": "Discover how forces cause motion! Understand Newton's laws that govern everything from falling apples to rocket launches.",
+          "problem": {
+            "question": "According to Newton's First Law, what happens to a moving object when no force acts on it?",
+            "type": "multiple_choice",
+            "options": ["It stops immediately", "It continues moving at constant velocity", "It speeds up", "It changes direction"],
+            "correct_answer": "It continues moving at constant velocity",
+            "explanation": "Newton's Law mastery! An object in motion stays in motion unless acted upon by a force. This is called inertia - the tendency to keep doing what you're doing!"
+          }
+        },
+        {
+          "id": "physics_champion_tournament",
+          "type": "boss_battle",
+          "title": "Physics Champion Tournament",
+          "narrative": "The ultimate physics challenge! Compete in the Physics Champion Tournament where only masters of motion can claim victory!",
+          "problem": {
+            "question": "A 5 kg object accelerates at 2 m/s². What force is applied? (F = ma)",
+            "type": "multiple_choice",
+            "options": ["3 N", "7 N", "10 N", "25 N"],
+            "correct_answer": "10 N",
+            "explanation": "Physics Champion crowned! Force = mass × acceleration = 5 kg × 2 m/s² = 10 N. You've mastered the laws of motion!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 370,
+        "badges": ["Physics Champion", "Motion Master"],
+        "unlocks": ["cell_biology_expedition", "gravitation_space_academy"]
+      }
+    }
+  ]
+}

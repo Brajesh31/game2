@@ -1,0 +1,226 @@
+{
+  "quests": [
+    {
+      "id": "number_kingdom_adventure",
+      "title": "The Number Kingdom Adventure",
+      "description": "Help the Number King organize his magical kingdom by mastering numbers and operations!",
+      "type": "exploration_quest",
+      "difficulty": "easy",
+      "estimatedTime": "45 min",
+      "xpReward": 150,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome, brave adventurer! The Number Kingdom is in chaos - numbers are scattered everywhere! The Number King needs your help to restore order to his magical realm.",
+        "setting": "The Enchanted Number Kingdom",
+        "character": "King Numericus the Wise"
+      },
+      "steps": [
+        {
+          "id": "place_value_palace",
+          "type": "problem_solving",
+          "title": "The Place Value Palace Mystery",
+          "narrative": "The palace guards have mixed up the treasure chests! Each chest has a number, but they're in the wrong rooms. Help organize them by place value.",
+          "problem": {
+            "question": "In the number 3,456, what is the place value of the digit 4?",
+            "type": "multiple_choice",
+            "options": ["Ones", "Tens", "Hundreds", "Thousands"],
+            "correct_answer": "Hundreds",
+            "explanation": "The digit 4 is in the hundreds place, so its place value is 400. Remember: from right to left we have ones, tens, hundreds, thousands!"
+          }
+        },
+        {
+          "id": "addition_bridge",
+          "type": "calculation",
+          "title": "Building the Addition Bridge",
+          "narrative": "The bridge connecting two villages has broken! Use addition to calculate how many stones are needed to rebuild it.",
+          "problem": {
+            "question": "Village A has 1,234 stones and Village B has 2,567 stones. How many stones do they have together?",
+            "type": "multiple_choice",
+            "options": ["3,791", "3,801", "3,701", "3,891"],
+            "correct_answer": "3,801",
+            "explanation": "1,234 + 2,567 = 3,801. Add column by column: 4+7=11 (write 1, carry 1), 3+6+1=10 (write 0, carry 1), 2+5+1=8, 1+2=3."
+          }
+        },
+        {
+          "id": "multiplication_maze",
+          "type": "puzzle",
+          "title": "The Multiplication Maze Challenge",
+          "narrative": "To escape the magical maze, you must solve multiplication puzzles at each turn!",
+          "problem": {
+            "question": "A wizard has 8 magic potions, and each potion has 7 ingredients. How many ingredients does he have in total?",
+            "type": "multiple_choice",
+            "options": ["54", "56", "64", "49"],
+            "correct_answer": "56",
+            "explanation": "8 × 7 = 56. You can think of it as adding 7 eight times: 7+7+7+7+7+7+7+7 = 56!"
+          }
+        },
+        {
+          "id": "fraction_dragon_boss",
+          "type": "boss_battle",
+          "title": "Defeat the Fraction Dragon",
+          "narrative": "The mighty Fraction Dragon guards the kingdom's treasure! Only by mastering fractions can you defeat this beast and save the kingdom!",
+          "problem": {
+            "question": "The dragon has eaten 3/8 of the kingdom's cookies. If there were 24 cookies originally, how many cookies did the dragon eat?",
+            "type": "multiple_choice",
+            "options": ["6 cookies", "8 cookies", "9 cookies", "12 cookies"],
+            "correct_answer": "9 cookies",
+            "explanation": "To find 3/8 of 24: (3 × 24) ÷ 8 = 72 ÷ 8 = 9 cookies. The dragon ate 9 cookies!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 150,
+        "badges": ["Number Kingdom Hero", "Math Explorer"],
+        "unlocks": ["fraction_kingdom_quest", "geometry_castle_adventure"]
+      }
+    },
+    {
+      "id": "fraction_kingdom_quest",
+      "title": "The Fraction Kingdom Quest",
+      "description": "Master the magical art of fractions and help the Fraction Princess restore her kingdom!",
+      "type": "skill_quest",
+      "difficulty": "medium",
+      "estimatedTime": "50 min",
+      "xpReward": 200,
+      "prerequisites": ["number_kingdom_adventure"],
+      "story": {
+        "introduction": "The Fraction Kingdom is in turmoil! Evil forces have scattered fraction pieces across the land. Only a true Fraction Master can reunite them and restore peace.",
+        "setting": "The Mystical Fraction Kingdom",
+        "character": "Princess Fractiona"
+      },
+      "steps": [
+        {
+          "id": "fraction_basics_tower",
+          "type": "understanding",
+          "title": "Climbing the Fraction Basics Tower",
+          "narrative": "Princess Fractiona shows you the Tower of Understanding. Each floor teaches you about fractions!",
+          "problem": {
+            "question": "Look at this pizza divided into 8 equal slices. If 3 slices are eaten, what fraction represents the eaten portion?",
+            "type": "multiple_choice",
+            "options": ["3/5", "3/8", "5/8", "8/3"],
+            "correct_answer": "3/8",
+            "explanation": "3 slices out of 8 total slices = 3/8. The top number (numerator) shows parts taken, bottom number (denominator) shows total parts."
+          }
+        },
+        {
+          "id": "equivalent_fractions_forest",
+          "type": "pattern_recognition",
+          "title": "The Equivalent Fractions Forest",
+          "narrative": "In the magical forest, fractions that look different are actually the same! Find the equivalent fractions to unlock the secret path.",
+          "problem": {
+            "question": "Which fraction is equivalent to 1/2?",
+            "type": "multiple_choice",
+            "options": ["2/3", "3/6", "4/6", "1/3"],
+            "correct_answer": "3/6",
+            "explanation": "3/6 = 1/2 because if you divide both top and bottom by 3, you get 1/2. They represent the same amount!"
+          }
+        },
+        {
+          "id": "fraction_addition_cave",
+          "type": "calculation",
+          "title": "The Fraction Addition Cave",
+          "narrative": "Deep in the cave, you find fraction crystals that must be combined. Add them together to create powerful magic!",
+          "problem": {
+            "question": "Add these fraction crystals: 1/4 + 2/4 = ?",
+            "type": "multiple_choice",
+            "options": ["3/4", "3/8", "1/2", "2/3"],
+            "correct_answer": "3/4",
+            "explanation": "When fractions have the same denominator, just add the numerators: 1/4 + 2/4 = (1+2)/4 = 3/4!"
+          }
+        },
+        {
+          "id": "fraction_wizard_duel",
+          "type": "boss_battle",
+          "title": "Duel with the Fraction Wizard",
+          "narrative": "The evil Fraction Wizard challenges you to a final duel! Solve this complex fraction problem to defeat him and save the kingdom!",
+          "problem": {
+            "question": "The wizard's spell requires 2/3 of a magic potion. If you have 3/4 of the potion, do you have enough? How much more or less do you have?",
+            "type": "multiple_choice",
+            "options": ["Yes, 1/12 more", "No, 1/12 less", "Yes, 1/6 more", "No, 1/6 less"],
+            "correct_answer": "Yes, 1/12 more",
+            "explanation": "Compare 3/4 and 2/3: 3/4 = 9/12, 2/3 = 8/12. Since 9/12 > 8/12, you have 1/12 more than needed!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 200,
+        "badges": ["Fraction Master", "Kingdom Savior"],
+        "unlocks": ["geometry_castle_adventure", "decimal_dragon_quest"]
+      }
+    },
+    {
+      "id": "geometry_castle_adventure",
+      "title": "The Geometry Castle Adventure",
+      "description": "Explore the mysterious Geometry Castle and unlock its shape-shifting secrets!",
+      "type": "exploration_quest",
+      "difficulty": "medium",
+      "estimatedTime": "40 min",
+      "xpReward": 180,
+      "prerequisites": ["number_kingdom_adventure"],
+      "story": {
+        "introduction": "The ancient Geometry Castle holds the secrets of shapes and angles. Navigate through its magical rooms and become a Geometry Guardian!",
+        "setting": "The Ancient Geometry Castle",
+        "character": "Sir Shapealot"
+      },
+      "steps": [
+        {
+          "id": "triangle_treasure_room",
+          "type": "shape_recognition",
+          "title": "The Triangle Treasure Room",
+          "narrative": "Sir Shapealot leads you to a room full of triangular treasures. Count the sides and angles to unlock the treasure chest!",
+          "problem": {
+            "question": "How many sides does a triangle have?",
+            "type": "multiple_choice",
+            "options": ["2", "3", "4", "5"],
+            "correct_answer": "3",
+            "explanation": "A triangle always has exactly 3 sides and 3 angles. That's why it's called a 'tri-angle'!"
+          }
+        },
+        {
+          "id": "rectangle_riddle_hall",
+          "type": "property_identification",
+          "title": "The Rectangle Riddle Hall",
+          "narrative": "In the Rectangle Hall, you must solve riddles about four-sided shapes to proceed to the next chamber.",
+          "problem": {
+            "question": "What makes a rectangle special compared to other four-sided shapes?",
+            "type": "multiple_choice",
+            "options": ["All sides are equal", "All angles are right angles", "It has 5 sides", "It's always a square"],
+            "correct_answer": "All angles are right angles",
+            "explanation": "A rectangle has 4 right angles (90 degrees each). Opposite sides are equal, but not all sides need to be equal like in a square."
+          }
+        },
+        {
+          "id": "circle_chamber_mystery",
+          "type": "measurement",
+          "title": "The Circle Chamber Mystery",
+          "narrative": "The final chamber is perfectly round! Solve the circle mystery to claim the Geometry Crown.",
+          "problem": {
+            "question": "If a circle has a radius of 5 cm, what is its diameter?",
+            "type": "multiple_choice",
+            "options": ["5 cm", "10 cm", "15 cm", "25 cm"],
+            "correct_answer": "10 cm",
+            "explanation": "The diameter is always twice the radius. So if radius = 5 cm, then diameter = 2 × 5 = 10 cm!"
+          }
+        },
+        {
+          "id": "shape_shifting_guardian",
+          "type": "boss_battle",
+          "title": "Battle the Shape-Shifting Guardian",
+          "narrative": "The castle's guardian can change into any shape! Identify all the shapes it transforms into to prove you're worthy of the Geometry Crown!",
+          "problem": {
+            "question": "The guardian transforms into a shape with 4 equal sides and 4 right angles. What shape is it?",
+            "type": "multiple_choice",
+            "options": ["Rectangle", "Triangle", "Square", "Circle"],
+            "correct_answer": "Square",
+            "explanation": "A square has 4 equal sides and 4 right angles. It's a special type of rectangle where all sides are the same length!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 180,
+        "badges": ["Geometry Guardian", "Shape Master"],
+        "unlocks": ["measurement_mountain_climb", "pattern_puzzle_palace"]
+      }
+    }
+  ]
+}

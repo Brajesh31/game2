@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "photosynthesis_quiz",
+      "title": "Photosynthesis Process Quiz",
+      "description": "Test your understanding of how plants make food",
+      "difficulty": "medium",
+      "timeLimit": 600,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What are the raw materials needed for photosynthesis?",
+          "options": [
+            "Oxygen and glucose",
+            "Carbon dioxide and water",
+            "Nitrogen and phosphorus",
+            "Sunlight and chlorophyll"
+          ],
+          "correct_answer": "Carbon dioxide and water",
+          "points": 10,
+          "explanation": "Plants use carbon dioxide from air and water from soil as raw materials, with sunlight and chlorophyll helping the process."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 95,
+        "badges": ["Plant Expert"],
+        "unlocks": ["respiration_quiz"]
+      }
+    }
+  ]
+}

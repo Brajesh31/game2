@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "political_science_12",
+      "title": "Political Science - Grade 12",
+      "description": "Contemporary world politics and Indian government and politics",
+      "chapters": [
+        {
+          "id": "cold_war_era",
+          "title": "The Cold War Era",
+          "topics": ["Bipolar World", "Non-Aligned Movement", "Arms Race", "End of Cold War"]
+        },
+        {
+          "id": "end_bipolarity",
+          "title": "The End of Bipolarity",
+          "topics": ["Soviet Disintegration", "Unipolar World", "US Hegemony", "New World Order"]
+        },
+        {
+          "id": "contemporary_south_asia",
+          "title": "Contemporary South Asia",
+          "topics": ["Partition Legacy", "India-Pakistan Relations", "SAARC", "Regional Cooperation"]
+        },
+        {
+          "id": "challenges_democracy",
+          "title": "Challenges to and Restoration of Congress System",
+          "topics": ["Congress Dominance", "Coalition Politics", "Regional Parties", "Democratic Deepening"]
+        }
+      ],
+      "difficulty": "board_advanced",
+      "estimatedHours": 85
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "geography_11_physical",
+      "title": "Geography - Grade 11 (Physical Geography)",
+      "description": "Fundamentals of physical geography and earth systems",
+      "chapters": [
+        {
+          "id": "geography_nature_scope",
+          "title": "Geography as a Discipline",
+          "topics": ["Nature of Geography", "Branches of Geography", "Approaches", "Scope and Career"]
+        },
+        {
+          "id": "earth_structure",
+          "title": "The Earth",
+          "topics": ["Origin and Evolution", "Interior Structure", "Continental Drift", "Plate Tectonics"]
+        },
+        {
+          "id": "landforms",
+          "title": "Landforms and their Evolution",
+          "topics": ["Weathering", "Mass Wasting", "Erosion", "Deposition"]
+        },
+        {
+          "id": "climate",
+          "title": "Climate",
+          "topics": ["Atmosphere Composition", "Weather and Climate", "Monsoons", "Climate Change"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 85
+    }
+  ]
+}

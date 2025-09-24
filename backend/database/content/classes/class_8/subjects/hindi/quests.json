@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "mahakavi_mission",
+      "title": "महाकवि मिशन",
+      "description": "महान कवियों के साथ काव्य यात्रा पर निकलें और काव्य कला सीखें!",
+      "type": "literary_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "55 min",
+      "xpReward": 260,
+      "prerequisites": [],
+      "story": {
+        "introduction": "काव्य लोक में अशांति है! महान कवियों की रचनाएं बिखर गई हैं। आपको उन्हें एकत्र करना है।",
+        "setting": "काव्य लोक",
+        "character": "काव्य गुरु"
+      },
+      "steps": [
+        {
+          "id": "alankar_pahchan",
+          "type": "literary_analysis",
+          "title": "अलंकार पहचान",
+          "narrative": "काव्य गुरु आपको अलंकारों की पहचान करने की चुनौती देते हैं।",
+          "problem": {
+            "question": "'चांद का मुंह टेढ़ा है' में कौन सा अलंकार है?",
+            "type": "multiple_choice",
+            "options": ["उपमा", "रूपक", "मानवीकरण", "अतिशयोक्ति"],
+            "correct_answer": "मानवीकरण",
+            "explanation": "चांद को मुंह देना मानवीकरण अलंकार है, जहां निर्जीव वस्तु को जीवित गुण दिए गए हैं।"
+          }
+        }
+      ]
+    }
+  ]
+}

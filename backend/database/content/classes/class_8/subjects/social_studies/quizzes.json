@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "freedom_struggle_quiz",
+      "title": "Indian Freedom Struggle Quiz",
+      "description": "Test your knowledge about India's independence movement",
+      "difficulty": "advanced",
+      "timeLimit": 1200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Who gave the slogan 'Quit India'?",
+          "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Subhas Chandra Bose", "Sardar Patel"],
+          "correct_answer": "Mahatma Gandhi",
+          "points": 15,
+          "explanation": "Mahatma Gandhi launched the Quit India Movement in 1942 with the slogan 'Quit India' or 'Bharat Chhodo'."
+        }
+      ],
+      "passing_score": 80,
+      "rewards": {
+        "xp": 140,
+        "badges": ["Freedom Fighter"],
+        "unlocks": ["constitution_quiz"]
+      }
+    }
+  ]
+}

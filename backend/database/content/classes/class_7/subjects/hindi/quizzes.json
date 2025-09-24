@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "hindi_sahitya_quiz",
+      "title": "हिंदी साहित्य प्रश्नोत्तरी",
+      "description": "हिंदी साहित्य और व्याकरण की जांच",
+      "difficulty": "medium",
+      "timeLimit": 900,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "तुलसीदास जी की प्रसिद्ध रचना कौन सी है?",
+          "options": ["गीता", "रामायण", "रामचरितमानस", "महाभारत"],
+          "correct_answer": "रामचरितमानस",
+          "points": 10,
+          "explanation": "तुलसीदास जी की सबसे प्रसिद्ध रचना 'रामचरितमानस' है।"
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 100,
+        "badges": ["साहित्य प्रेमी"],
+        "unlocks": ["advanced_hindi_literature_quiz"]
+      }
+    }
+  ]
+}

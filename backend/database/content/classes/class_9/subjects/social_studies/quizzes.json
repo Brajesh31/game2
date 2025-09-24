@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "democracy_quiz",
+      "title": "Democratic Principles Quiz",
+      "description": "Test your understanding of democratic values and institutions",
+      "difficulty": "advanced",
+      "timeLimit": 1800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "What is the main principle of democracy?",
+          "options": [
+            "Rule by the wealthy",
+            "Rule by the majority with minority rights",
+            "Rule by the military",
+            "Rule by religious leaders"
+          ],
+          "correct_answer": "Rule by the majority with minority rights",
+          "points": 15,
+          "explanation": "Democracy means rule by the majority, but it must also protect the rights of minorities."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 160,
+        "badges": ["Democracy Champion"],
+        "unlocks": ["constitution_quiz"]
+      }
+    }
+  ]
+}

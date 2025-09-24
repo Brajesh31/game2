@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "social_studies_8",
+      "title": "Social Studies - Grade 8",
+      "description": "Modern history, geography, and civic responsibilities",
+      "chapters": [
+        {
+          "id": "modern_india",
+          "title": "Modern India",
+          "topics": ["British Rule", "Freedom Struggle", "Independence Movement", "Partition"]
+        },
+        {
+          "id": "natural_resources",
+          "title": "Natural Resources",
+          "topics": ["Land Resources", "Water Resources", "Mineral Resources", "Conservation"]
+        },
+        {
+          "id": "agriculture_industry",
+          "title": "Agriculture and Industry",
+          "topics": ["Types of Farming", "Industrial Development", "Transportation", "Communication"]
+        },
+        {
+          "id": "social_justice",
+          "title": "Social Justice and Equality",
+          "topics": ["Fundamental Rights", "Social Movements", "Gender Equality", "Caste and Religion"]
+        }
+      ],
+      "difficulty": "advanced",
+      "estimatedHours": 50
+    }
+  ]
+}

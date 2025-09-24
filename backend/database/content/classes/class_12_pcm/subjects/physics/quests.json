@@ -1,0 +1,39 @@
+{
+  "quests": [
+    {
+      "id": "quantum_physicist",
+      "title": "Quantum Physicist Challenge",
+      "description": "Explore the mysterious world of quantum physics and modern scientific discoveries!",
+      "type": "physics_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "100 min",
+      "xpReward": 600,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Quantum Research Laboratory! Dr. Quantum needs your help to understand the strange behavior of particles at the atomic level.",
+        "setting": "Quantum Physics Laboratory",
+        "character": "Dr. Quantum"
+      },
+      "steps": [
+        {
+          "id": "photoelectric_investigation",
+          "type": "quantum_analysis",
+          "title": "Photoelectric Effect Investigation",
+          "narrative": "Dr. Quantum shows you Einstein's photoelectric effect experiment. Analyze the quantum nature of light!",
+          "problem": {
+            "question": "In the photoelectric effect, what happens when the frequency of incident light is below the threshold frequency?",
+            "type": "multiple_choice",
+            "options": [
+              "Electrons are emitted with low energy",
+              "No electrons are emitted regardless of intensity",
+              "More electrons are emitted",
+              "Electrons are emitted after some delay"
+            ],
+            "correct_answer": "No electrons are emitted regardless of intensity",
+            "explanation": "Below threshold frequency, no photoelectrons are emitted regardless of light intensity, proving the quantum nature of light."
+          }
+        }
+      ]
+    }
+  ]
+}

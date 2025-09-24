@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "science_8_advanced",
+      "title": "Science - Grade 8",
+      "description": "Advanced scientific concepts with practical applications",
+      "chapters": [
+        {
+          "id": "crop_production",
+          "title": "Crop Production and Management",
+          "topics": ["Agricultural Practices", "Crop Variety", "Fertilizers", "Irrigation", "Storage"]
+        },
+        {
+          "id": "microorganisms",
+          "title": "Microorganisms: Friend and Foe",
+          "topics": ["Types of Microorganisms", "Beneficial Microorganisms", "Harmful Microorganisms", "Food Preservation"]
+        },
+        {
+          "id": "synthetic_materials",
+          "title": "Synthetic Fibres and Plastics",
+          "topics": ["Types of Fibres", "Synthetic Fibres", "Plastics", "Environmental Impact"]
+        },
+        {
+          "id": "force_pressure",
+          "title": "Force and Pressure",
+          "topics": ["Types of Forces", "Pressure", "Atmospheric Pressure", "Liquid Pressure"]
+        }
+      ],
+      "difficulty": "advanced",
+      "estimatedHours": 60
+    }
+  ]
+}

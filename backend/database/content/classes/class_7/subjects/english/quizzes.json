@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "grammar_mastery_quiz",
+      "title": "Grammar Mastery Test",
+      "description": "Advanced grammar concepts and usage",
+      "difficulty": "medium",
+      "timeLimit": 900,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Convert to passive voice: 'The teacher explained the lesson.'",
+          "options": [
+            "The lesson was explained by the teacher.",
+            "The lesson is explained by the teacher.",
+            "The lesson has been explained by the teacher.",
+            "The lesson will be explained by the teacher."
+          ],
+          "correct_answer": "The lesson was explained by the teacher.",
+          "points": 15,
+          "explanation": "In passive voice, the object becomes the subject. Past tense 'explained' becomes 'was explained'."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 120,
+        "badges": ["Grammar Master"],
+        "unlocks": ["advanced_composition_quiz"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "id": "hindi_7_intermediate",
+      "title": "हिंदी भाषा और साहित्य - कक्षा 7",
+      "description": "हिंदी भाषा के मध्यम स्तर के कौशल और साहित्यिक समझ",
+      "chapters": [
+        {
+          "id": "vyakaran_madhyam",
+          "title": "मध्यम व्याकरण",
+          "topics": ["संधि", "समास", "उपसर्ग और प्रत्यय", "वाच्य"]
+        },
+        {
+          "id": "sahitya_parichay",
+          "title": "साहित्य परिचय",
+          "topics": ["महान कवि", "प्रसिद्ध लेखक", "काव्य की विधाएं", "गद्य की विधाएं"]
+        },
+        {
+          "id": "rachnatmak_lekhan",
+          "title": "रचनात्मक लेखन",
+          "topics": ["निबंध लेखन", "कहानी लेखन", "कविता रचना", "संवाद लेखन"]
+        }
+      ],
+      "difficulty": "intermediate",
+      "estimatedHours": 45
+    }
+  ]
+}

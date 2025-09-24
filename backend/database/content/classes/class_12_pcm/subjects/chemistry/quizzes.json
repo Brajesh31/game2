@@ -1,0 +1,27 @@
+{
+  "quizzes": [
+    {
+      "id": "board_chemistry_advanced_quiz",
+      "title": "Advanced Chemistry Board Preparation",
+      "description": "Comprehensive chemistry test for board examination",
+      "difficulty": "board_advanced",
+      "timeLimit": 10800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "numerical",
+          "question": "Calculate the molality of a solution containing 5g of NaOH in 100g of water. (Molecular mass of NaOH = 40)",
+          "correct_answer": "1.25 m",
+          "points": 5,
+          "explanation": "Molality = moles of solute/kg of solvent = (5/40)/(100/1000) = 0.125/0.1 = 1.25 m."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 480,
+        "badges": ["Chemistry Master"],
+        "unlocks": ["jee_chemistry_prep"]
+      }
+    }
+  ]
+}

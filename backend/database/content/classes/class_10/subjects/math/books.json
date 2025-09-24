@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "math_10_board",
+      "title": "Mathematics - Grade 10",
+      "description": "Board examination mathematics with comprehensive problem-solving",
+      "chapters": [
+        {
+          "id": "real_numbers",
+          "title": "Real Numbers",
+          "topics": ["Euclid's Division Lemma", "Fundamental Theorem of Arithmetic", "HCF and LCM", "Irrational Numbers"]
+        },
+        {
+          "id": "polynomials_advanced",
+          "title": "Polynomials",
+          "topics": ["Relationship between Zeros and Coefficients", "Division Algorithm", "Factorization"]
+        },
+        {
+          "id": "linear_equations_two_variables",
+          "title": "Pair of Linear Equations in Two Variables",
+          "topics": ["Graphical Method", "Substitution Method", "Elimination Method", "Cross Multiplication"]
+        },
+        {
+          "id": "quadratic_equations",
+          "title": "Quadratic Equations",
+          "topics": ["Standard Form", "Factorization Method", "Quadratic Formula", "Nature of Roots"]
+        }
+      ],
+      "difficulty": "board_level",
+      "estimatedHours": 100
+    }
+  ]
+}

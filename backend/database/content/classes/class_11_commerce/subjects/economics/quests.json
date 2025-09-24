@@ -1,0 +1,39 @@
+{
+  "quests": [
+    {
+      "id": "market_economist",
+      "title": "Market Economist Challenge",
+      "description": "Analyze market structures and make economic decisions like a professional economist!",
+      "type": "economic_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "80 min",
+      "xpReward": 420,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Economic Research Institute needs your expertise to analyze different market scenarios and predict economic outcomes!",
+        "setting": "Economic Research Institute",
+        "character": "Professor Economy"
+      },
+      "steps": [
+        {
+          "id": "demand_analysis",
+          "type": "economic_analysis",
+          "title": "Demand and Supply Analysis",
+          "narrative": "Professor Economy presents you with market data. Analyze the demand and supply patterns!",
+          "problem": {
+            "question": "If the price of tea increases, what will happen to the demand for coffee (assuming they are substitute goods)?",
+            "type": "multiple_choice",
+            "options": [
+              "Demand for coffee will decrease",
+              "Demand for coffee will increase",
+              "Demand for coffee will remain same",
+              "Cannot be determined"
+            ],
+            "correct_answer": "Demand for coffee will increase",
+            "explanation": "When the price of a substitute good (tea) increases, demand for the alternative (coffee) increases as consumers switch to the relatively cheaper option."
+          }
+        }
+      ]
+    }
+  ]
+}

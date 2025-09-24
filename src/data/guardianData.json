@@ -1,0 +1,66 @@
+{
+  "user": {
+    "id": "guardian-001",
+    "username": "guardian",
+    "name": "Priya Sharma",
+    "role": "guardian",
+    "email": "priya.sharma@email.com",
+    "avatar": "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=150"
+  },
+  "children": ["student-001", "student-009"],
+  "children": ["student-001", "student-009"],
+  "notifications": [
+    {
+      "id": "notif-001",
+      "title": "Weekly Progress Update",
+      "message": "Aria completed 5 out of 7 daily quests this week",
+      "type": "info",
+      "timestamp": "2024-01-29T18:00:00Z",
+      "read": false
+    },
+    {
+      "id": "notif-002", 
+      "title": "New Achievement!",
+      "message": "Aria unlocked the Mathematics Master achievement",
+      "type": "success",
+      "timestamp": "2024-01-29T14:20:00Z",
+      "read": false
+    },
+    {
+      "id": "notif-003",
+      "title": "Upcoming Test",
+      "message": "Algebra test scheduled for February 2nd",
+      "type": "warning",
+      "timestamp": "2024-01-28T10:15:00Z",
+      "read": true
+    }
+  ],
+  "childrenProgress": [
+    {
+      "id": "student-001",
+      "name": "Aria",
+      "currentLevel": 12,
+      "weeklyProgress": 85,
+      "timeSpent": "4h 32m",
+      "recentAchievements": 2,
+      "subjects": [
+        { "name": "Mathematics", "progress": 78 },
+        { "name": "Physics", "progress": 65 },
+        { "name": "Chemistry", "progress": 71 }
+      ]
+    },
+    {
+      "id": "student-009",
+      "name": "Aarav",
+      "currentLevel": 8,
+      "weeklyProgress": 72,
+      "timeSpent": "3h 45m",
+      "recentAchievements": 1,
+      "subjects": [
+        { "name": "Mathematics", "progress": 65 },
+        { "name": "Science", "progress": 58 },
+        { "name": "English", "progress": 74 }
+      ]
+    }
+  ]
+}

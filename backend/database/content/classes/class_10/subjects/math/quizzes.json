@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "board_math_quiz",
+      "title": "Board Mathematics Preparation",
+      "description": "Comprehensive mathematics quiz for board exam preparation",
+      "difficulty": "board_level",
+      "timeLimit": 5400,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Find the HCF of 96 and 404 using Euclid's division algorithm.",
+          "options": ["4", "8", "12", "16"],
+          "correct_answer": "4",
+          "points": 4,
+          "explanation": "Using Euclid's division algorithm repeatedly: 404 = 96 × 4 + 20, 96 = 20 × 4 + 16, 20 = 16 × 1 + 4, 16 = 4 × 4 + 0. HCF = 4."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 350,
+        "badges": ["Board Math Expert"],
+        "unlocks": ["advanced_trigonometry"]
+      }
+    }
+  ]
+}

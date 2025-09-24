@@ -1,0 +1,229 @@
+{
+  "quests": [
+    {
+      "id": "literary_critic_adventure",
+      "title": "The Literary Critic Adventure",
+      "description": "Become a master literary critic and uncover the hidden meanings in amazing stories and poems!",
+      "type": "analysis_quest",
+      "difficulty": "medium",
+      "estimatedTime": "55 min",
+      "xpReward": 230,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Literary Critic Academy! Professor Insight needs your help to analyze famous works of literature and discover their deeper meanings. Every story has secrets waiting to be uncovered!",
+        "setting": "The Literary Critic Academy",
+        "character": "Professor Insight"
+      },
+      "steps": [
+        {
+          "id": "theme_treasure_hunt",
+          "type": "theme_analysis",
+          "title": "The Theme Treasure Hunt",
+          "narrative": "Professor Insight sends you on a treasure hunt to find hidden themes in stories. Themes are the big ideas that authors want to share!",
+          "reading_passage": "Maya had always been afraid of speaking in front of others. When her teacher announced a speech competition, Maya's heart sank. But her grandmother encouraged her, saying, 'Courage isn't the absence of fear, it's acting despite the fear.' Maya practiced every day, and though she was nervous, she gave her speech. She didn't win, but she felt proud of overcoming her fear.",
+          "problem": {
+            "question": "What is the main theme of this story?",
+            "type": "multiple_choice",
+            "options": ["Winning competitions is important", "Grandmothers give good advice", "Courage means facing your fears", "Speaking is difficult"],
+            "correct_answer": "Courage means facing your fears",
+            "explanation": "Excellent theme detection! The story shows that true courage isn't about not being scared - it's about doing something brave even when you're afraid!"
+          }
+        },
+        {
+          "id": "character_motivation_mystery",
+          "type": "character_analysis",
+          "title": "Character Motivation Mystery",
+          "narrative": "Dive deeper into character analysis! Discover why characters act the way they do by examining their motivations and feelings.",
+          "reading_passage": "Tom always shared his lunch with classmates who forgot theirs, even when it meant he would be hungry. When asked why, Tom said, 'I remember how sad I felt when I forgot my lunch once. I don't want anyone else to feel that way.'",
+          "problem": {
+            "question": "What motivates Tom to share his lunch?",
+            "type": "multiple_choice",
+            "options": ["He wants to be popular", "He has too much food", "He empathizes with others' feelings", "His parents told him to"],
+            "correct_answer": "He empathizes with others' feelings",
+            "explanation": "Brilliant character analysis! Tom shares because he remembers his own sad feelings and doesn't want others to experience the same. This shows empathy and kindness!"
+          }
+        },
+        {
+          "id": "setting_atmosphere_studio",
+          "type": "atmosphere_analysis",
+          "title": "Setting and Atmosphere Studio",
+          "narrative": "Learn how authors create mood and atmosphere through their descriptions of time and place. Feel the story's emotions!",
+          "reading_passage": "The old mansion stood silent in the moonlight, its broken windows staring like empty eyes. Shadows danced across the overgrown garden, and the rusty gate creaked in the cold wind. Sarah pulled her coat tighter as she approached the mysterious house.",
+          "problem": {
+            "question": "What atmosphere does this setting create?",
+            "type": "multiple_choice",
+            "options": ["Happy and cheerful", "Mysterious and spooky", "Calm and peaceful", "Exciting and fun"],
+            "correct_answer": "Mysterious and spooky",
+            "explanation": "Perfect atmosphere reading! Words like 'silent,' 'broken windows,' 'shadows,' and 'creaked' create a mysterious, spooky mood that makes readers feel suspense!"
+          }
+        },
+        {
+          "id": "literary_device_master_duel",
+          "type": "boss_battle",
+          "title": "Duel with the Literary Device Master",
+          "narrative": "The ultimate literary challenge! The Literary Device Master uses metaphors, similes, and personification in battle. Identify these devices to defeat him!",
+          "problem": {
+            "question": "Identify the literary device: 'The wind whispered secrets through the trees.'",
+            "type": "multiple_choice",
+            "options": ["Simile", "Metaphor", "Personification", "Alliteration"],
+            "correct_answer": "Personification",
+            "explanation": "Literary mastery achieved! Personification gives human qualities (whispering) to non-human things (wind). You've defeated the Literary Device Master!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 230,
+        "badges": ["Literary Critic Master", "Theme Detective"],
+        "unlocks": ["advanced_grammar_academy", "creative_writing_studio"]
+      }
+    },
+    {
+      "id": "advanced_grammar_academy",
+      "title": "The Advanced Grammar Academy",
+      "description": "Master complex grammar rules and become a Grammar Grandmaster!",
+      "type": "skill_quest",
+      "difficulty": "medium",
+      "estimatedTime": "50 min",
+      "xpReward": 220,
+      "prerequisites": ["literary_critic_adventure"],
+      "story": {
+        "introduction": "Welcome to the Advanced Grammar Academy! Grammar General needs elite grammar soldiers to fight the forces of confusion and bring clarity to communication!",
+        "setting": "The Advanced Grammar Academy",
+        "character": "Grammar General"
+      },
+      "steps": [
+        {
+          "id": "tense_time_machine",
+          "type": "tense_mastery",
+          "title": "The Tense Time Machine",
+          "narrative": "Board the Tense Time Machine! Travel through past, present, and future to master the timeline of actions and events.",
+          "problem": {
+            "question": "Which sentence is in the past tense?",
+            "type": "multiple_choice",
+            "options": ["I am reading a book", "I will read a book", "I read a book yesterday", "I read books every day"],
+            "correct_answer": "I read a book yesterday",
+            "explanation": "Time travel success! 'Yesterday' is the clue that this action happened in the past. Past tense tells us about completed actions!"
+          }
+        },
+        {
+          "id": "voice_transformation_chamber",
+          "type": "voice_conversion",
+          "title": "Voice Transformation Chamber",
+          "narrative": "Enter the Voice Chamber where sentences transform between active and passive voice! Master this transformation magic!",
+          "problem": {
+            "question": "Change to passive voice: 'The teacher explained the lesson.'",
+            "type": "multiple_choice",
+            "options": ["The lesson was explained by the teacher", "The teacher was explaining the lesson", "The lesson explains the teacher", "The teacher will explain the lesson"],
+            "correct_answer": "The lesson was explained by the teacher",
+            "explanation": "Voice transformation mastered! In passive voice, the object (lesson) becomes the subject, and we add 'was' + past participle (explained) + 'by' + original subject!"
+          }
+        },
+        {
+          "id": "complex_sentence_construction",
+          "type": "sentence_building",
+          "title": "Complex Sentence Construction Site",
+          "narrative": "Build complex sentences like a master architect! Combine simple ideas into sophisticated structures using conjunctions.",
+          "problem": {
+            "question": "Combine these sentences using 'because': 'It was raining.' 'We stayed inside.'",
+            "type": "multiple_choice",
+            "options": ["It was raining, we stayed inside", "We stayed inside because it was raining", "Because we stayed inside, it was raining", "It was raining and we stayed inside"],
+            "correct_answer": "We stayed inside because it was raining",
+            "explanation": "Perfect construction! 'Because' shows the reason. We stayed inside (effect) because it was raining (cause). Complex sentences show relationships between ideas!"
+          }
+        },
+        {
+          "id": "grammar_grandmaster_tournament",
+          "type": "boss_battle",
+          "title": "Grammar Grandmaster Tournament",
+          "narrative": "The ultimate grammar challenge! Face the Grammar Grandmaster in a tournament that tests all your advanced grammar skills!",
+          "problem": {
+            "question": "Identify the error: 'Each of the students have completed their homework.'",
+            "type": "multiple_choice",
+            "options": ["'Each' should be 'All'", "'have' should be 'has'", "'their' should be 'his'", "No error"],
+            "correct_answer": "'have' should be 'has'",
+            "explanation": "Grandmaster level achieved! 'Each' is singular, so it needs the singular verb 'has,' not 'have.' You are now a Grammar Grandmaster!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 220,
+        "badges": ["Grammar Grandmaster", "Sentence Architect"],
+        "unlocks": ["creative_writing_studio", "debate_championship_arena"]
+      }
+    },
+    {
+      "id": "creative_writing_studio",
+      "title": "The Creative Writing Studio",
+      "description": "Unleash your imagination and create amazing stories, poems, and essays in the magical writing studio!",
+      "type": "creative_quest",
+      "difficulty": "medium",
+      "estimatedTime": "45 min",
+      "xpReward": 200,
+      "prerequisites": ["advanced_grammar_academy"],
+      "story": {
+        "introduction": "Welcome to the Creative Writing Studio! Author Imagination has lost her inspiration and needs your help to create wonderful stories, poems, and essays that will inspire the world!",
+        "setting": "The Magical Creative Writing Studio",
+        "character": "Author Imagination"
+      },
+      "steps": [
+        {
+          "id": "story_structure_blueprint",
+          "type": "structure_learning",
+          "title": "Story Structure Blueprint",
+          "narrative": "Author Imagination teaches you the secret blueprint of great stories: beginning, middle, and end with exciting plot development!",
+          "problem": {
+            "question": "What should come first in a good story?",
+            "type": "multiple_choice",
+            "options": ["The ending", "Character introduction and setting", "The climax", "The moral lesson"],
+            "correct_answer": "Character introduction and setting",
+            "explanation": "Perfect story architecture! Stories need a strong foundation - introducing characters and setting helps readers understand who and where before the adventure begins!"
+          }
+        },
+        {
+          "id": "descriptive_writing_workshop",
+          "type": "descriptive_skills",
+          "title": "Descriptive Writing Workshop",
+          "narrative": "Learn to paint pictures with words! Use the five senses to make your writing come alive for readers.",
+          "problem": {
+            "question": "Which sentence uses the best descriptive language?",
+            "type": "multiple_choice",
+            "options": ["The dog ran fast", "The golden retriever sprinted across the green meadow", "A dog moved quickly", "The animal went somewhere"],
+            "correct_answer": "The golden retriever sprinted across the green meadow",
+            "explanation": "Brilliant descriptive writing! This sentence paints a clear picture with specific details: 'golden retriever' (what kind), 'sprinted' (how), 'green meadow' (where)!"
+          }
+        },
+        {
+          "id": "dialogue_drama_theater",
+          "type": "dialogue_writing",
+          "title": "Dialogue Drama Theater",
+          "narrative": "Bring characters to life through realistic dialogue! Learn to write conversations that reveal character personalities and advance the plot.",
+          "problem": {
+            "question": "Which dialogue sounds most natural and realistic?",
+            "type": "multiple_choice",
+            "options": ["'I am very angry at you,' said John angrily", "'You broke my favorite toy!' John shouted", "'I have anger because of your actions,' stated John", "'My emotional state is upset,' John declared"],
+            "correct_answer": "'You broke my favorite toy!' John shouted",
+            "explanation": "Natural dialogue mastery! This sounds like how people really talk when they're upset. Good dialogue shows emotion through words and actions, not just descriptions!"
+          }
+        },
+        {
+          "id": "imagination_inspiration_finale",
+          "type": "boss_battle",
+          "title": "Restore Imagination's Inspiration",
+          "narrative": "The ultimate creative challenge! Help Author Imagination create a complete mini-story that combines all your writing skills to restore her lost inspiration!",
+          "problem": {
+            "question": "Complete this story beginning: 'The mysterious package arrived on a rainy Tuesday morning...' What should happen next to create an engaging story?",
+            "type": "multiple_choice",
+            "options": ["The package was just mail", "Inside was a map to hidden treasure", "Someone signed for it", "It was the wrong address"],
+            "correct_answer": "Inside was a map to hidden treasure",
+            "explanation": "Creative genius! A treasure map creates mystery, adventure, and excitement - perfect elements for an engaging story! Author Imagination's inspiration is restored!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 200,
+        "badges": ["Creative Writing Master", "Imagination Champion"],
+        "unlocks": ["poetry_composition_academy", "essay_excellence_workshop"]
+      }
+    }
+  ]
+}

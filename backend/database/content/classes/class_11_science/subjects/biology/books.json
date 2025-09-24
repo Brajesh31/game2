@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "biology_11_comprehensive",
+      "title": "Biology - Grade 11",
+      "description": "Comprehensive biology covering diversity, structural organization, and plant physiology",
+      "chapters": [
+        {
+          "id": "diversity_living_world",
+          "title": "Diversity in Living World",
+          "topics": ["Classification", "Five Kingdom System", "Taxonomic Hierarchy", "Nomenclature"]
+        },
+        {
+          "id": "structural_organization",
+          "title": "Structural Organization in Animals and Plants",
+          "topics": ["Animal Tissues", "Plant Tissues", "Morphology", "Anatomy"]
+        },
+        {
+          "id": "cell_structure_function",
+          "title": "Cell Structure and Function",
+          "topics": ["Cell Theory", "Prokaryotic Cell", "Eukaryotic Cell", "Biomolecules"]
+        },
+        {
+          "id": "plant_physiology",
+          "title": "Plant Physiology",
+          "topics": ["Transport in Plants", "Mineral Nutrition", "Photosynthesis", "Respiration"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 115
+    }
+  ]
+}

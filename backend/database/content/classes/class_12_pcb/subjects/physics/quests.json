@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "biophysics_researcher",
+      "title": "Biophysics Researcher Quest",
+      "description": "Apply physics principles to understand biological systems and medical applications!",
+      "type": "biophysics_quest",
+      "difficulty": "board_advanced",
+      "estimatedTime": "90 min",
+      "xpReward": 520,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "medical_imaging_study",
+          "type": "applied_physics",
+          "title": "Medical Imaging Technology",
+          "narrative": "Study how physics principles are used in medical imaging technologies like X-rays and MRI.",
+          "problem": {
+            "question": "Why are X-rays suitable for medical imaging?",
+            "type": "multiple_choice",
+            "options": [
+              "They have high penetrating power",
+              "They are absorbed differently by different tissues",
+              "They can create shadow images",
+              "All of the above"
+            ],
+            "correct_answer": "All of the above",
+            "explanation": "X-rays have high penetrating power, are absorbed differently by bones and soft tissues, and create shadow images useful for diagnosis."
+          }
+        }
+      ]
+    }
+  ]
+}

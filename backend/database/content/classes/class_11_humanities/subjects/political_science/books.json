@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "political_science_11",
+      "title": "Political Science - Grade 11",
+      "description": "Introduction to political theory and Indian government",
+      "chapters": [
+        {
+          "id": "political_theory",
+          "title": "Political Theory: An Introduction",
+          "topics": ["Meaning of Politics", "Political Theory", "Political Concepts", "Approaches to Study"]
+        },
+        {
+          "id": "freedom",
+          "title": "Freedom",
+          "topics": ["Concept of Freedom", "Negative and Positive Liberty", "Harm Principle", "Freedom and Equality"]
+        },
+        {
+          "id": "equality",
+          "title": "Equality",
+          "topics": ["Concept of Equality", "Dimensions of Equality", "Equality of Opportunity", "Affirmative Action"]
+        },
+        {
+          "id": "social_justice",
+          "title": "Social Justice",
+          "topics": ["Principles of Justice", "Distributive Justice", "Rawls Theory", "Justice and Rights"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 80
+    }
+  ]
+}

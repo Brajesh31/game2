@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "political_theory_quiz",
+      "title": "Political Theory Foundations",
+      "description": "Test your understanding of basic political concepts and theories",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Who wrote 'The Social Contract'?",
+          "options": ["John Locke", "Thomas Hobbes", "Jean-Jacques Rousseau", "John Stuart Mill"],
+          "correct_answer": "Jean-Jacques Rousseau",
+          "points": 5,
+          "explanation": "'The Social Contract' was written by Jean-Jacques Rousseau, exploring the basis of legitimate political authority."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 270,
+        "badges": ["Political Theorist"],
+        "unlocks": ["comparative_politics_quiz"]
+      }
+    }
+  ]
+}

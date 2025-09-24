@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "math_11_advanced",
+      "title": "Mathematics - Grade 11",
+      "description": "Advanced mathematics including calculus, trigonometry, and coordinate geometry",
+      "chapters": [
+        {
+          "id": "sets_functions",
+          "title": "Sets and Functions",
+          "topics": ["Set Theory", "Relations", "Functions", "Inverse Functions"]
+        },
+        {
+          "id": "trigonometry_advanced",
+          "title": "Trigonometric Functions",
+          "topics": ["Trigonometric Identities", "Inverse Trigonometric Functions", "Trigonometric Equations"]
+        },
+        {
+          "id": "sequences_series",
+          "title": "Sequences and Series",
+          "topics": ["Arithmetic Progression", "Geometric Progression", "Harmonic Progression", "Special Series"]
+        },
+        {
+          "id": "limits_derivatives",
+          "title": "Limits and Derivatives",
+          "topics": ["Concept of Limits", "Derivative as Limit", "Rules of Differentiation", "Applications"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 130
+    }
+  ]
+}

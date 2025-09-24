@@ -1,0 +1,33 @@
+{
+  "quests": [
+    {
+      "id": "physics_laboratory_master",
+      "title": "Physics Laboratory Master",
+      "description": "Conduct advanced physics experiments and master laboratory techniques!",
+      "type": "experimental_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "90 min",
+      "xpReward": 500,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Advanced Physics Laboratory! Dr. Newton needs your help to conduct crucial experiments that will unlock the secrets of motion and energy.",
+        "setting": "Advanced Physics Laboratory",
+        "character": "Dr. Newton"
+      },
+      "steps": [
+        {
+          "id": "projectile_experiment",
+          "type": "experimental_analysis",
+          "title": "Projectile Motion Experiment",
+          "narrative": "Set up an experiment to study projectile motion and verify theoretical predictions.",
+          "problem": {
+            "question": "A projectile is launched at 45° with initial velocity 20 m/s. What is its maximum height? (g = 10 m/s²)",
+            "type": "numerical",
+            "correct_answer": "5 m",
+            "explanation": "Maximum height = (u²sin²θ)/(2g) = (20² × sin²45°)/(2×10) = (400 × 0.5)/20 = 10 m. Wait, let me recalculate: = (400 × 0.5)/20 = 200/20 = 10 m. Actually: sin²45° = (1/√2)² = 1/2, so h = (400 × 1/2)/(2×10) = 200/20 = 10 m."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "quests": [
+    {
+      "id": "board_sahitya_yoddha",
+      "title": "बोर्ड साहित्य योद्धा",
+      "description": "बोर्ड परीक्षा की तैयारी करें और हिंदी साहित्य में निपुणता प्राप्त करें!",
+      "type": "exam_prep_quest",
+      "difficulty": "board_level",
+      "estimatedTime": "80 min",
+      "xpReward": 420,
+      "prerequisites": [],
+      "story": {
+        "introduction": "बोर्ड परीक्षा का समय आ गया है! साहित्य गुरु आपको परीक्षा की तैयारी में मदद करेंगे।",
+        "setting": "परीक्षा तैयारी केंद्र",
+        "character": "साहित्य गुरु"
+      },
+      "steps": [
+        {
+          "id": "surdas_pad_analysis",
+          "type": "literary_analysis",
+          "title": "सूरदास के पद विश्लेषण",
+          "narrative": "साहित्य गुरु सूरदास के पदों का विश्लेषण करने को कहते हैं।",
+          "problem": {
+            "question": "सूरदास के पदों में मुख्य रस कौन सा है?",
+            "type": "multiple_choice",
+            "options": ["वीर रस", "वात्सल्य रस", "श्रृंगार रस", "हास्य रस"],
+            "correct_answer": "वात्सल्य रस",
+            "explanation": "सूरदास के पदों में मुख्यतः वात्सल्य रस है, जो बाल कृष्ण के प्रति मातृ प्रेम को दर्शाता है।"
+          }
+        }
+      ]
+    }
+  ]
+}

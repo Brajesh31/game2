@@ -1,0 +1,30 @@
+{
+  "quests": [
+    {
+      "id": "business_communicator",
+      "title": "Business Communicator Quest",
+      "description": "Master business communication skills essential for the corporate world!",
+      "type": "communication_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "60 min",
+      "xpReward": 350,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "formal_letter_mastery",
+          "type": "writing_practice",
+          "title": "Formal Letter Mastery",
+          "narrative": "The Corporate Communication Academy needs you to draft important business letters.",
+          "problem": {
+            "question": "Write a formal complaint letter to a supplier about delayed delivery.",
+            "type": "writing_task",
+            "rubric": {
+              "criteria": ["Formal format", "Clear complaint", "Professional tone", "Appropriate language"],
+              "max_points": 20
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

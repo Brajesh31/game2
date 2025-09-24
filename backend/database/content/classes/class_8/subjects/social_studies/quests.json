@@ -1,0 +1,39 @@
+{
+  "quests": [
+    {
+      "id": "freedom_fighter_saga",
+      "title": "Freedom Fighter Saga",
+      "description": "Join the Indian independence movement and learn about our freedom fighters!",
+      "type": "historical_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "60 min",
+      "xpReward": 290,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Travel back to the time of India's freedom struggle. Meet the heroes who fought for our independence!",
+        "setting": "British India (1857-1947)",
+        "character": "Freedom Fighter Guide"
+      },
+      "steps": [
+        {
+          "id": "revolt_1857",
+          "type": "historical_analysis",
+          "title": "The Great Revolt of 1857",
+          "narrative": "Witness the first major uprising against British rule. Understand its causes and impact.",
+          "problem": {
+            "question": "What was the immediate cause of the Revolt of 1857?",
+            "type": "multiple_choice",
+            "options": [
+              "High taxes",
+              "Greased cartridges issue",
+              "Famines",
+              "Economic exploitation"
+            ],
+            "correct_answer": "Greased cartridges issue",
+            "explanation": "The immediate cause was the introduction of Enfield rifles with cartridges greased with cow and pig fat, which offended both Hindu and Muslim soldiers."
+          }
+        }
+      ]
+    }
+  ]
+}

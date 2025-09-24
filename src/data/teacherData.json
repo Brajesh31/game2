@@ -1,0 +1,55 @@
+{
+  "user": {
+    "id": "teacher-001",
+    "username": "teacher",
+    "name": "Dr. Rajesh Kumar",
+    "role": "teacher",
+    "email": "rajesh.kumar@school.edu",
+    "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150"
+  },
+  "subjects": ["Mathematics", "Physics"],
+  "classes": [
+    {
+      "id": "math-10a",
+      "name": "Mathematics 10A",
+      "subject": "Mathematics",
+      "studentCount": 28,
+      "avgProgress": 78
+    },
+    {
+      "id": "physics-11b",
+      "name": "Physics 11B", 
+      "subject": "Physics",
+      "studentCount": 24,
+      "avgProgress": 65
+    },
+    {
+      "id": "math-12c",
+      "name": "Advanced Mathematics 12C",
+      "subject": "Mathematics",
+      "studentCount": 18,
+      "avgProgress": 82
+    }
+  ],
+  "students": [
+    "student-001", "student-002", "student-003", "student-004",
+    "student-005", "student-006", "student-007", "student-008"
+  ],
+  "recentActivity": [
+    {
+      "type": "assignment",
+      "message": "15 students completed Algebra Quiz #3",
+      "timestamp": "2024-01-29T16:30:00Z"
+    },
+    {
+      "type": "achievement",
+      "message": "Aria Patel unlocked Mathematics Master achievement",
+      "timestamp": "2024-01-29T14:20:00Z"
+    },
+    {
+      "type": "question",
+      "message": "New question posted in Physics discussion forum",
+      "timestamp": "2024-01-29T11:45:00Z"
+    }
+  ]
+}

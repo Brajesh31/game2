@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "english_8_advanced",
+      "title": "English Language & Literature - Grade 8",
+      "description": "Advanced English skills with emphasis on literary analysis and creative expression",
+      "chapters": [
+        {
+          "id": "literary_devices",
+          "title": "Literary Devices and Techniques",
+          "topics": ["Metaphor and Simile", "Personification", "Alliteration", "Imagery"]
+        },
+        {
+          "id": "advanced_grammar",
+          "title": "Advanced Grammar",
+          "topics": ["Conditional Sentences", "Reported Speech", "Modals", "Phrasal Verbs"]
+        },
+        {
+          "id": "essay_writing",
+          "title": "Essay Writing Mastery",
+          "topics": ["Argumentative Essays", "Descriptive Essays", "Narrative Essays", "Research Skills"]
+        },
+        {
+          "id": "drama_poetry",
+          "title": "Drama and Poetry",
+          "topics": ["Play Analysis", "Character Study", "Poetic Forms", "Rhythm and Rhyme"]
+        }
+      ],
+      "difficulty": "advanced",
+      "estimatedHours": 60
+    }
+  ]
+}

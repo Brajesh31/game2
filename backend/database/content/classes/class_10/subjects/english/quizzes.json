@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "id": "board_prep_english_quiz",
+      "title": "Board Exam Preparation - English",
+      "description": "Comprehensive quiz covering all board exam topics",
+      "difficulty": "board_level",
+      "timeLimit": 3600,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In 'A Letter to God', what does Lencho's character symbolize?",
+          "options": [
+            "Ignorance and superstition",
+            "Simple faith and trust in God",
+            "Greed and materialism",
+            "Anger and frustration"
+          ],
+          "correct_answer": "Simple faith and trust in God",
+          "points": 5,
+          "explanation": "Lencho's unwavering faith in God, even after the hailstorm destroys his crops, symbolizes simple faith and trust."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 250,
+        "badges": ["Board Exam Ready"],
+        "unlocks": ["advanced_literature_analysis"]
+      }
+    }
+  ]
+}

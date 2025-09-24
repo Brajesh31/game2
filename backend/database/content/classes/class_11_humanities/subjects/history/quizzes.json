@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "world_history_quiz",
+      "title": "World History Comprehensive Test",
+      "description": "Test your knowledge of world historical developments",
+      "difficulty": "higher_secondary",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which empire was known as the 'Sick Man of Europe' in the 19th century?",
+          "options": ["Russian Empire", "Ottoman Empire", "Austrian Empire", "German Empire"],
+          "correct_answer": "Ottoman Empire",
+          "points": 5,
+          "explanation": "The Ottoman Empire was called the 'Sick Man of Europe' due to its declining power and internal problems in the 19th century."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 290,
+        "badges": ["World History Scholar"],
+        "unlocks": ["modern_history_quiz"]
+      }
+    }
+  ]
+}

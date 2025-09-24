@@ -1,0 +1,30 @@
+{
+  "quizzes": [
+    {
+      "id": "literature_analysis_quiz",
+      "title": "Literature Analysis Mastery",
+      "description": "Advanced literary analysis and interpretation",
+      "difficulty": "advanced",
+      "timeLimit": 1800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "essay",
+          "question": "Analyze the use of symbolism in the poem 'The Road Not Taken' by Robert Frost.",
+          "rubric": {
+            "criteria": ["Understanding of symbolism", "Text evidence", "Clear explanation", "Writing quality"],
+            "max_points": 25
+          },
+          "sample_answer": "The two roads symbolize life choices and their consequences...",
+          "explanation": "Students should identify the roads as symbols of life choices and discuss the poem's message about decision-making."
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 200,
+        "badges": ["Literary Scholar"],
+        "unlocks": ["advanced_poetry_analysis"]
+      }
+    }
+  ]
+}

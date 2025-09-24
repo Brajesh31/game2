@@ -1,0 +1,30 @@
+{
+  "quests": [
+    {
+      "id": "communication_master",
+      "title": "Communication Master Quest",
+      "description": "Master advanced communication skills and literary analysis!",
+      "type": "communication_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "75 min",
+      "xpReward": 400,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "advanced_analysis",
+          "type": "literary_analysis",
+          "title": "Advanced Literary Analysis",
+          "narrative": "Analyze complex themes and literary techniques in higher secondary literature.",
+          "problem": {
+            "question": "Analyze the theme of memory and nostalgia in 'A Photograph' by Shirley Toulson.",
+            "type": "essay",
+            "rubric": {
+              "criteria": ["Theme identification", "Literary device analysis", "Personal connection", "Writing quality"],
+              "max_points": 25
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

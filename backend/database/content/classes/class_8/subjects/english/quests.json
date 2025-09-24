@@ -1,0 +1,229 @@
+{
+  "quests": [
+    {
+      "id": "shakespeare_scholar_academy",
+      "title": "The Shakespeare Scholar Academy",
+      "description": "Enter the prestigious academy and master the art of literary analysis with the greatest writers in history!",
+      "type": "literary_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "65 min",
+      "xpReward": 320,
+      "prerequisites": [],
+      "story": {
+        "introduction": "Welcome to the Shakespeare Scholar Academy! Professor Literature has gathered the greatest works of English literature. Master the art of deep analysis and become a Literary Scholar!",
+        "setting": "The Shakespeare Scholar Academy",
+        "character": "Professor Literature"
+      },
+      "steps": [
+        {
+          "id": "literary_device_detective",
+          "type": "device_identification",
+          "title": "Literary Device Detective Mission",
+          "narrative": "Professor Literature challenges you to identify the literary devices that make writing beautiful and powerful!",
+          "problem": {
+            "question": "Identify the literary device: 'The classroom was a zoo during recess.'",
+            "type": "multiple_choice",
+            "options": ["Simile", "Metaphor", "Personification", "Alliteration"],
+            "correct_answer": "Metaphor",
+            "explanation": "Literary detective excellence! This is a metaphor because it directly compares the classroom to a zoo without using 'like' or 'as.' It shows how chaotic the classroom was!"
+          }
+        },
+        {
+          "id": "poetry_analysis_workshop",
+          "type": "poetic_analysis",
+          "title": "Poetry Analysis Workshop",
+          "narrative": "Dive deep into the world of poetry! Learn to analyze rhythm, rhyme, and meaning in the greatest poems ever written.",
+          "poem_text": "Shall I compare thee to a summer's day?\nThou art more lovely and more temperate:\nRough winds do shake the darling buds of May,\nAnd summer's lease hath all too short a date.",
+          "problem": {
+            "question": "What literary device is used in 'Shall I compare thee to a summer's day?'",
+            "type": "multiple_choice",
+            "options": ["Metaphor", "Simile", "Personification", "Alliteration"],
+            "correct_answer": "Simile",
+            "explanation": "Poetic mastery! This is a simile because Shakespeare is making a comparison using 'compare to' (similar to 'like' or 'as'). He's comparing someone to a beautiful summer day!"
+          }
+        },
+        {
+          "id": "character_development_studio",
+          "type": "character_analysis",
+          "title": "Character Development Studio",
+          "narrative": "Master the art of character analysis! Understand how authors create complex, realistic characters that feel like real people.",
+          "reading_passage": "Elizabeth had always been proud and quick to judge others. When she first met Mr. Darcy, she thought he was arrogant and rude. But as she learned more about his true character - his kindness to his servants, his care for his sister, his quiet generosity - she realized she had been wrong. Elizabeth learned to look beyond first impressions.",
+          "problem": {
+            "question": "How does Elizabeth's character change in this passage?",
+            "type": "multiple_choice",
+            "options": ["She becomes more proud", "She learns to judge people more fairly", "She becomes more judgmental", "She doesn't change at all"],
+            "correct_answer": "She learns to judge people more fairly",
+            "explanation": "Character development mastery! Elizabeth grows from being quick to judge to understanding that first impressions can be wrong. This is called character development!"
+          }
+        },
+        {
+          "id": "literary_criticism_master_class",
+          "type": "boss_battle",
+          "title": "Literary Criticism Master Class",
+          "narrative": "The ultimate literary challenge! Face the Literary Criticism Master in an analysis battle that tests all your skills!",
+          "reading_passage": "The story of a young girl who overcomes poverty through education, determination, and the support of a caring teacher who believes in her potential.",
+          "problem": {
+            "question": "What are the main themes in this story summary?",
+            "type": "multiple_choice",
+            "options": ["Education and determination", "Poverty and sadness", "Teachers and students", "Education, determination, and mentorship"],
+            "correct_answer": "Education, determination, and mentorship",
+            "explanation": "Literary Criticism Master defeated! You identified multiple themes: education as empowerment, personal determination, and the power of mentorship. True literary mastery!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 320,
+        "badges": ["Shakespeare Scholar", "Literary Criticism Master"],
+        "unlocks": ["advanced_composition_academy", "debate_rhetoric_arena"]
+      }
+    },
+    {
+      "id": "advanced_composition_academy",
+      "title": "The Advanced Composition Academy",
+      "description": "Master the art of writing powerful essays, reports, and creative pieces that inspire and inform!",
+      "type": "writing_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "60 min",
+      "xpReward": 300,
+      "prerequisites": ["shakespeare_scholar_academy"],
+      "story": {
+        "introduction": "The Advanced Composition Academy trains the world's best writers! Master Writer needs your help to create powerful pieces that can change minds and touch hearts!",
+        "setting": "The Advanced Composition Academy",
+        "character": "Master Writer"
+      },
+      "steps": [
+        {
+          "id": "essay_structure_architecture",
+          "type": "structure_mastery",
+          "title": "Essay Structure Architecture",
+          "narrative": "Master Writer teaches you to build essays like architectural masterpieces! Every great essay needs a strong foundation and clear structure.",
+          "problem": {
+            "question": "What is the purpose of an introduction paragraph in an essay?",
+            "type": "multiple_choice",
+            "options": ["To conclude the essay", "To provide examples", "To hook the reader and state the main idea", "To list all the details"],
+            "correct_answer": "To hook the reader and state the main idea",
+            "explanation": "Essay architecture mastery! The introduction grabs attention and presents your main idea (thesis). It's like the foundation of a building!"
+          }
+        },
+        {
+          "id": "persuasive_writing_workshop",
+          "type": "persuasion_techniques",
+          "title": "Persuasive Writing Workshop",
+          "narrative": "Learn to write persuasively! Use facts, emotions, and logic to convince readers and change their minds about important issues.",
+          "problem": {
+            "question": "Which is the strongest persuasive technique?",
+            "type": "multiple_choice",
+            "options": ["Using only emotions", "Using only facts", "Combining facts, logic, and emotional appeal", "Using only personal opinions"],
+            "correct_answer": "Combining facts, logic, and emotional appeal",
+            "explanation": "Persuasion mastery! The strongest arguments use facts (credibility), logic (reasoning), and emotional appeal (connection) together. This convinces both mind and heart!"
+          }
+        },
+        {
+          "id": "research_report_laboratory",
+          "type": "research_skills",
+          "title": "Research Report Laboratory",
+          "narrative": "Become a research expert! Learn to gather information, evaluate sources, and present findings in clear, organized reports.",
+          "problem": {
+            "question": "What makes a source reliable for research?",
+            "type": "multiple_choice",
+            "options": ["It's on the internet", "It's written by experts and has evidence", "It's long", "It agrees with your opinion"],
+            "correct_answer": "It's written by experts and has evidence",
+            "explanation": "Research excellence! Reliable sources are written by qualified experts, backed by evidence, and published by trustworthy organizations!"
+          }
+        },
+        {
+          "id": "master_writer_championship",
+          "type": "boss_battle",
+          "title": "Master Writer Championship",
+          "narrative": "The ultimate writing challenge! Compete in the Master Writer Championship by creating a piece that demonstrates all your advanced composition skills!",
+          "problem": {
+            "question": "You're writing about 'The Importance of Reading.' Which opening sentence would be most engaging?",
+            "type": "multiple_choice",
+            "options": ["Reading is important", "Books are good for you", "Imagine a world where stories could transport you anywhere in the universe", "People should read more books"],
+            "correct_answer": "Imagine a world where stories could transport you anywhere in the universe",
+            "explanation": "Master Writer Champion! This opening uses imagination and wonder to hook readers immediately. It makes them want to keep reading to learn more!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 300,
+        "badges": ["Master Writer", "Composition Champion"],
+        "unlocks": ["debate_rhetoric_arena", "journalism_newsroom_quest"]
+      }
+    },
+    {
+      "id": "debate_rhetoric_arena",
+      "title": "The Debate and Rhetoric Arena",
+      "description": "Master the art of public speaking and persuasive debate in the grand arena!",
+      "type": "communication_quest",
+      "difficulty": "advanced",
+      "estimatedTime": "50 min",
+      "xpReward": 260,
+      "prerequisites": ["advanced_composition_academy"],
+      "story": {
+        "introduction": "Enter the Grand Debate Arena! Champion Orator needs skilled debaters to compete in the ultimate tournament of words and ideas!",
+        "setting": "The Grand Debate Arena",
+        "character": "Champion Orator"
+      },
+      "steps": [
+        {
+          "id": "argument_construction_workshop",
+          "type": "logical_reasoning",
+          "title": "Argument Construction Workshop",
+          "narrative": "Champion Orator teaches you to build unbeatable arguments! Learn to support your ideas with strong evidence and clear reasoning.",
+          "problem": {
+            "question": "What makes an argument strong in a debate?",
+            "type": "multiple_choice",
+            "options": ["Speaking loudly", "Using evidence and logical reasoning", "Repeating the same point", "Attacking the opponent"],
+            "correct_answer": "Using evidence and logical reasoning",
+            "explanation": "Argument mastery! Strong arguments are built on solid evidence and clear logical reasoning. Facts and logic convince people, not volume or attacks!"
+          }
+        },
+        {
+          "id": "counter_argument_defense",
+          "type": "critical_thinking",
+          "title": "Counter-Argument Defense Training",
+          "narrative": "Learn to defend your position! Anticipate opposing arguments and prepare strong responses to protect your stance.",
+          "problem": {
+            "question": "Someone argues 'Homework should be banned because it's stressful.' How would you counter this argument?",
+            "type": "multiple_choice",
+            "options": ["Homework is always fun", "Stress is good for everyone", "Homework helps reinforce learning and build study habits", "Teachers like giving homework"],
+            "correct_answer": "Homework helps reinforce learning and build study habits",
+            "explanation": "Excellent counter-argument! You addressed the concern while showing homework's benefits. Good debaters acknowledge opposing views then present stronger evidence!"
+          }
+        },
+        {
+          "id": "public_speaking_stage",
+          "type": "presentation_skills",
+          "title": "Public Speaking Stage",
+          "narrative": "Take the stage and master public speaking! Learn to communicate your ideas clearly and confidently to any audience.",
+          "problem": {
+            "question": "What is most important when giving a speech?",
+            "type": "multiple_choice",
+            "options": ["Speaking as fast as possible", "Using big words to sound smart", "Making clear points that the audience can understand", "Never looking at the audience"],
+            "correct_answer": "Making clear points that the audience can understand",
+            "explanation": "Public speaking mastery! The best speakers communicate clearly and connect with their audience. Clarity and understanding matter more than fancy words!"
+          }
+        },
+        {
+          "id": "grand_debate_championship",
+          "type": "boss_battle",
+          "title": "Grand Debate Championship Final",
+          "narrative": "The ultimate debate challenge! Face the Debate Champion in the final tournament. Use all your skills to win the championship!",
+          "problem": {
+            "question": "In the final debate about 'Technology in Education,' which approach would be most effective?",
+            "type": "multiple_choice",
+            "options": ["Only mention benefits", "Only mention problems", "Present both benefits and challenges with solutions", "Avoid taking any position"],
+            "correct_answer": "Present both benefits and challenges with solutions",
+            "explanation": "Debate Championship won! The strongest position acknowledges complexity, shows balanced thinking, and offers solutions. You are the new Debate Champion!"
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 260,
+        "badges": ["Debate Champion", "Rhetoric Master"],
+        "unlocks": ["journalism_newsroom_quest", "drama_theater_academy"]
+      }
+    }
+  ]
+}

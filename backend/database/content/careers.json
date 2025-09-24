@@ -1,0 +1,94 @@
+{
+  "careers": [
+    {
+      "id": "data-scientist",
+      "title": "Data Scientist",
+      "category": "Technology",
+      "description": "Analyze complex data to help organizations make informed decisions",
+      "averageSalary": "₹12-25 LPA",
+      "growthRate": "Very High",
+      "education": "Bachelor's in Computer Science, Statistics, or Mathematics",
+      "skills": ["Python", "Machine Learning", "Statistics", "SQL", "Data Visualization"],
+      "companies": ["Google", "Microsoft", "Amazon", "Flipkart", "Zomato"],
+      "dayInLife": [
+        "Collect and clean data from various sources",
+        "Build predictive models using machine learning",
+        "Create visualizations and reports",
+        "Present findings to stakeholders",
+        "Collaborate with cross-functional teams"
+      ],
+      "relatedSubjects": ["Mathematics", "Computer Science", "Statistics"],
+      "skillMapping": ["advanced_statistics", "programming_fundamentals", "data_analysis"],
+      "icon": "📊",
+      "pathways": [
+        "Complete strong foundation in mathematics and statistics",
+        "Learn programming languages like Python and R",
+        "Practice with real datasets and projects",
+        "Pursue internships in data-driven companies"
+      ]
+    },
+    {
+      "id": "biomedical-engineer",
+      "title": "Biomedical Engineer",
+      "category": "Healthcare",
+      "description": "Design medical devices and equipment to improve healthcare",
+      "averageSalary": "₹8-18 LPA",
+      "growthRate": "High",
+      "education": "Bachelor's in Biomedical Engineering or related field",
+      "skills": ["Biology", "Engineering Design", "Medical Knowledge", "Problem Solving", "CAD Software"],
+      "companies": ["Medtronic", "Johnson & Johnson", "Siemens Healthcare", "GE Healthcare"],
+      "dayInLife": [
+        "Design and test medical devices",
+        "Collaborate with doctors and researchers",
+        "Ensure safety and regulatory compliance",
+        "Improve existing medical technologies",
+        "Conduct research and development"
+      ],
+      "relatedSubjects": ["Biology", "Physics", "Mathematics", "Chemistry"],
+      "skillMapping": ["biology_advanced", "physics_mechanics", "engineering_design"],
+      "icon": "🏥"
+    },
+    {
+      "id": "environmental-scientist",
+      "title": "Environmental Scientist",
+      "category": "Environment",
+      "description": "Study the environment and develop solutions to environmental problems",
+      "averageSalary": "₹6-15 LPA",
+      "growthRate": "High",
+      "education": "Bachelor's in Environmental Science or related field",
+      "skills": ["Research", "Data Analysis", "Field Work", "Report Writing", "GIS"],
+      "companies": ["TERI", "WWF India", "Government Agencies", "Consulting Firms"],
+      "dayInLife": [
+        "Conduct field research and collect samples",
+        "Analyze environmental data",
+        "Develop conservation strategies",
+        "Write reports and recommendations",
+        "Educate communities about environmental issues"
+      ],
+      "relatedSubjects": ["Biology", "Chemistry", "Geography", "Mathematics"],
+      "skillMapping": ["environmental_science", "data_analysis", "research_methods"],
+      "icon": "🌍"
+    },
+    {
+      "id": "robotics-engineer",
+      "title": "Robotics Engineer",
+      "category": "Technology",
+      "description": "Design and build robots for various applications",
+      "averageSalary": "₹10-22 LPA",
+      "growthRate": "Very High",
+      "education": "Bachelor's in Robotics, Mechanical, or Electrical Engineering",
+      "skills": ["Programming", "Mechanical Design", "Electronics", "AI", "Control Systems"],
+      "companies": ["Tesla", "Boston Dynamics", "ISRO", "Tata Motors", "Mahindra"],
+      "dayInLife": [
+        "Design robot systems and components",
+        "Program robot behaviors",
+        "Test and debug robotic systems",
+        "Collaborate with multidisciplinary teams",
+        "Research new technologies"
+      ],
+      "relatedSubjects": ["Physics", "Mathematics", "Computer Science"],
+      "skillMapping": ["physics_mechanics", "programming_advanced", "mathematics_applied"],
+      "icon": "🤖"
+    }
+  ]
+}

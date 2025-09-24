@@ -1,0 +1,37 @@
+{
+  "quizzes": [
+    {
+      "id": "states_of_matter_quiz",
+      "title": "States of Matter Quiz",
+      "description": "Test your knowledge about solids, liquids, and gases",
+      "difficulty": "easy",
+      "timeLimit": 600,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which state of matter has a definite shape and volume?",
+          "options": ["Solid", "Liquid", "Gas", "Plasma"],
+          "correct_answer": "Solid",
+          "points": 10,
+          "explanation": "Solids have both definite shape and definite volume because their particles are tightly packed and don't move freely."
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "What happens when ice melts?",
+          "options": ["It becomes gas", "It becomes liquid", "It stays solid", "It disappears"],
+          "correct_answer": "It becomes liquid",
+          "points": 10,
+          "explanation": "When ice (solid water) melts, it changes state to become liquid water."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 60,
+        "badges": ["Matter Expert"],
+        "unlocks": ["energy_quiz"]
+      }
+    }
+  ]
+}

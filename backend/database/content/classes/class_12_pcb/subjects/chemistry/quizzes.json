@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "biochemistry_quiz",
+      "title": "Biochemistry and Life Processes",
+      "description": "Test your understanding of chemistry in biological systems",
+      "difficulty": "board_advanced",
+      "timeLimit": 7200,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which biomolecule serves as the primary energy storage in animals?",
+          "options": ["Starch", "Cellulose", "Glycogen", "Chitin"],
+          "correct_answer": "Glycogen",
+          "points": 5,
+          "explanation": "Glycogen is the primary energy storage polysaccharide in animals, stored mainly in liver and muscles."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 380,
+        "badges": ["Biochemistry Expert"],
+        "unlocks": ["molecular_biology_quiz"]
+      }
+    }
+  ]
+}

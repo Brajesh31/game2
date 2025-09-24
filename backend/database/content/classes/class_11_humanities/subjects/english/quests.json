@@ -1,0 +1,30 @@
+{
+  "quests": [
+    {
+      "id": "literary_researcher",
+      "title": "Literary Researcher Quest",
+      "description": "Conduct in-depth literary research and analysis like a professional scholar!",
+      "type": "research_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "85 min",
+      "xpReward": 450,
+      "prerequisites": [],
+      "steps": [
+        {
+          "id": "comparative_analysis",
+          "type": "literary_research",
+          "title": "Comparative Literary Analysis",
+          "narrative": "The Literary Research Institute needs you to compare works from different periods and cultures.",
+          "problem": {
+            "question": "Compare the treatment of nature in Romantic poetry versus Modern poetry.",
+            "type": "essay",
+            "rubric": {
+              "criteria": ["Understanding of periods", "Comparative analysis", "Textual evidence", "Critical insight"],
+              "max_points": 30
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

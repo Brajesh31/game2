@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "science_6_fundamentals",
+      "title": "Science - Grade 6",
+      "description": "Introduction to scientific thinking and basic concepts",
+      "chapters": [
+        {
+          "id": "scientific_method",
+          "title": "The Scientific Method",
+          "topics": ["Observation", "Hypothesis", "Experiment", "Conclusion"]
+        },
+        {
+          "id": "matter_energy",
+          "title": "Matter and Energy",
+          "topics": ["States of Matter", "Properties of Matter", "Changes in Matter", "Energy Forms"]
+        },
+        {
+          "id": "living_world",
+          "title": "The Living World",
+          "topics": ["Living vs Non-living", "Plant Parts", "Animal Habitats", "Life Cycles"]
+        },
+        {
+          "id": "earth_space",
+          "title": "Earth and Space",
+          "topics": ["Solar System", "Earth's Layers", "Weather", "Seasons"]
+        }
+      ],
+      "difficulty": "beginner",
+      "estimatedHours": 35
+    }
+  ]
+}

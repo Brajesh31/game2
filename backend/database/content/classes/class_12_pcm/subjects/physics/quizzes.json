@@ -1,0 +1,27 @@
+{
+  "quizzes": [
+    {
+      "id": "board_physics_advanced_quiz",
+      "title": "Advanced Physics Board Preparation",
+      "description": "Comprehensive physics test for board examination preparation",
+      "difficulty": "board_advanced",
+      "timeLimit": 10800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "numerical",
+          "question": "Calculate the electric field at a point 3 cm away from a charge of 2 × 10⁻⁶ C in air.",
+          "correct_answer": "2 × 10⁷ N/C",
+          "points": 5,
+          "explanation": "E = kq/r² = (9×10⁹ × 2×10⁻⁶)/(0.03)² = 18×10³/9×10⁻⁴ = 2×10⁷ N/C."
+        }
+      ],
+      "passing_score": 70,
+      "rewards": {
+        "xp": 450,
+        "badges": ["Physics Master"],
+        "unlocks": ["jee_physics_prep"]
+      }
+    }
+  ]
+}

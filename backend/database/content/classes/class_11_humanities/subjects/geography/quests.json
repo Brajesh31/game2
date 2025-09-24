@@ -1,0 +1,39 @@
+{
+  "quests": [
+    {
+      "id": "earth_explorer_mission",
+      "title": "Earth Explorer Mission",
+      "description": "Explore Earth's physical processes and understand our planet's systems!",
+      "type": "geographical_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "80 min",
+      "xpReward": 440,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The Earth Sciences Research Station needs your help to study various geographical phenomena affecting our planet!",
+        "setting": "Earth Sciences Research Station",
+        "character": "Dr. Terra"
+      },
+      "steps": [
+        {
+          "id": "plate_tectonics_study",
+          "type": "geological_analysis",
+          "title": "Plate Tectonics Investigation",
+          "narrative": "Dr. Terra shows you evidence of continental drift. Analyze the geological evidence!",
+          "problem": {
+            "question": "What evidence supports the theory of continental drift?",
+            "type": "multiple_select",
+            "options": [
+              "Matching fossils across oceans",
+              "Similar rock formations on different continents",
+              "Fit of continental margins",
+              "Ocean depth measurements"
+            ],
+            "correct_answers": ["Matching fossils across oceans", "Similar rock formations on different continents", "Fit of continental margins"],
+            "explanation": "Wegener's evidence included matching fossils, rock types, and the jigsaw-like fit of continents, supporting continental drift theory."
+          }
+        }
+      ]
+    }
+  ]
+}

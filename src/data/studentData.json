@@ -1,0 +1,115 @@
+{
+  "user": {
+    "id": "student-001",
+    "username": "student",
+    "name": "Aria Patel",
+    "role": "student",
+    "email": "aria.patel@example.com",
+    "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150"
+  },
+  "level": 12,
+  "xp": 2847,
+  "achievements": [
+    {
+      "id": "first-quest",
+      "title": "Quest Conqueror",
+      "description": "Complete your first daily quest",
+      "icon": "trophy",
+      "unlockedAt": "2024-01-15T10:30:00Z",
+      "blockchainTxId": "0x1a2b3c4d5e6f7890abcdef1234567890"
+    },
+    {
+      "id": "math-master",
+      "title": "Mathematics Master",
+      "description": "Achieve 100% accuracy in 10 consecutive math challenges",
+      "icon": "calculator",
+      "unlockedAt": "2024-01-20T14:45:00Z",
+      "blockchainTxId": "0x2b3c4d5e6f7890abcdef1234567890ab"
+    },
+    {
+      "id": "streak-master",
+      "title": "Streak Champion",
+      "description": "Maintain a 30-day learning streak",
+      "icon": "flame",
+      "unlockedAt": "2024-01-25T09:15:00Z",
+      "blockchainTxId": "0x3c4d5e6f7890abcdef1234567890abcd"
+    },
+    {
+      "id": "studentnet-pioneer",
+      "title": "StudentNet Pioneer",
+      "description": "First to share content through StudentNet",
+      "icon": "wifi",
+      "unlockedAt": "2024-01-26T10:00:00Z",
+      "blockchainTxId": "0x4d5e6f7890abcdef1234567890abcde"
+    }
+  ],
+  "skillTree": [
+    {
+      "id": "basic-math",
+      "title": "Basic Mathematics",
+      "description": "Foundation of numerical operations",
+      "status": "mastered",
+      "prerequisites": [],
+      "xpRequired": 100,
+      "position": { "x": 50, "y": 80 }
+    },
+    {
+      "id": "algebra",
+      "title": "Algebra",
+      "description": "Variables and equations",
+      "status": "in-progress",
+      "prerequisites": ["basic-math"],
+      "xpRequired": 200,
+      "position": { "x": 25, "y": 60 }
+    },
+    {
+      "id": "geometry",
+      "title": "Geometry",
+      "description": "Shapes and spatial relationships",
+      "status": "available",
+      "prerequisites": ["basic-math"],
+      "xpRequired": 200,
+      "position": { "x": 75, "y": 60 }
+    },
+    {
+      "id": "calculus",
+      "title": "Calculus",
+      "description": "Advanced mathematical analysis",
+      "status": "locked",
+      "prerequisites": ["algebra", "geometry"],
+      "xpRequired": 500,
+      "position": { "x": 50, "y": 40 }
+    }
+  ],
+  "currentQuests": [
+    {
+      "id": "daily-practice",
+      "title": "Daily Practice Session",
+      "description": "Complete 3 practice problems",
+      "type": "daily",
+      "progress": 2,
+      "maxProgress": 3,
+      "xpReward": 50,
+      "deadline": "2024-01-30T23:59:59Z"
+    },
+    {
+      "id": "algebra-challenge",
+      "title": "Algebra Challenge",
+      "description": "Solve 20 algebraic equations",
+      "type": "weekly",
+      "progress": 12,
+      "maxProgress": 20,
+      "xpReward": 200,
+      "deadline": "2024-02-05T23:59:59Z"
+    },
+    {
+      "id": "peer-collaboration",
+      "title": "Team Spirit",
+      "description": "Help 3 classmates with their problems",
+      "type": "challenge",
+      "progress": 1,
+      "maxProgress": 3,
+      "xpReward": 150
+    }
+  ]
+}

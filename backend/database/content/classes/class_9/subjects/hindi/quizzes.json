@@ -1,0 +1,28 @@
+{
+  "quizzes": [
+    {
+      "id": "hindi_literature_quiz",
+      "title": "हिंदी साहित्य प्रवीणता परीक्षा",
+      "description": "हिंदी साहित्य की गहरी समझ की जांच",
+      "difficulty": "advanced",
+      "timeLimit": 1800,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "छायावाद के प्रमुख कवि कौन हैं?",
+          "options": ["तुलसीदास", "जयशंकर प्रसाद", "कबीर", "रहीम"],
+          "correct_answer": "जयशंकर प्रसाद",
+          "points": 15,
+          "explanation": "जयशंकर प्रसाद छायावादी युग के प्रमुख कवि थे।"
+        }
+      ],
+      "passing_score": 75,
+      "rewards": {
+        "xp": 180,
+        "badges": ["साहित्य मर्मज्ञ"],
+        "unlocks": ["modern_hindi_poetry_quiz"]
+      }
+    }
+  ]
+}

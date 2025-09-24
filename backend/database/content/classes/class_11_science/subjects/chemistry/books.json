@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "chemistry_11_comprehensive",
+      "title": "Chemistry - Grade 11",
+      "description": "Comprehensive chemistry covering atomic structure, bonding, and organic chemistry basics",
+      "chapters": [
+        {
+          "id": "atomic_structure_advanced",
+          "title": "Structure of Atom",
+          "topics": ["Bohr's Model", "Quantum Mechanical Model", "Electronic Configuration", "Periodic Trends"]
+        },
+        {
+          "id": "chemical_bonding",
+          "title": "Chemical Bonding and Molecular Structure",
+          "topics": ["Ionic Bonding", "Covalent Bonding", "VSEPR Theory", "Hybridization"]
+        },
+        {
+          "id": "thermodynamics_basics",
+          "title": "Thermodynamics",
+          "topics": ["System and Surroundings", "First Law", "Enthalpy", "Entropy"]
+        },
+        {
+          "id": "organic_chemistry_intro",
+          "title": "Introduction to Organic Chemistry",
+          "topics": ["Hydrocarbons", "IUPAC Nomenclature", "Isomerism", "Reaction Mechanisms"]
+        }
+      ],
+      "difficulty": "higher_secondary",
+      "estimatedHours": 110
+    }
+  ]
+}

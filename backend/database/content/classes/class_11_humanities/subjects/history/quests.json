@@ -1,0 +1,37 @@
+{
+  "quests": [
+    {
+      "id": "world_historian_expedition",
+      "title": "World Historian Expedition",
+      "description": "Journey through world history and understand the forces that shaped civilizations!",
+      "type": "historical_quest",
+      "difficulty": "higher_secondary",
+      "estimatedTime": "90 min",
+      "xpReward": 480,
+      "prerequisites": [],
+      "story": {
+        "introduction": "The World History Institute has opened a portal to the past! Explore different civilizations and understand their contributions to human progress.",
+        "setting": "World History Institute",
+        "character": "Professor Timeline"
+      },
+      "steps": [
+        {
+          "id": "renaissance_investigation",
+          "type": "cultural_analysis",
+          "title": "Renaissance Revolution Investigation",
+          "narrative": "Professor Timeline takes you to Renaissance Italy. Investigate how this period changed European culture.",
+          "problem": {
+            "question": "What was the most significant impact of the Renaissance on European society?",
+            "type": "essay_short",
+            "rubric": {
+              "criteria": ["Understanding of Renaissance", "Impact analysis", "Historical examples", "Clear reasoning"],
+              "max_points": 25
+            },
+            "sample_answer": "The Renaissance brought humanism, scientific thinking, and artistic innovation that transformed European society from medieval to modern...",
+            "explanation": "Students should discuss humanism, scientific method, art, literature, and the shift from religious to secular thinking."
+          }
+        }
+      ]
+    }
+  ]
+}
