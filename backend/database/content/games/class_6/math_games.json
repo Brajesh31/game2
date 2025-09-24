@@ -1,0 +1,137 @@
+{
+  "games": [
+    {
+      "id": "number_runner",
+      "title": "Number Runner Adventure",
+      "description": "Run through the Number Kingdom collecting coins and solving arithmetic problems!",
+      "gameType": "runner",
+      "difficulty": "easy",
+      "estimatedTime": "15 min",
+      "xpReward": 100,
+      "subject": "math",
+      "classLevel": "class_6",
+      "features": ["Endless Running", "Arithmetic Practice", "Power-ups", "Leaderboards"],
+      "objectives": [
+        "Practice basic arithmetic operations",
+        "Improve calculation speed",
+        "Develop number sense"
+      ],
+      "challenges": [
+        {
+          "id": "addition_alley",
+          "type": "arithmetic",
+          "operation": "addition",
+          "range": { "min": 1, "max": 100 },
+          "timeLimit": 10
+        },
+        {
+          "id": "subtraction_street",
+          "type": "arithmetic",
+          "operation": "subtraction",
+          "range": { "min": 1, "max": 100 },
+          "timeLimit": 10
+        },
+        {
+          "id": "multiplication_maze",
+          "type": "arithmetic",
+          "operation": "multiplication",
+          "range": { "min": 1, "max": 12 },
+          "timeLimit": 15
+        }
+      ]
+    },
+    {
+      "id": "fraction_chef",
+      "title": "Fraction Chef Kitchen",
+      "description": "Cook delicious recipes while learning fractions! Mix ingredients using fraction measurements.",
+      "gameType": "simulation",
+      "difficulty": "medium",
+      "estimatedTime": "20 min",
+      "xpReward": 150,
+      "subject": "math",
+      "classLevel": "class_6",
+      "features": ["Recipe Creation", "Fraction Practice", "Visual Learning", "Achievement System"],
+      "objectives": [
+        "Understand fraction concepts",
+        "Practice fraction operations",
+        "Apply fractions in real-world contexts"
+      ],
+      "challenges": [
+        {
+          "id": "pizza_fractions",
+          "type": "visual_fractions",
+          "concept": "equivalent_fractions",
+          "difficulty": "easy"
+        },
+        {
+          "id": "recipe_scaling",
+          "type": "fraction_operations",
+          "concept": "multiplication_division",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "geometry_architect",
+      "title": "Geometry Architect Studio",
+      "description": "Design amazing buildings and structures while mastering geometric shapes and properties!",
+      "gameType": "puzzle",
+      "difficulty": "medium",
+      "estimatedTime": "25 min",
+      "xpReward": 180,
+      "subject": "math",
+      "classLevel": "class_6",
+      "features": ["3D Building", "Shape Recognition", "Angle Measurement", "Blueprint Design"],
+      "objectives": [
+        "Identify geometric shapes",
+        "Understand shape properties",
+        "Apply geometric concepts in design"
+      ],
+      "challenges": [
+        {
+          "id": "shape_sorting",
+          "type": "classification",
+          "concept": "shape_properties",
+          "difficulty": "easy"
+        },
+        {
+          "id": "angle_builder",
+          "type": "construction",
+          "concept": "angles",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "equation_detective",
+      "title": "Equation Detective Agency",
+      "description": "Solve mathematical mysteries by finding missing numbers and solving equations!",
+      "gameType": "strategy",
+      "difficulty": "hard",
+      "estimatedTime": "30 min",
+      "xpReward": 200,
+      "subject": "math",
+      "classLevel": "class_6",
+      "features": ["Mystery Solving", "Equation Practice", "Logic Puzzles", "Detective Story"],
+      "objectives": [
+        "Solve simple equations",
+        "Develop logical thinking",
+        "Practice problem-solving strategies"
+      ],
+      "challenges": [
+        {
+          "id": "missing_number_case",
+          "type": "equation_solving",
+          "concept": "basic_equations",
+          "difficulty": "medium"
+        },
+        {
+          "id": "pattern_mystery",
+          "type": "pattern_recognition",
+          "concept": "number_patterns",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+}

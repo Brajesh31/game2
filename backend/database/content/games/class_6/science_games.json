@@ -1,0 +1,128 @@
+{
+  "games": [
+    {
+      "id": "ecosystem_balance_game",
+      "title": "Ecosystem Balance Challenge",
+      "description": "Maintain the delicate balance of nature! Manage populations and resources in different ecosystems.",
+      "gameType": "simulation",
+      "difficulty": "medium",
+      "estimatedTime": "25 min",
+      "xpReward": 170,
+      "subject": "science",
+      "classLevel": "class_6",
+      "features": ["Ecosystem Management", "Population Dynamics", "Food Web Simulation", "Environmental Factors"],
+      "objectives": [
+        "Understand ecosystem interactions",
+        "Learn about food chains and webs",
+        "Explore environmental balance"
+      ],
+      "challenges": [
+        {
+          "id": "predator_prey_balance",
+          "type": "population_management",
+          "concept": "food_chains",
+          "difficulty": "medium"
+        },
+        {
+          "id": "habitat_protection",
+          "type": "conservation",
+          "concept": "environmental_protection",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "matter_transformation_lab",
+      "title": "Matter Transformation Lab",
+      "description": "Experiment with matter states! Heat, cool, and observe how substances change from solid to liquid to gas.",
+      "gameType": "puzzle",
+      "difficulty": "easy",
+      "estimatedTime": "20 min",
+      "xpReward": 140,
+      "subject": "science",
+      "classLevel": "class_6",
+      "features": ["Virtual Laboratory", "State Changes", "Temperature Control", "Observation Skills"],
+      "objectives": [
+        "Understand states of matter",
+        "Learn about state transitions",
+        "Practice scientific observation"
+      ],
+      "challenges": [
+        {
+          "id": "ice_melting_experiment",
+          "type": "observation",
+          "concept": "state_changes",
+          "difficulty": "easy"
+        },
+        {
+          "id": "evaporation_investigation",
+          "type": "process_study",
+          "concept": "evaporation",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "solar_system_explorer",
+      "title": "Solar System Explorer",
+      "description": "Pilot a spaceship through our solar system! Visit planets and learn about space while avoiding asteroids.",
+      "gameType": "runner",
+      "difficulty": "easy",
+      "estimatedTime": "22 min",
+      "xpReward": 150,
+      "subject": "science",
+      "classLevel": "class_6",
+      "features": ["Space Navigation", "Planet Facts", "Asteroid Dodging", "Mission Objectives"],
+      "objectives": [
+        "Learn about planets and their properties",
+        "Understand solar system structure",
+        "Explore space science concepts"
+      ],
+      "challenges": [
+        {
+          "id": "planet_identification",
+          "type": "recognition",
+          "concept": "solar_system",
+          "difficulty": "easy"
+        },
+        {
+          "id": "orbital_mechanics",
+          "type": "physics_simulation",
+          "concept": "planetary_motion",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "body_systems_adventure",
+      "title": "Human Body Systems Adventure",
+      "description": "Journey inside the human body! Explore different organ systems and learn how they work together.",
+      "gameType": "strategy",
+      "difficulty": "medium",
+      "estimatedTime": "28 min",
+      "xpReward": 180,
+      "subject": "science",
+      "classLevel": "class_6",
+      "features": ["Body Exploration", "System Interaction", "Health Management", "Anatomy Learning"],
+      "objectives": [
+        "Understand human body systems",
+        "Learn about organ functions",
+        "Explore health and nutrition"
+      ],
+      "challenges": [
+        {
+          "id": "digestive_journey",
+          "type": "system_exploration",
+          "concept": "digestive_system",
+          "difficulty": "medium"
+        },
+        {
+          "id": "circulatory_mission",
+          "type": "flow_simulation",
+          "concept": "circulatory_system",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

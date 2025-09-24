@@ -44,7 +44,12 @@ export const StudentHeader: React.FC<StudentHeaderProps> = ({ isVisible = true }
     return null;
   }
 
-  const languages = ['English', 'Hindi', 'Tamil', 'Telugu', 'Bengali'];
+  const languages = ['English', 'हिंदी (Hindi)', 'বাংলা (Bengali)', 'తెలుగు (Telugu)', 'मराठी (Marathi)',
+    'தமிழ் (Tamil)', 'ગુજરાતી (Gujarati)', 'ಕನ್ನಡ (Kannada)', 'മലയാളം (Malayalam)', 'ଓଡ଼ିଆ (Odia)',
+    'ਪੰਜਾਬੀ (Punjabi)', 'অসমীয়া (Assamese)', 'اردو (Urdu)', 'संस्कृत (Sanskrit)', 'नेपाली (Nepali)',
+    'मैथिली (Maithili)', 'डोगरी (Dogri)', 'কোকবোরোক (Kokborok)', 'বড়ো (Bodo)', 'संताली (Santali)',
+    'मणিपुरी (Manipuri)', 'कश्मीरी (Kashmiri)', 'सिंधी (Sindhi)', 'कोंकणी (Konkani)'
+  ];
 
   const handleLogout = () => {
     logout();

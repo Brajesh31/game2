@@ -1,0 +1,97 @@
+{
+  "games": [
+    {
+      "id": "nutrition_chef_academy",
+      "title": "Nutrition Chef Academy",
+      "description": "Master the art of nutrition! Create balanced meals while learning about plant and animal nutrition.",
+      "gameType": "simulation",
+      "difficulty": "medium",
+      "estimatedTime": "30 min",
+      "xpReward": 200,
+      "subject": "science",
+      "classLevel": "class_7",
+      "features": ["Cooking Simulation", "Nutrition Science", "Meal Planning", "Health Tracking"],
+      "objectives": [
+        "Understand nutrition in plants and animals",
+        "Learn about digestive processes",
+        "Apply nutrition knowledge"
+      ],
+      "challenges": [
+        {
+          "id": "photosynthesis_kitchen",
+          "type": "process_simulation",
+          "concept": "photosynthesis",
+          "difficulty": "medium"
+        },
+        {
+          "id": "digestive_journey",
+          "type": "system_exploration",
+          "concept": "digestion",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "heat_temperature_lab",
+      "title": "Heat & Temperature Laboratory",
+      "description": "Conduct exciting heat experiments! Learn about thermal expansion, conduction, and temperature measurement.",
+      "gameType": "puzzle",
+      "difficulty": "medium",
+      "estimatedTime": "25 min",
+      "xpReward": 170,
+      "subject": "science",
+      "classLevel": "class_7",
+      "features": ["Thermal Experiments", "Temperature Measurement", "Heat Transfer", "Safety Protocols"],
+      "objectives": [
+        "Understand heat and temperature",
+        "Learn about heat transfer methods",
+        "Practice measurement skills"
+      ],
+      "challenges": [
+        {
+          "id": "conduction_experiment",
+          "type": "heat_transfer",
+          "concept": "conduction",
+          "difficulty": "medium"
+        },
+        {
+          "id": "thermal_expansion",
+          "type": "observation",
+          "concept": "expansion",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "acid_base_color_lab",
+      "title": "Acid-Base Color Laboratory",
+      "description": "Create colorful chemical reactions! Use indicators to identify acids and bases in a safe virtual lab.",
+      "gameType": "puzzle",
+      "difficulty": "advanced",
+      "estimatedTime": "32 min",
+      "xpReward": 210,
+      "subject": "science",
+      "classLevel": "class_7",
+      "features": ["Color Chemistry", "Indicator Testing", "pH Measurement", "Safety Learning"],
+      "objectives": [
+        "Identify acids and bases",
+        "Understand pH concepts",
+        "Learn about chemical indicators"
+      ],
+      "challenges": [
+        {
+          "id": "litmus_test_challenge",
+          "type": "identification",
+          "concept": "acid_base_identification",
+          "difficulty": "medium"
+        },
+        {
+          "id": "neutralization_reaction",
+          "type": "chemical_reaction",
+          "concept": "neutralization",
+          "difficulty": "advanced"
+        }
+      ]
+    }
+  ]
+}

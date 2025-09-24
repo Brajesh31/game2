@@ -1,0 +1,97 @@
+{
+  "games": [
+    {
+      "id": "integer_battle_arena",
+      "title": "Integer Battle Arena",
+      "description": "Fight epic battles using positive and negative numbers! Master integer operations in combat.",
+      "gameType": "strategy",
+      "difficulty": "medium",
+      "estimatedTime": "25 min",
+      "xpReward": 180,
+      "subject": "math",
+      "classLevel": "class_7",
+      "features": ["Combat System", "Integer Operations", "Strategic Thinking", "Power-ups"],
+      "objectives": [
+        "Master integer operations",
+        "Understand number line concepts",
+        "Develop strategic thinking"
+      ],
+      "challenges": [
+        {
+          "id": "positive_negative_war",
+          "type": "combat_math",
+          "concept": "integer_operations",
+          "difficulty": "medium"
+        },
+        {
+          "id": "number_line_navigation",
+          "type": "navigation",
+          "concept": "number_line",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "algebra_wizard_academy",
+      "title": "Algebra Wizard Academy",
+      "description": "Learn magical algebra spells! Cast equations and solve for mysterious variables.",
+      "gameType": "puzzle",
+      "difficulty": "hard",
+      "estimatedTime": "30 min",
+      "xpReward": 220,
+      "subject": "math",
+      "classLevel": "class_7",
+      "features": ["Magic System", "Variable Solving", "Spell Crafting", "Academy Progression"],
+      "objectives": [
+        "Understand algebraic expressions",
+        "Solve linear equations",
+        "Apply algebraic thinking"
+      ],
+      "challenges": [
+        {
+          "id": "variable_capture",
+          "type": "equation_solving",
+          "concept": "linear_equations",
+          "difficulty": "medium"
+        },
+        {
+          "id": "expression_building",
+          "type": "construction",
+          "concept": "algebraic_expressions",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "ratio_proportion_restaurant",
+      "title": "Ratio & Proportion Restaurant",
+      "description": "Manage a busy restaurant using ratios and proportions! Scale recipes and manage resources efficiently.",
+      "gameType": "simulation",
+      "difficulty": "medium",
+      "estimatedTime": "28 min",
+      "xpReward": 190,
+      "subject": "math",
+      "classLevel": "class_7",
+      "features": ["Restaurant Management", "Recipe Scaling", "Resource Planning", "Customer Service"],
+      "objectives": [
+        "Understand ratios and proportions",
+        "Apply scaling concepts",
+        "Solve real-world problems"
+      ],
+      "challenges": [
+        {
+          "id": "recipe_scaling",
+          "type": "proportion_solving",
+          "concept": "proportions",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ingredient_ratios",
+          "type": "ratio_calculation",
+          "concept": "ratios",
+          "difficulty": "easy"
+        }
+      ]
+    }
+  ]
+}

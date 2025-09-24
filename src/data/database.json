@@ -3,10 +3,10 @@
     "student-001": {
       "id": "student-001",
       "username": "student",
-      "name": "Aria Patel",
+      "name": "Ritik Kumar",
       "role": "student",
       "email": "aria.patel@example.com",
-      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "avatar": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fedtech-community.com%2Fabout&psig=AOvVaw2MZSlQlXFpT3CPDyomM8CL&ust=1758786620932000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJj9wvD08I8DFQAAAAAdAAAAABAE",
       "level": 12,
       "xp": 2847,
       "status": "On Track",

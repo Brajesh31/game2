@@ -1,0 +1,97 @@
+{
+  "games": [
+    {
+      "id": "rational_number_space_station",
+      "title": "Rational Number Space Station",
+      "description": "Command a space station using rational numbers! Navigate through space and manage resources with precision.",
+      "gameType": "simulation",
+      "difficulty": "advanced",
+      "estimatedTime": "35 min",
+      "xpReward": 250,
+      "subject": "math",
+      "classLevel": "class_8",
+      "features": ["Space Simulation", "Rational Number Operations", "Resource Management", "Mission Control"],
+      "objectives": [
+        "Master rational number operations",
+        "Understand decimal representations",
+        "Apply mathematical precision"
+      ],
+      "challenges": [
+        {
+          "id": "orbital_calculations",
+          "type": "precision_math",
+          "concept": "rational_operations",
+          "difficulty": "advanced"
+        },
+        {
+          "id": "fuel_ratios",
+          "type": "resource_calculation",
+          "concept": "decimal_fractions",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "linear_equation_detective",
+      "title": "Linear Equation Detective",
+      "description": "Solve crimes using linear equations! Use mathematical deduction to crack cases and catch criminals.",
+      "gameType": "strategy",
+      "difficulty": "advanced",
+      "estimatedTime": "40 min",
+      "xpReward": 280,
+      "subject": "math",
+      "classLevel": "class_8",
+      "features": ["Detective Story", "Equation Solving", "Logical Deduction", "Case Files"],
+      "objectives": [
+        "Solve linear equations in one variable",
+        "Apply equations to word problems",
+        "Develop logical reasoning"
+      ],
+      "challenges": [
+        {
+          "id": "missing_number_case",
+          "type": "equation_solving",
+          "concept": "linear_equations",
+          "difficulty": "advanced"
+        },
+        {
+          "id": "word_problem_investigation",
+          "type": "application",
+          "concept": "real_world_equations",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "quadrilateral_city_planner",
+      "title": "Quadrilateral City Planner",
+      "description": "Design the perfect city using quadrilaterals! Plan parks, buildings, and roads with geometric precision.",
+      "gameType": "puzzle",
+      "difficulty": "medium",
+      "estimatedTime": "30 min",
+      "xpReward": 200,
+      "subject": "math",
+      "classLevel": "class_8",
+      "features": ["City Planning", "Geometric Design", "Property Analysis", "Blueprint Creation"],
+      "objectives": [
+        "Understand quadrilateral properties",
+        "Apply geometric concepts in design",
+        "Develop spatial reasoning"
+      ],
+      "challenges": [
+        {
+          "id": "park_design",
+          "type": "geometric_construction",
+          "concept": "quadrilateral_properties",
+          "difficulty": "medium"
+        },
+        {
+          "id": "building_layout",
+          "type": "area_calculation",
+          "concept": "area_perimeter",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

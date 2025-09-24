@@ -1,0 +1,97 @@
+{
+  "games": [
+    {
+      "id": "microorganism_detective",
+      "title": "Microorganism Detective Lab",
+      "description": "Investigate the invisible world! Use microscopes to identify helpful and harmful microorganisms.",
+      "gameType": "strategy",
+      "difficulty": "advanced",
+      "estimatedTime": "35 min",
+      "xpReward": 240,
+      "subject": "science",
+      "classLevel": "class_8",
+      "features": ["Microscopy Simulation", "Microbe Identification", "Disease Investigation", "Laboratory Skills"],
+      "objectives": [
+        "Identify different microorganisms",
+        "Understand beneficial vs harmful microbes",
+        "Learn about disease prevention"
+      ],
+      "challenges": [
+        {
+          "id": "bacteria_identification",
+          "type": "classification",
+          "concept": "microorganism_types",
+          "difficulty": "advanced"
+        },
+        {
+          "id": "disease_outbreak_investigation",
+          "type": "problem_solving",
+          "concept": "disease_prevention",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "synthetic_materials_factory",
+      "title": "Synthetic Materials Factory",
+      "description": "Design and manufacture synthetic materials! Learn about polymers, plastics, and their environmental impact.",
+      "gameType": "simulation",
+      "difficulty": "advanced",
+      "estimatedTime": "38 min",
+      "xpReward": 260,
+      "subject": "science",
+      "classLevel": "class_8",
+      "features": ["Manufacturing Simulation", "Material Properties", "Environmental Impact", "Innovation Design"],
+      "objectives": [
+        "Understand synthetic materials",
+        "Learn about material properties",
+        "Explore environmental considerations"
+      ],
+      "challenges": [
+        {
+          "id": "polymer_design",
+          "type": "material_engineering",
+          "concept": "synthetic_materials",
+          "difficulty": "advanced"
+        },
+        {
+          "id": "recycling_challenge",
+          "type": "environmental_problem",
+          "concept": "sustainability",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "force_pressure_physics",
+      "title": "Force & Pressure Physics Playground",
+      "description": "Experiment with forces and pressure! Build machines and test physical principles in action.",
+      "gameType": "puzzle",
+      "difficulty": "hard",
+      "estimatedTime": "33 min",
+      "xpReward": 230,
+      "subject": "science",
+      "classLevel": "class_8",
+      "features": ["Physics Simulation", "Force Measurement", "Pressure Experiments", "Machine Building"],
+      "objectives": [
+        "Understand force and pressure concepts",
+        "Learn about atmospheric pressure",
+        "Apply physics in engineering"
+      ],
+      "challenges": [
+        {
+          "id": "pressure_measurement",
+          "type": "measurement",
+          "concept": "pressure",
+          "difficulty": "hard"
+        },
+        {
+          "id": "force_application",
+          "type": "physics_application",
+          "concept": "force_types",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}
